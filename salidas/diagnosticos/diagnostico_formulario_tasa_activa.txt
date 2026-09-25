@@ -1,0 +1,124 @@
+
+==============================================================================================================
+1. CONSULTA HTTP
+==============================================================================================================
+URL solicitada: https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TIActivaTipoCreditoEmpresa.aspx?tip=B
+URL final: https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TIActivaTipoCreditoEmpresa.aspx?tip=B
+Status HTTP: 200
+Método utilizado por este diagnóstico: GET
+Content-Type: text/html
+Content-Length recibido: 838 bytes
+Encoding detectado: ISO-8859-1
+
+Parámetros de la URL inicial:
+  tip = ['B']
+
+Cookies establecidas en la sesión:
+  visid_incap_2355492 = 'ku8TRgWPQxeSXwzeXhszWDZms2oAAAAAQUIPAAAAAAC+hvz1AXmZUzI2ZswhI0Ol'
+  incap_ses_980_2355492 = 'GvRdXgmUjzNVJerEcamZDWxms2oAAAAAc2LmMOSt5HdThqyDmRx78g=='
+
+==============================================================================================================
+2. FORMULARIOS HTML
+==============================================================================================================
+Número de formularios encontrados: 0
+
+==============================================================================================================
+3. INPUTS Y PARÁMETROS REALES
+==============================================================================================================
+Número total de <input>: 0
+
+==============================================================================================================
+4. CAMPOS OCULTOS ASP.NET
+==============================================================================================================
+Campos ASP.NET detectados: 0
+
+==============================================================================================================
+5. CONTROLES <SELECT>
+==============================================================================================================
+Número de selects: 0
+
+==============================================================================================================
+6. BOTONES, TEXTAREAS Y CONTROLES CON EVENTOS
+==============================================================================================================
+
+<button> encontrados: 0
+
+<textarea> encontrados: 0
+
+Elementos con onclick/onchange/oncommand:
+
+Total controles con eventos: 0
+
+==============================================================================================================
+7. CANDIDATOS A CONTROL DE FECHA / AÑO / MES
+==============================================================================================================
+Candidatos encontrados: 0
+
+==============================================================================================================
+8. CONTROL DE MONEDA
+==============================================================================================================
+Labels/textos relacionados:
+
+Coincidencias textuales: 0
+
+Inputs radio:
+  <NINGUNO>
+
+==============================================================================================================
+9. SCRIPTS EXTERNOS CARGADOS POR LA PÁGINA
+==============================================================================================================
+Scripts externos: 0
+
+==============================================================================================================
+10. POSIBLES LLAMADAS SECUNDARIAS / POSTBACK / AJAX
+==============================================================================================================
+Bloques JS inline: 0
+Longitud JS inline combinada: 0 caracteres
+
+Coincidencias encontradas:
+  <NINGUNA COINCIDENCIA DIRECTA>
+
+URLs/endpoints candidatos encontrados en atributos href/src/action:
+
+==============================================================================================================
+11. EVENTTARGETS / __doPostBack
+==============================================================================================================
+Postbacks explícitos encontrados: 0
+
+==============================================================================================================
+12. ¿LA TABLA YA VIENE EN EL HTML DEL GET?
+==============================================================================================================
+'Moneda Nacional': False
+'Moneda Extranjera': False
+'Consumo': False
+'Hipotecarios': False
+'BBVA': False
+'Promedio': False
+
+Número de <table> en el HTML: 0
+
+==============================================================================================================
+13. TELERIK / RADDATEPICKER
+==============================================================================================================
+RadDatePicker: 0 ocurrencias
+Telerik: 0 ocurrencias
+RadCalendar: 0 ocurrencias
+RadAjax: 0 ocurrencias
+WebResource.axd: 0 ocurrencias
+ScriptResource.axd: 0 ocurrencias
+
+Elementos cuyo id/name/class contiene 'rad', 'fecha', 'date' o 'calendar':
+
+==============================================================================================================
+14. RESUMEN AUTOMÁTICO
+==============================================================================================================
+Formularios: 0
+Campos hidden: 0
+Nombres de campos hidden:
+Radios: 0
+Selects: 0
+
+Este diagnóstico NO realizó ninguna consulta histórica.
+Este diagnóstico NO seleccionó bancos.
+Este diagnóstico NO construyó una base de datos.
+Solo se realizó un GET a la página oficial SBS indicada.

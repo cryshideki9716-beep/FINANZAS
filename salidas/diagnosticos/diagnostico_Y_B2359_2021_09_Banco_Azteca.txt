@@ -1,0 +1,326 @@
+
+============================================================================================================================
+DIAGNÓSTICO LOCAL Y / B-2359 / 2021-09 / BANCO AZTECA
+============================================================================================================================
+No se realizará ninguna descarga.
+No se modifica producción.
+No se modifica el parser.
+No se modifica DOLCRED.
+No se modifica ninguna tolerancia.
+
+Archivo local esperado = C:\Users\Crystell\Desktop\FINANZAS\datos_crudos\Y_B2359_2024200485D\Y_B-2359_2024200485D_2021-09.xls
+Tamaño = 80896 bytes
+SHA-256 = 34aba9e2469312e6472341a95fffb8715fe81929f18063742882a340fe3ed48c
+Formato real = XLS_OLE
+
+============================================================================================================================
+ESTRUCTURA GENERAL DETECTADA
+============================================================================================================================
+Hoja elegida = '15'
+Fila de bancos 0-based = 4
+Fila de bancos Excel = 5
+Fila encabezados 0-based = 5
+Fila encabezados Excel = 6
+Fila Total Créditos 0-based = 65
+Fila Total Créditos Excel = 66
+Cantidad total de bloques = 17
+Índice Banco Azteca = 13
+
+============================================================================================================================
+BANCO AZTECA - BLOQUE DETECTADO
+============================================================================================================================
+Nombre exacto SBS = 'Banco Azteca'
+Columnas 0-based MN / ME / Total = 40 / 41 / 42
+Columnas Excel MN / ME / Total = AO / AP / AQ
+
+ENCABEZADOS RAW:
+  MN = 'MN \n(S/ Miles)'
+  ME = 'ME \n(US$ miles)'
+  Total = 'Total \n(S/ Miles)'
+
+VALORES RAW FILA TOTAL CRÉDITOS:
+  MN raw = 325645.26300000004
+  ME raw = 0.0
+  Total raw = 325645.263
+
+VALORES CONVERTIDOS POR EL PARSER:
+  MN = 325645.26300000004
+  ME = 0.0
+  Total = 325645.263
+
+DOLCRED calculado = -1.787456091859915e-14
+TC implícito = None
+Problemas parser = ['TOTAL_MENOR_QUE_MN', 'DOLCRED_FUERA_RANGO']
+Total - MN = -5.820766091346741e-11
+
+FORMATOS EXCEL:
+  MN formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  MN decimales visibles = 0
+  ME formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  ME decimales visibles = 0
+  Total formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  Total decimales visibles = 0
+
+CELDAS COMBINADAS QUE INTERSECTAN EL BLOQUE BANCO AZTECA:
+  * filas 4:4, columnas 40:42
+
+----------------------------------------------------------------------------------------------------------------------------
+BLOQUE ANTERIOR A BANCO AZTECA
+----------------------------------------------------------------------------------------------------------------------------
+Índice bloque = 12
+Nombre exacto SBS = 'Banco Ripley'
+Columnas 0-based MN / ME / Total = 37 / 38 / 39
+Columnas Excel MN / ME / Total = AL / AM / AN
+Nombre raw en fila bancos = 'Banco Ripley' | '' | ''
+Encabezados raw = 'MN \n(S/ Miles)' | 'ME \n(US$ miles)' | 'Total \n(S/ Miles)'
+MN raw = 1279129.441
+ME raw = 0.0
+Total raw = 1279129.441
+MN convertido raw = 1279129.441
+ME convertido raw = 0.0
+Total convertido raw = 1279129.441
+MN formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+ME formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Total formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales visibles MN / ME / Total = 0 / 0 / 0
+Rangos combinados que intersectan este bloque desde fila bancos hasta Total Créditos = ['filas 4:4, columnas 37:39']
+
+Valores producidos por parser:
+  MN = 1279129.441
+  ME = 0.0
+  Total = 1279129.441
+  DOLCRED = 0.0
+  TC implícito = None
+  Problemas = []
+
+----------------------------------------------------------------------------------------------------------------------------
+BLOQUE BANCO AZTECA
+----------------------------------------------------------------------------------------------------------------------------
+Índice bloque = 13
+Nombre exacto SBS = 'Banco Azteca'
+Columnas 0-based MN / ME / Total = 40 / 41 / 42
+Columnas Excel MN / ME / Total = AO / AP / AQ
+Nombre raw en fila bancos = 'Banco Azteca' | '' | ''
+Encabezados raw = 'MN \n(S/ Miles)' | 'ME \n(US$ miles)' | 'Total \n(S/ Miles)'
+MN raw = 325645.26300000004
+ME raw = 0.0
+Total raw = 325645.263
+MN convertido raw = 325645.26300000004
+ME convertido raw = 0.0
+Total convertido raw = 325645.263
+MN formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+ME formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Total formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales visibles MN / ME / Total = 0 / 0 / 0
+Rangos combinados que intersectan este bloque desde fila bancos hasta Total Créditos = ['filas 4:4, columnas 40:42']
+
+Valores producidos por parser:
+  MN = 325645.26300000004
+  ME = 0.0
+  Total = 325645.263
+  DOLCRED = -1.787456091859915e-14
+  TC implícito = None
+  Problemas = ['TOTAL_MENOR_QUE_MN', 'DOLCRED_FUERA_RANGO']
+
+----------------------------------------------------------------------------------------------------------------------------
+BLOQUE SIGUIENTE A BANCO AZTECA
+----------------------------------------------------------------------------------------------------------------------------
+Índice bloque = 14
+Nombre exacto SBS = 'B. ICBC'
+Columnas 0-based MN / ME / Total = 43 / 44 / 45
+Columnas Excel MN / ME / Total = AR / AS / AT
+Nombre raw en fila bancos = 'B. ICBC' | '' | ''
+Encabezados raw = 'MN \n(S/ Miles)' | 'ME \n(US$ miles)' | 'Total \n(S/ Miles)'
+MN raw = 252459.78199999998
+ME raw = 162754.17223028542
+Total raw = 925285.532
+MN convertido raw = 252459.78199999998
+ME convertido raw = 162754.17223028542
+Total convertido raw = 925285.532
+MN formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+ME formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Total formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales visibles MN / ME / Total = 0 / 0 / 0
+Rangos combinados que intersectan este bloque desde fila bancos hasta Total Créditos = ['filas 4:4, columnas 43:45']
+
+Valores producidos por parser:
+  MN = 252459.78199999998
+  ME = 162754.17223028542
+  Total = 925285.532
+  DOLCRED = 72.71547287091916
+  TC implícito = 4.134000012288472
+  Problemas = []
+
+============================================================================================================================
+CONTROL DE ALINEACIÓN
+============================================================================================================================
+Separación entre Total del bloque anterior y MN Banco Azteca = 1
+Separación entre Total Banco Azteca y MN bloque siguiente = 1
+Columnas solapadas = []
+Alertas de alineación = []
+Encabezados forman MN | ME | Total = True
+
+============================================================================================================================
+COMPARACIÓN PARSER VS CELDAS RAW
+============================================================================================================================
+MN: parser=325645.26300000004 | raw convertido=325645.26300000004 | coincide=True
+ME: parser=0.0 | raw convertido=0.0 | coincide=True
+TOTAL: parser=325645.263 | raw convertido=325645.263 | coincide=True
+
+TODOS_LOS_VALORES_PARSER_RAW_COINCIDEN = True
+
+============================================================================================================================
+COMPARACIÓN BANCO AZTECA VS TOTAL BANCA MÚLTIPLE
+============================================================================================================================
+Agregado SBS = 'Total Banca Múltiple'
+Agregado MN = 254102437.485
+Agregado ME = 22239401.111030478
+Agregado Total = 346040121.681
+Agregado DOLCRED = 26.56850418078211
+Agregado TC implícito = 4.134000000134895
+
+MN: Banco Azteca=325645.26300000004 | Total Banca Múltiple=254102437.485 | participación=0.12815511186083103%
+ME: Banco Azteca=0.0 | Total Banca Múltiple=22239401.111030478 | participación=0.0%
+TOTAL: Banco Azteca=325645.263 | Total Banca Múltiple=346040121.681 | participación=0.09410621560820014%
+
+============================================================================================================================
+BANCO AZTECA - FILAS CERCANAS A TOTAL CRÉDITOS
+============================================================================================================================
+
+Fila 0-based = 55 | Fila Excel = 56
+  Concepto = 'Préstamos Revolventes'
+  MN raw = 0.0 | convertido = 0.0
+  ME raw = 0.0 | convertido = 0.0
+  Total raw = 0.0 | convertido = 0.0
+  Total - MN = 0.0
+
+Fila 0-based = 56 | Fila Excel = 57
+  Concepto = 'Préstamos no Revolventes'
+  MN raw = 320214.847 | convertido = 320214.847
+  ME raw = 0.0 | convertido = 0.0
+  Total raw = 320214.847 | convertido = 320214.847
+  Total - MN = 0.0
+
+Fila 0-based = 57 | Fila Excel = 58
+  Concepto = 'Préstamos autos'
+  MN raw = 0.0 | convertido = 0.0
+  ME raw = 0.0 | convertido = 0.0
+  Total raw = 0.0 | convertido = 0.0
+  Total - MN = 0.0
+
+Fila 0-based = 58 | Fila Excel = 59
+  Concepto = 'Arrendamiento financiero y Lease-back'
+  MN raw = 0.0 | convertido = 0.0
+  ME raw = 0.0 | convertido = 0.0
+  Total raw = 0.0 | convertido = 0.0
+  Total - MN = 0.0
+
+Fila 0-based = 59 | Fila Excel = 60
+  Concepto = 'Pignoraticios'
+  MN raw = 0.0 | convertido = 0.0
+  ME raw = 0.0 | convertido = 0.0
+  Total raw = 0.0 | convertido = 0.0
+  Total - MN = 0.0
+
+Fila 0-based = 60 | Fila Excel = 61
+  Concepto = 'Otros créditos de consumo'
+  MN raw = 0.0 | convertido = 0.0
+  ME raw = 0.0 | convertido = 0.0
+  Total raw = 0.0 | convertido = 0.0
+  Total - MN = 0.0
+
+Fila 0-based = 61 | Fila Excel = 62
+  Concepto = 'Créditos hipotecarios para vivienda'
+  MN raw = 0.0 | convertido = 0.0
+  ME raw = 0.0 | convertido = 0.0
+  Total raw = 0.0 | convertido = 0.0
+  Total - MN = 0.0
+
+Fila 0-based = 62 | Fila Excel = 63
+  Concepto = 'Préstamos'
+  MN raw = 0.0 | convertido = 0.0
+  ME raw = 0.0 | convertido = 0.0
+  Total raw = 0.0 | convertido = 0.0
+  Total - MN = 0.0
+
+Fila 0-based = 63 | Fila Excel = 64
+  Concepto = 'Préstamos Mivivienda'
+  MN raw = 0.0 | convertido = 0.0
+  ME raw = 0.0 | convertido = 0.0
+  Total raw = 0.0 | convertido = 0.0
+  Total - MN = 0.0
+
+Fila 0-based = 64 | Fila Excel = 65
+  Concepto = 'Otros créditos hipotecarios para vivienda'
+  MN raw = 0.0 | convertido = 0.0
+  ME raw = 0.0 | convertido = 0.0
+  Total raw = 0.0 | convertido = 0.0
+  Total - MN = 0.0
+
+Fila 0-based = 65 | Fila Excel = 66 <<< FILA USADA POR EL PARSER
+  Concepto = 'Total Créditos:'
+  MN raw = 325645.26300000004 | convertido = 325645.26300000004
+  ME raw = 0.0 | convertido = 0.0
+  Total raw = 325645.263 | convertido = 325645.263
+  Total - MN = -5.820766091346741e-11
+
+Fila 0-based = 66 | Fila Excel = 67
+  Concepto = 'Tipo de Cambio:'
+  MN raw = '' | convertido = None
+  ME raw = '' | convertido = None
+  Total raw = '' | convertido = None
+
+Fila 0-based = 67 | Fila Excel = 68
+  Concepto = 'Fuente: Balance de Comprobación.'
+  MN raw = '' | convertido = None
+  ME raw = '' | convertido = None
+  Total raw = '' | convertido = None
+
+Fila 0-based = 68 | Fila Excel = 69
+  Concepto = 'Incluye sucursales en el exterior'
+  MN raw = '' | convertido = None
+  ME raw = '' | convertido = None
+  Total raw = '' | convertido = None
+
+Fila 0-based = 69 | Fila Excel = 70
+  Concepto = '* Los financiamientos no revolventes para titulares de tarjetas de crédito independientes de la línea, que antes se registraban en la modalidad de tarjetas de crédito, se deben registrar a partir de enero de 2021 como préstamos (Resolución SBS N° 5570-2019 y modificatorias).'
+  MN raw = '' | convertido = None
+  ME raw = '' | convertido = None
+  Total raw = '' | convertido = None
+
+============================================================================================================================
+REVISIÓN DE CELDAS COMBINADAS
+============================================================================================================================
+Cantidad total de rangos combinados en hoja = 19
+Rangos combinados que intersectan Banco Azteca:
+  * filas 4:4, columnas 40:42
+
+============================================================================================================================
+CONCLUSIÓN DIAGNÓSTICA AUTOMÁTICA
+============================================================================================================================
+Parser reproduce exactamente raw = True
+Tripleta MN|ME|Total consecutiva = True
+Encabezados MN|ME|Total correctos = True
+Sin columnas solapadas = True
+Sin alertas de alineación = True
+Archivo raw SBS presenta Total < MN para Banco Azteca = True
+MN raw = 325645.26300000004
+ME raw = 0.0
+Total raw = 325645.263
+
+INDICIO PRINCIPAL DEL DIAGNÓSTICO:
+Los valores que producen TOTAL_MENOR_QUE_MN y DOLCRED_FUERA_RANGO ya están presentes en las celdas raw MN/ME/Total que SBS ubica dentro del bloque Banco Azteca en la fila Total Créditos.
+El parser reproduce esas celdas sin discrepancia.
+Por tanto, con la evidencia estructural observada por este script, el problema NO aparece como una alteración numérica introducida por convertir_numero() ni como un desplazamiento simple de columnas.
+Las filas cercanas deben revisarse para determinar si el propio archivo SBS contiene una particularidad contable/de presentación para Banco Azteca en 2021-09.
+
+============================================================================================================================
+CLASIFICACIÓN
+============================================================================================================================
+ESTADO = DIAGNOSTICO_Y_B2359_2021_09_BANCO_AZTECA_COMPLETADO
+
+Este estado NO valida ni modifica Y / 2021-09.
+No se modificó producción.
+No se modificó el parser.
+No se modificó DOLCRED.
+No se modificó ninguna tolerancia.

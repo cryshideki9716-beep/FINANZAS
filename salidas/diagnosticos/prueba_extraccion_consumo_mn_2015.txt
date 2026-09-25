@@ -1,0 +1,149 @@
+
+==========================================================================================================================
+PRUEBA DE EXTRACCIÓN TASA ACTIVA CONSUMO MN - 30/11/2015
+==========================================================================================================================
+Fecha única consultada: 30/11/2015
+
+Objetivo:
+extraer únicamente la fila Consumo en Moneda Nacional, manteniendo la estructura bancaria histórica de 2015.
+
+NO se consultarán otros meses.
+NO se interpolarán datos.
+NO se seleccionarán bancos finales.
+NO se normalizarán nombres bancarios.
+[OK] Página SBS real cargada.
+
+==========================================================================================================================
+VALIDACIÓN PRE-CONSULTA
+==========================================================================================================================
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+Fecha visible: '30/11/2015'
+Fecha interna: '2015-11-30'
+[OK] DatePicker validado.
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+[OK] Fecha visible e interna son exactamente 30/11/2015.
+
+==========================================================================================================================
+CONSULTAR
+==========================================================================================================================
+[OK] SBS confirmó explícitamente:
+  id='ctl00_cphContent_lblMensajeFecha' | text='Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/11/2015'
+
+[OK] Resultado histórico confirmado como 'al 30/11/2015'.
+
+==========================================================================================================================
+VALIDACIÓN DEL GRID MN
+==========================================================================================================================
+Tabla MN encontrada: 1
+DataZone MN encontrada: 1
+
+==========================================================================================================================
+RECONSTRUCCIÓN ETIQUETA CONSUMO → FILA NUMÉRICA
+==========================================================================================================================
+
+==========================================================================================================================
+VALIDACIÓN DEL MAPEO DE CONSUMO
+==========================================================================================================================
+Tabla MN: ctl00_cphContent_rpgActualMn_OT
+DataZone MN: ctl00_cphContent_rpgActualMn_ctl00_DataZone_DT
+Etiquetas externas exactas Consumo: 1
+Filas numéricas detectadas: 46
+Fila DataZone mapeada a Consumo: 38
+Solapamiento vertical: 1.000000
+Distancia de centros verticales: 0.000000
+
+--------------------------------------------------------------------------------------------------------------------------
+VALIDACIÓN ENCABEZADOS ↔ VALORES
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad total de encabezados: 18
+Cantidad total de valores: 18
+Fila de encabezados detectada: 0
+Encabezados alineados: 18
+Encabezados únicos: 18
+[OK] El número de encabezados es exactamente igual al número de valores.
+
+--------------------------------------------------------------------------------------------------------------------------
+ENCABEZADOS HISTÓRICOS DETECTADOS
+--------------------------------------------------------------------------------------------------------------------------
+01. Continental
+02. Comercio
+03. Crédito
+04. Financiero
+05. BIF
+06. Scotiabank
+07. Citibank
+08. Interbank
+09. Mibanco
+10. GNB
+11. Falabella
+12. Santander
+13. Ripley
+14. Azteca
+15. Deutsche
+16. CAT
+17. ICBC
+18. Promedio
+
+==========================================================================================================================
+TASA ACTIVA DE CONSUMO MN - 30/11/2015
+==========================================================================================================================
+banco | tasa_consumo_mn
+----------------------------------------------------------------------------------
+Continental | 45.62
+Comercio | 19.08
+Crédito | 31.96
+Financiero | 48.12
+BIF | 17.46
+Scotiabank | 28.79
+Citibank | -
+Interbank | 43.62
+Mibanco | 49.02
+GNB | 35.65
+Falabella | 53.94
+Santander | -
+Ripley | 54.78
+Azteca | 145.64
+Deutsche | -
+CAT | 85.33
+ICBC | -
+
+--------------------------------------------------------------------------------------------------------------------------
+PROMEDIO - SEPARADO DE LOS BANCOS
+--------------------------------------------------------------------------------------------------------------------------
+Promedio | 42.92
+
+--------------------------------------------------------------------------------------------------------------------------
+CONTROL DE FALTANTES
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad de bancos: 17
+Valores faltantes entre bancos: 4
+  Citibank → -
+  Santander → -
+  Deutsche → -
+  ICBC → -
+
+Los faltantes se conservaron tal como los entrega SBS.
+No se reemplazaron por cero.
+No se interpolaron.
+No se normalizaron nombres bancarios.
+
+==========================================================================================================================
+CLASIFICACIÓN FINAL
+==========================================================================================================================
+ESTADO = EXTRACCION_CONSUMO_MN_2015_VALIDADA
+
+Validaciones cumplidas:
+1. período confirmado 'al 30/11/2015';
+2. se utilizó exclusivamente la tabla MN indicada;
+3. se utilizó exclusivamente su DataZone MN;
+4. existe exactamente una etiqueta externa Consumo;
+5. Consumo fue asociado geométricamente a su fila numérica sin offset fijo;
+6. los encabezados fueron detectados dinámicamente;
+7. número de encabezados = número de valores;
+8. Promedio quedó separado;
+9. los faltantes se conservaron;
+10. no hubo interpolación;
+11. no se normalizaron nombres bancarios;
+12. no se consultaron otros meses.

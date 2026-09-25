@@ -1,0 +1,16 @@
+﻿fila_0based,fila_excel,es_fila_total_creditos,concepto_raw,mn_raw,mn_raw_repr,mn_convertido,me_raw,me_raw_repr,me_convertido,total_raw,total_raw_repr,total_convertido
+55,56,False,Préstamos Revolventes,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+56,57,False,Préstamos no Revolventes,320214.847,320214.847,320214.847,0.0,0.0,0.0,320214.847,320214.847,320214.847
+57,58,False,Préstamos autos,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+58,59,False,Arrendamiento financiero y Lease-back,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+59,60,False,Pignoraticios,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+60,61,False,Otros créditos de consumo,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+61,62,False,Créditos hipotecarios para vivienda,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+62,63,False,Préstamos,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+63,64,False,Préstamos Mivivienda,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+64,65,False,Otros créditos hipotecarios para vivienda,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+65,66,True,Total Créditos:,325645.26300000004,325645.26300000004,325645.26300000004,0.0,0.0,0.0,325645.263,325645.263,325645.263
+66,67,False,Tipo de Cambio:,,'',,,'',,,'',
+67,68,False,Fuente: Balance de Comprobación.,,'',,,'',,,'',
+68,69,False,Incluye sucursales en el exterior,,'',,,'',,,'',
+69,70,False,"* Los financiamientos no revolventes para titulares de tarjetas de crédito independientes de la línea, que antes se registraban en la modalidad de tarjetas de crédito, se deben registrar a partir de enero de 2021 como préstamos (Resolución SBS N° 5570-2019 y modificatorias).",,'',,,'',,,'',

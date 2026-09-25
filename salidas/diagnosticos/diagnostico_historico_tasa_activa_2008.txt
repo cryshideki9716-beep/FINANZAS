@@ -1,0 +1,184 @@
+
+======================================================================================================================
+DIAGNÓSTICO HISTÓRICO SBS - 30/06/2008
+======================================================================================================================
+Se consultará únicamente:
+  30/06/2008
+
+NO se extraerán tasas.
+NO se consultarán otros meses.
+NO se descargarán 211 meses.
+NO se elegirán bancos.
+NO se realizará interpolación.
+
+Abriendo página oficial SBS...
+
+Esperando aplicación SBS...
+[OK] SBS cargó sin intervención manual.
+
+======================================================================================================================
+ESTADO INICIAL
+======================================================================================================================
+URL inicial: https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TIActivaTipoCreditoEmpresa.aspx?tip=B
+Título inicial: ''
+hdTipoMoneda inicial: 'MN'
+hdTipoEntidad inicial: 'B'
+Fecha visible inicial: '23/09/2026'
+Fecha interna inicial: '2026-09-23'
+
+----------------------------------------------------------------------------------------------------------------------
+ESTABLECER FECHA PRE-CONSULTA
+----------------------------------------------------------------------------------------------------------------------
+Después del teclado:
+Fecha objetivo: 2008-06-30
+Fecha visible texto: '30/06/2008'
+Fecha visible interpretada: 2008-06-30
+Fecha interna texto: '2008-06-30'
+Fecha interna interpretada: 2008-06-30
+Visible exacta: True
+Interna exacta: True
+
+[OK] Visible e interna coinciden exactamente.
+
+======================================================================================================================
+VALIDACIÓN FINAL PRE-CONSULTA
+======================================================================================================================
+Fecha objetivo: 2008-06-30
+Fecha visible texto: '30/06/2008'
+Fecha visible interpretada: 2008-06-30
+Fecha interna texto: '2008-06-30'
+Fecha interna interpretada: 2008-06-30
+Visible exacta: True
+Interna exacta: True
+
+[OK] Se permite pulsar Consultar.
+
+======================================================================================================================
+RESPUESTA A LA CONSULTA 30/06/2008
+======================================================================================================================
+
+Coincidencias visibles con 30/06/2008 ANTES del click:
+  <NINGUNA>
+
+Pulsando Consultar...
+
+[OK] Se detectó una NUEVA fecha visible de resultado:
+  {'className': 'container-fluid', 'id': '', 'tag': 'DIV', 'text': 'TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO Ingrese fecha: Open the calendar popup. (dd/mm/aaaa) Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2008 Moneda Nacional Moneda Extranjera'}
+
+No se esperará ningún ID específico de tabla.
+
+Fecha de resultado detectada: True
+Coincidencia utilizada:
+{'className': 'container-fluid', 'id': '', 'tag': 'DIV', 'text': 'TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO Ingrese fecha: Open the calendar popup. (dd/mm/aaaa) Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2008 Moneda Nacional Moneda Extranjera'}
+
+======================================================================================================================
+ESTADO DE LA PÁGINA HISTÓRICA DESPUÉS DE CONSULTAR
+======================================================================================================================
+URL final: https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TIActivaTipoCreditoEmpresa.aspx?tip=B
+Título: ''
+Longitud HTML renderizado: 350594
+SHA256 HTML: 66bbc7eb7e4a7d41f20c929447c76e8a7f669a3c9d6865f2791035d0dcc0fccb
+Longitud texto visible: 272
+
+----------------------------------------------------------------------------------------------------------------------
+TEXTO VISIBLE DE LA PÁGINA
+----------------------------------------------------------------------------------------------------------------------
+TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO
+Ingrese fecha: 
+Open the calendar popup.
+ (dd/mm/aaaa)
+
+
+Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2008
+
+Moneda Nacional
+Moneda Extranjera
+
+----------------------------------------------------------------------------------------------------------------------
+CONTROLES DESPUÉS DE LA CONSULTA
+----------------------------------------------------------------------------------------------------------------------
+Fecha visible: '30/06/2008'
+Fecha interna: '2008-06-30'
+hdTipoMoneda: None
+hdTipoEntidad: None
+Fecha visible interpretada: 2008-06-30
+Fecha interna interpretada: 2008-06-30
+
+----------------------------------------------------------------------------------------------------------------------
+PRESENCIA DE CONSUMO
+----------------------------------------------------------------------------------------------------------------------
+'Consumo' en texto visible: False
+'Consumo' en HTML: False
+Filas <tr> con 'Consumo': 0
+
+----------------------------------------------------------------------------------------------------------------------
+TODAS LAS TABLAS EXISTENTES
+----------------------------------------------------------------------------------------------------------------------
+Cantidad total de tablas: 9
+Tabla #1: id=None | class=None | filas=2
+Tabla #2: id=None | class=None | filas=1
+Tabla #3: id=None | class=['APLI_conteTabla2_new'] | filas=16
+Tabla #4: id=None | class=None | filas=15
+Tabla #5: id=None | class=['tbl-padding'] | filas=14
+Tabla #6: id=None | class=['rcTable', 'rcSingle'] | filas=13
+Tabla #7: id='ctl00_cphContent_rdpDate_calendar' | class=['RadCalendar', 'RadCalendar_Metro'] | filas=11
+Tabla #8: id=None | class=None | filas=2
+Tabla #9: id='ctl00_cphContent_rdpDate_calendar_Top' | class=['rcMainTable'] | filas=7
+
+LISTA DE IDs DE TABLAS:
+  1. None
+  2. None
+  3. None
+  4. None
+  5. None
+  6. None
+  7. 'ctl00_cphContent_rdpDate_calendar'
+  8. None
+  9. 'ctl00_cphContent_rdpDate_calendar_Top'
+
+----------------------------------------------------------------------------------------------------------------------
+TABLAS CANDIDATAS
+----------------------------------------------------------------------------------------------------------------------
+Cantidad de tablas candidatas: 1
+
+====================================================================================================
+TABLA CANDIDATA #2
+id=None
+class=None
+Longitud texto=45
+Encabezados <th>: []
+Primeras filas:
+  Fila 0: ['TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO']
+Primeros 1500 caracteres del texto de la tabla:
+TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO
+
+----------------------------------------------------------------------------------------------------------------------
+ARCHIVO HTML
+----------------------------------------------------------------------------------------------------------------------
+HTML guardado en:
+C:\Users\Crystell\Desktop\FINANZAS\salidas\diagnosticos\tasa_activa_2008_renderizada.html
+
+----------------------------------------------------------------------------------------------------------------------
+SCREENSHOT
+----------------------------------------------------------------------------------------------------------------------
+Screenshot guardado: True
+Método: CDP_FULL_PAGE
+Ruta PNG:
+C:\Users\Crystell\Desktop\FINANZAS\salidas\diagnosticos\tasa_activa_2008_pagina.png
+
+======================================================================================================================
+RESUMEN DEL DIAGNÓSTICO
+======================================================================================================================
+Fecha consultada: 30/06/2008
+Fecha visible de resultado detectada: True
+URL final: https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TIActivaTipoCreditoEmpresa.aspx?tip=B
+Título final: ''
+Fecha visible post: '30/06/2008'
+Fecha interna post: '2008-06-30'
+hdTipoMoneda post: None
+hdTipoEntidad post: None
+'Consumo' visible: False
+'Consumo' en HTML: False
+
+El diagnóstico NO intentó extraer tasas bancarias.
+El diagnóstico NO exigió que existiera la tabla moderna ctl00_cphContent_rpgActualMn_OT.

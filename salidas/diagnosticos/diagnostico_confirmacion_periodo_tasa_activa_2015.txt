@@ -1,0 +1,394 @@
+
+======================================================================================================================
+DIAGNÓSTICO DE CONFIRMACIÓN DE PERÍODO - SBS TASA ACTIVA - 30/06/2015
+======================================================================================================================
+Objetivo:
+Determinar si el POST realmente cambia el período del resultado.
+
+NO se extraerán tasas.
+NO se consultarán otros meses.
+NO se descargarán 211 meses.
+NO se seleccionarán bancos.
+NO se interpolarán datos.
+[OK] Página SBS real cargada.
+
+======================================================================================================================
+CONFIGURACIÓN PRE-CONSULTA
+======================================================================================================================
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+
+----------------------------------------------------------------------------------------------------------------------
+ESTABLECER FECHA
+----------------------------------------------------------------------------------------------------------------------
+Después del teclado:
+Fecha objetivo: 2015-06-30
+Fecha visible texto: '30/06/2015'
+Fecha visible interpretada: 2015-06-30
+Fecha interna texto: '2015-06-30'
+Fecha interna interpretada: 2015-06-30
+Visible exacta: True
+Interna exacta: True
+
+[OK] Fecha visible e interna coinciden exactamente.
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+
+[OK] Pre-consulta validada.
+
+======================================================================================================================
+SNAPSHOT ANTES DEL POST
+======================================================================================================================
+URL: https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TIActivaTipoCreditoEmpresa.aspx?tip=B
+Título: ''
+SHA-256 HTML: 58f234840a94263f3fcea36218c915f3d4e5280647ed08655503c4ced3b3a557
+
+----------------------------------------------------------------------------------------------------------------------
+DATEPICKER
+----------------------------------------------------------------------------------------------------------------------
+Fecha objetivo: 2015-06-30
+Fecha visible texto: '30/06/2015'
+Fecha visible interpretada: 2015-06-30
+Fecha interna texto: '2015-06-30'
+Fecha interna interpretada: 2015-06-30
+Visible exacta: True
+Interna exacta: True
+
+----------------------------------------------------------------------------------------------------------------------
+lblMensajeFecha
+----------------------------------------------------------------------------------------------------------------------
+Existe: True
+Texto visible: 'Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 23/09/2026'
+textContent: 'Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 23/09/2026'
+
+----------------------------------------------------------------------------------------------------------------------
+ENCABEZADOS/SUBTÍTULOS "al DD/MM/YYYY"
+----------------------------------------------------------------------------------------------------------------------
+tag='SPAN' | id='ctl00_cphContent_lblMensajeFecha' | class='APLI_subtitulo' | text='Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 23/09/2026'
+
+----------------------------------------------------------------------------------------------------------------------
+CONFIGURACIÓN MONEDA / ENTIDAD
+----------------------------------------------------------------------------------------------------------------------
+hdTipoMoneda: 'MN'
+hdTipoEntidad: 'B'
+
+----------------------------------------------------------------------------------------------------------------------
+GRID MN / ENCABEZADOS BANCARIOS
+----------------------------------------------------------------------------------------------------------------------
+Tabla MN externa existe: True
+Tabla MN interna/DataZone existe: True
+
+Encabezados semánticos tabla externa:
+  'BBVA'
+  'Bancom'
+  'Crédito'
+  'Pichincha'
+  'BIF'
+  'Scotiabank'
+  'Citibank'
+  'Interbank'
+  'Mibanco'
+  'GNB'
+  'Falabella'
+  'Santander'
+  'Ripley'
+  'Alfin'
+  'ICBC'
+  'Bank of China'
+  'BCI'
+  'Compartamos'
+  'Santander Cons. Bank'
+  'Efectiva'
+  'Promedio'
+  'Corporativos'
+  'Descuentos'
+  'Préstamos hasta 30 días'
+  'Préstamos de 31 a 90 días'
+  'Préstamos de 91 a 180 días'
+  'Préstamos de 181 a 360 días'
+  'Préstamos a más de 360 días'
+  'Grandes Empresas'
+  'Medianas Empresas'
+  'Pequeñas Empresas'
+  'Microempresas'
+  'Tarjetas de Crédito'
+  'Préstamos Revolventes'
+  'Préstamos a cuota fija hasta 30 días'
+  'Préstamos a cuota fija de 31 a 90 días'
+  'Préstamos a cuota fija de 91 a 180 días'
+  'Préstamos a cuota fija de 181 a 360 días'
+  'Préstamos a cuota fija a más de 360 días'
+  'Consumo'
+  'Préstamos no Revolventes para automóviles'
+  'Préstamos no Revolventes para libre disponibilidad hasta 360 días'
+  'Préstamos no Revolventes para libre disponibilidad a más de 360 días'
+  'Créditos pignoraticios'
+  'Hipotecarios'
+  'Préstamos hipotecarios para vivienda'
+
+Fila candidata de encabezados tabla externa:
+  Fila: 2
+  'BBVA'
+  'Bancom'
+  'Crédito'
+  'Pichincha'
+  'BIF'
+  'Scotiabank'
+  'Citibank'
+  'Interbank'
+  'Mibanco'
+  'GNB'
+  'Falabella'
+  'Santander'
+  'Ripley'
+  'Alfin'
+  'ICBC'
+  'Bank of China'
+  'BCI'
+  'Compartamos'
+  'Santander Cons. Bank'
+  'Efectiva'
+  'Promedio'
+
+Encabezados semánticos DataZone:
+  'BBVA'
+  'Bancom'
+  'Crédito'
+  'Pichincha'
+  'BIF'
+  'Scotiabank'
+  'Citibank'
+  'Interbank'
+  'Mibanco'
+  'GNB'
+  'Falabella'
+  'Santander'
+  'Ripley'
+  'Alfin'
+  'ICBC'
+  'Bank of China'
+  'BCI'
+  'Compartamos'
+  'Santander Cons. Bank'
+  'Efectiva'
+  'Promedio'
+
+Fila candidata de encabezados DataZone:
+  Fila: 0
+  'BBVA'
+  'Bancom'
+  'Crédito'
+  'Pichincha'
+  'BIF'
+  'Scotiabank'
+  'Citibank'
+  'Interbank'
+  'Mibanco'
+  'GNB'
+  'Falabella'
+  'Santander'
+  'Ripley'
+  'Alfin'
+  'ICBC'
+  'Bank of China'
+  'BCI'
+  'Compartamos'
+  'Santander Cons. Bank'
+  'Efectiva'
+  'Promedio'
+
+----------------------------------------------------------------------------------------------------------------------
+CONSUMO DENTRO DE TABLA MN EXTERNA
+----------------------------------------------------------------------------------------------------------------------
+Tabla externa existe: True
+Celdas exactas 'Consumo': 1
+
+----------------------------------------------------------------------------------------------------------------------
+SCREENSHOT
+----------------------------------------------------------------------------------------------------------------------
+Guardado: True
+Método: CDP_FULL_PAGE
+Ruta: C:\Users\Crystell\Desktop\FINANZAS\salidas\diagnosticos\tasa_activa_2015_antes.png
+
+======================================================================================================================
+PULSAR CONSULTAR
+======================================================================================================================
+Evidencias técnicas de respuesta: ['HTML_CAMBIO']
+
+======================================================================================================================
+SNAPSHOT DESPUÉS DEL POST
+======================================================================================================================
+URL: https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TIActivaTipoCreditoEmpresa.aspx?tip=B
+Título: ''
+SHA-256 HTML: 56d31ec47d96d2b725d302fcc967375154085f4bedf8e5e3d92cc25268949f9e
+
+----------------------------------------------------------------------------------------------------------------------
+DATEPICKER
+----------------------------------------------------------------------------------------------------------------------
+Fecha objetivo: 2015-06-30
+Fecha visible texto: '30/06/2015'
+Fecha visible interpretada: 2015-06-30
+Fecha interna texto: '2015-06-30'
+Fecha interna interpretada: 2015-06-30
+Visible exacta: True
+Interna exacta: True
+
+----------------------------------------------------------------------------------------------------------------------
+lblMensajeFecha
+----------------------------------------------------------------------------------------------------------------------
+Existe: False
+Texto visible: None
+textContent: None
+
+----------------------------------------------------------------------------------------------------------------------
+ENCABEZADOS/SUBTÍTULOS "al DD/MM/YYYY"
+----------------------------------------------------------------------------------------------------------------------
+tag='DIV' | id='' | class='container-fluid' | text='TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO Ingrese fecha: Open the calendar popup. (dd/mm/aaaa) Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2015 Moneda Nacional Moneda Extranjera'
+tag='DIV' | id='ctl00_cphContent_updConsulta' | class='' | text='TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO Ingrese fecha: Open the calendar popup. (dd/mm/aaaa) Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2015 Moneda Nacional Moneda Extranjera'
+tag='DIV' | id='ctl00_cphContent_divContainer1' | class='container Estadisticas' | text='TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO Ingrese fecha: Open the calendar popup. (dd/mm/aaaa) Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2015 Moneda Nacional Moneda Extranjera'
+tag='DIV' | id='ctl00_cphContent_divContainer2' | class='container' | text='TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO Ingrese fecha: Open the calendar popup. (dd/mm/aaaa) Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2015 Moneda Nacional Moneda Extranjera'
+tag='DIV' | id='ctl00_cphContent_divSeleccionMonedaASP' | class='' | text='Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2015 Moneda Nacional Moneda Extranjera'
+tag='DIV' | id='' | class='divEstadisticas' | text='Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2015 Moneda Nacional Moneda Extranjera'
+tag='SPAN' | id='ctl00_cphContent_lblMensajeFecha2' | class='' | text='Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2015'
+
+----------------------------------------------------------------------------------------------------------------------
+CONFIGURACIÓN MONEDA / ENTIDAD
+----------------------------------------------------------------------------------------------------------------------
+hdTipoMoneda: None
+hdTipoEntidad: None
+
+----------------------------------------------------------------------------------------------------------------------
+GRID MN / ENCABEZADOS BANCARIOS
+----------------------------------------------------------------------------------------------------------------------
+Tabla MN externa existe: False
+Tabla MN interna/DataZone existe: False
+
+Encabezados semánticos tabla externa:
+  <NINGUNO>
+
+Fila candidata de encabezados tabla externa:
+  Fila: None
+
+Encabezados semánticos DataZone:
+  <NINGUNO>
+
+Fila candidata de encabezados DataZone:
+  Fila: None
+
+----------------------------------------------------------------------------------------------------------------------
+CONSUMO DENTRO DE TABLA MN EXTERNA
+----------------------------------------------------------------------------------------------------------------------
+Tabla externa existe: False
+Celdas exactas 'Consumo': 0
+
+----------------------------------------------------------------------------------------------------------------------
+SCREENSHOT
+----------------------------------------------------------------------------------------------------------------------
+Guardado: True
+Método: CDP_FULL_PAGE
+Ruta: C:\Users\Crystell\Desktop\FINANZAS\salidas\diagnosticos\tasa_activa_2015_despues.png
+
+======================================================================================================================
+COMPARACIÓN ANTES VS DESPUÉS
+======================================================================================================================
+SHA-256 ANTES:
+58f234840a94263f3fcea36218c915f3d4e5280647ed08655503c4ced3b3a557
+
+SHA-256 DESPUÉS:
+56d31ec47d96d2b725d302fcc967375154085f4bedf8e5e3d92cc25268949f9e
+
+¿Cambió el HTML?: True
+
+¿Encabezados candidatos DataZone iguales?: False
+Encabezados nuevos después:
+  <NINGUNO>
+Encabezados que desaparecieron:
+  'alfin'
+  'bancom'
+  'bank of china'
+  'bbva'
+  'bci'
+  'bif'
+  'citibank'
+  'compartamos'
+  'credito'
+  'efectiva'
+  'falabella'
+  'gnb'
+  'icbc'
+  'interbank'
+  'mibanco'
+  'pichincha'
+  'promedio'
+  'ripley'
+  'santander'
+  'santander cons. bank'
+  'scotiabank'
+
+======================================================================================================================
+VALIDACIÓN DE LA FECHA REAL DEL RESULTADO
+======================================================================================================================
+lblMensajeFecha existe: False
+lblMensajeFecha texto visible: None
+lblMensajeFecha textContent: None
+
+Textos de resultado "al DD/MM/YYYY":
+  tag='DIV' | id='' | text='TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO Ingrese fecha: Open the calendar popup. (dd/mm/aaaa) Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2015 Moneda Nacional Moneda Extranjera'
+  tag='DIV' | id='ctl00_cphContent_updConsulta' | text='TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO Ingrese fecha: Open the calendar popup. (dd/mm/aaaa) Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2015 Moneda Nacional Moneda Extranjera'
+  tag='DIV' | id='ctl00_cphContent_divContainer1' | text='TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO Ingrese fecha: Open the calendar popup. (dd/mm/aaaa) Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2015 Moneda Nacional Moneda Extranjera'
+  tag='DIV' | id='ctl00_cphContent_divContainer2' | text='TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO Ingrese fecha: Open the calendar popup. (dd/mm/aaaa) Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2015 Moneda Nacional Moneda Extranjera'
+  tag='DIV' | id='ctl00_cphContent_divSeleccionMonedaASP' | text='Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2015 Moneda Nacional Moneda Extranjera'
+  tag='DIV' | id='' | text='Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2015 Moneda Nacional Moneda Extranjera'
+  tag='SPAN' | id='ctl00_cphContent_lblMensajeFecha2' | text='Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2015'
+
+Fuentes que confirman exactamente 30/06/2015:
+  DIV id='' | 'TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO Ingrese fecha: Open the calendar popup. (dd/mm/aaaa) Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2015 Moneda Nacional Moneda Extranjera'
+  DIV id='ctl00_cphContent_updConsulta' | 'TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO Ingrese fecha: Open the calendar popup. (dd/mm/aaaa) Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2015 Moneda Nacional Moneda Extranjera'
+  DIV id='ctl00_cphContent_divContainer1' | 'TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO Ingrese fecha: Open the calendar popup. (dd/mm/aaaa) Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2015 Moneda Nacional Moneda Extranjera'
+  DIV id='ctl00_cphContent_divContainer2' | 'TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO Ingrese fecha: Open the calendar popup. (dd/mm/aaaa) Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2015 Moneda Nacional Moneda Extranjera'
+  DIV id='ctl00_cphContent_divSeleccionMonedaASP' | 'Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2015 Moneda Nacional Moneda Extranjera'
+  DIV id='' | 'Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2015 Moneda Nacional Moneda Extranjera'
+  SPAN id='ctl00_cphContent_lblMensajeFecha2' | 'Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2015'
+
+======================================================================================================================
+CLASIFICACIÓN FINAL
+======================================================================================================================
+ESTADO = FECHA_RESULTADO_CONFIRMADA
+
+SBS muestra explícitamente 30/06/2015 en el texto del resultado.
+
+----------------------------------------------------------------------------------------------------------------------
+TEXTO VISIBLE POST - PRIMEROS 5000 CARACTERES
+----------------------------------------------------------------------------------------------------------------------
+TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO
+Ingrese fecha: 
+Open the calendar popup.
+ (dd/mm/aaaa)
+
+
+Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2015
+
+Moneda Nacional
+Moneda Extranjera
+
+======================================================================================================================
+RESUMEN DEL DIAGNÓSTICO
+======================================================================================================================
+Fecha objetivo: 30/06/2015
+Estado final: FECHA_RESULTADO_CONFIRMADA
+DatePicker visible antes: '30/06/2015'
+DatePicker interno antes: '2015-06-30'
+DatePicker visible después: '30/06/2015'
+DatePicker interno después: '2015-06-30'
+lblMensajeFecha después: None
+hdTipoMoneda antes: 'MN'
+hdTipoEntidad antes: 'B'
+hdTipoMoneda después: None
+hdTipoEntidad después: None
+Consumo MN antes: 1
+Consumo MN después: 0
+HTML cambió: True
+Headers DataZone iguales: False
+
+IMPORTANTE:
+La existencia de tabla MN o Consumo NO fue usada como prueba de que el período sea 2015.

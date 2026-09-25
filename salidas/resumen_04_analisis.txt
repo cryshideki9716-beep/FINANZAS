@@ -1,0 +1,77 @@
+==========================================================================================
+04_ANALISIS - RESUMEN DE EJECUCIÓN
+==========================================================================================
+
+Tema:
+Dolarización del crédito y de los depósitos en el sistema financiero peruano
+
+Alcance:
+Análisis de asociaciones estadísticas. No se realizan afirmaciones causales.
+
+MUESTRA
+------------------------------------------------------------------------------------------
+Archivo: C:\Users\Crystell\Desktop\FINANZAS\datos_procesados\datos_procesados_2024200485D.csv
+Periodo: 2015-11 a 2025-12
+Meses calendario: 122
+Bancos: 12
+Observaciones efectivas: 1458
+Interpolación: 0
+Imputación: 0
+Extrapolación: 0
+
+OLS AGRUPADO DE REFERENCIA
+------------------------------------------------------------------------------------------
+Covarianza: HC3
+use_t=True
+N: 1458
+R2: 0.91316581
+R2 ajustado: 0.91292676
+
+const: coef=-3.64042377; se=0.42938557; t=-8.47821645; p=0.00000000
+X1: coef=0.78777662; se=0.00687186; t=114.63808466; p=0.00000000
+X2: coef=-0.00750106; se=0.00472075; t=-1.58895289; p=0.11228858
+X3: coef=0.73978821; se=0.09915424; t=7.46098399; p=0.00000000
+X4: coef=-0.62294970; se=0.28230323; t=-2.20666867; p=0.02749313
+
+MODELO PRINCIPAL - EFECTOS FIJOS POR BANCO
+------------------------------------------------------------------------------------------
+Efectos fijos por banco: Sí
+Efectos fijos completos por mes: No
+Covarianza: Driscoll-Kraay
+Kernel: Bartlett
+Bandwidth: 4
+N: 1458
+R2 within: 0.31634906
+
+X1: coef=0.31706120; se_DK=0.02142524; t=14.79848647; p=0.00000000
+X2: coef=-0.02267341; se_DK=0.00775371; t=-2.92420158; p=0.00350735
+X3: coef=-0.14685151; se_DK=0.24682985; t=-0.59495038; p=0.55196999
+X4: coef=-0.88850944; se_DK=0.26508637; t=-3.35177334; p=0.00082374
+
+DIAGNÓSTICOS
+------------------------------------------------------------------------------------------
+VIF:
+  X1: 1.48676546
+  X2: 1.52214021
+  X3: 1.07625319
+  X4: 1.01225711
+
+Breusch-Pagan/Koenker LM: 90.71452358; p=0.00000000
+Breusch-Pagan/Koenker F: 24.10034427; p=0.00000000
+Wooldridge-Drukker: rho=0.07833877; F=186.03701343; p=0.00000003
+Pesaran CD: CD=11.40710693; p=0.00000000; pares=66
+F de poolability: F=291.46861756; p=0.00000000; distribución=F(11,1442)
+
+NOTA METODOLÓGICA:
+Los diagnósticos se reportan como evidencia sobre las propiedades del panel. No se utilizan para escoger ex post la covarianza del modelo principal.
+La covarianza Driscoll-Kraay, kernel Bartlett y bandwidth=4 fue definida antes de observar los resultados de las pruebas.
+
+VERSIONES
+------------------------------------------------------------------------------------------
+numpy: 2.5.3
+pandas: 3.0.6
+scipy: 1.18.1
+statsmodels: 0.15.0
+linearmodels: 7.0
+
+ESTADO = ANALISIS_COMPLETO_VALIDADO

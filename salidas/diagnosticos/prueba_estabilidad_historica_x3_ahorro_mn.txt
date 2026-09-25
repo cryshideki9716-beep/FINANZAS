@@ -1,0 +1,206 @@
+
+==========================================================================================================================
+PRUEBA DE ESTABILIDAD HISTÓRICA X3 - DEPÓSITOS DE AHORRO MN
+==========================================================================================================================
+Extractor:
+  misma metodología validada en 30/11/2015.
+
+Fechas iniciales:
+  - 30/11/2015
+  - 30/06/2016
+  - 28/06/2019
+  - 30/06/2020
+  - 30/06/2023
+  - 31/12/2025
+
+REGLA DE RETROCESO:
+  SOLO SIN_INFORMACION autoriza retroceder al día anterior.
+  Si SBS confirma la fecha pero la estructura X3 no coincide, se registra ESTRUCTURA_X3_NO_COMPATIBLE.
+  Si la estructura existe pero falla el parser geométrico, es ERROR_TECNICO/parser.
+
+NO se interpolarán datos.
+NO se homologarán nombres.
+NO se seleccionarán bancos.
+NO se ejecutarán los 122 meses.
+
+==========================================================================================================================
+PRUEBA HISTÓRICA 30/11/2015
+==========================================================================================================================
+Mes = 2015-11
+Fecha inicial solicitada = 30/11/2015
+
+Regla:
+  SOLO SIN_INFORMACION permite retroceder al día anterior.
+  ESTRUCTURA_X3_NO_COMPATIBLE detiene este punto.
+  ERROR_TECNICO/parser detiene la prueba.
+
+Probando: 30/11/2015 (retroceso=0)
+
+[OK] FECHA VÁLIDA ENCONTRADA
+Fecha SBS usada = 30/11/2015
+Tabla MN = ctl00_cphContent_rpgActualPrimTablaMn_OT
+DataZone MN = ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT
+Bancos = 17
+Faltantes = 3
+Promedio = '0.39'
+Total nombres/valores = 18
+Columna Ahorro detectada dinámicamente = 0
+ESTADO DEL PUNTO = DISPONIBLE
+
+==========================================================================================================================
+PRUEBA HISTÓRICA 30/06/2016
+==========================================================================================================================
+Mes = 2016-06
+Fecha inicial solicitada = 30/06/2016
+
+Regla:
+  SOLO SIN_INFORMACION permite retroceder al día anterior.
+  ESTRUCTURA_X3_NO_COMPATIBLE detiene este punto.
+  ERROR_TECNICO/parser detiene la prueba.
+
+Probando: 30/06/2016 (retroceso=0)
+
+[OK] FECHA VÁLIDA ENCONTRADA
+Fecha SBS usada = 30/06/2016
+Tabla MN = ctl00_cphContent_rpgActualPrimTablaMn_OT
+DataZone MN = ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT
+Bancos = 17
+Faltantes = 3
+Promedio = '0.39'
+Total nombres/valores = 18
+Columna Ahorro detectada dinámicamente = 0
+ESTADO DEL PUNTO = DISPONIBLE
+
+==========================================================================================================================
+PRUEBA HISTÓRICA 28/06/2019
+==========================================================================================================================
+Mes = 2019-06
+Fecha inicial solicitada = 28/06/2019
+
+Regla:
+  SOLO SIN_INFORMACION permite retroceder al día anterior.
+  ESTRUCTURA_X3_NO_COMPATIBLE detiene este punto.
+  ERROR_TECNICO/parser detiene la prueba.
+
+Probando: 28/06/2019 (retroceso=0)
+
+[OK] FECHA VÁLIDA ENCONTRADA
+Fecha SBS usada = 28/06/2019
+Tabla MN = ctl00_cphContent_rpgActualPrimTablaMn_OT
+DataZone MN = ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT
+Bancos = 15
+Faltantes = 1
+Promedio = '0.29'
+Total nombres/valores = 16
+Columna Ahorro detectada dinámicamente = 0
+ESTADO DEL PUNTO = DISPONIBLE
+
+==========================================================================================================================
+PRUEBA HISTÓRICA 30/06/2020
+==========================================================================================================================
+Mes = 2020-06
+Fecha inicial solicitada = 30/06/2020
+
+Regla:
+  SOLO SIN_INFORMACION permite retroceder al día anterior.
+  ESTRUCTURA_X3_NO_COMPATIBLE detiene este punto.
+  ERROR_TECNICO/parser detiene la prueba.
+
+Probando: 30/06/2020 (retroceso=0)
+
+[OK] FECHA VÁLIDA ENCONTRADA
+Fecha SBS usada = 30/06/2020
+Tabla MN = ctl00_cphContent_rpgActualPrimTablaMn_OT
+DataZone MN = ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT
+Bancos = 15
+Faltantes = 1
+Promedio = '0.21'
+Total nombres/valores = 16
+Columna Ahorro detectada dinámicamente = 0
+ESTADO DEL PUNTO = DISPONIBLE
+
+==========================================================================================================================
+PRUEBA HISTÓRICA 30/06/2023
+==========================================================================================================================
+Mes = 2023-06
+Fecha inicial solicitada = 30/06/2023
+
+Regla:
+  SOLO SIN_INFORMACION permite retroceder al día anterior.
+  ESTRUCTURA_X3_NO_COMPATIBLE detiene este punto.
+  ERROR_TECNICO/parser detiene la prueba.
+
+Probando: 30/06/2023 (retroceso=0)
+
+[OK] FECHA VÁLIDA ENCONTRADA
+Fecha SBS usada = 30/06/2023
+Tabla MN = ctl00_cphContent_rpgActualPrimTablaMn_OT
+DataZone MN = ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT
+Bancos = 17
+Faltantes = 4
+Promedio = '0.14'
+Total nombres/valores = 18
+Columna Ahorro detectada dinámicamente = 0
+ESTADO DEL PUNTO = DISPONIBLE
+
+==========================================================================================================================
+PRUEBA HISTÓRICA 31/12/2025
+==========================================================================================================================
+Mes = 2025-12
+Fecha inicial solicitada = 31/12/2025
+
+Regla:
+  SOLO SIN_INFORMACION permite retroceder al día anterior.
+  ESTRUCTURA_X3_NO_COMPATIBLE detiene este punto.
+  ERROR_TECNICO/parser detiene la prueba.
+
+Probando: 31/12/2025 (retroceso=0)
+
+[OK] FECHA VÁLIDA ENCONTRADA
+Fecha SBS usada = 31/12/2025
+Tabla MN = ctl00_cphContent_rpgActualPrimTablaMn_OT
+DataZone MN = ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT
+Bancos = 19
+Faltantes = 3
+Promedio = '0.13'
+Total nombres/valores = 20
+Columna Ahorro detectada dinámicamente = 0
+ESTADO DEL PUNTO = DISPONIBLE
+
+==========================================================================================================================
+RESUMEN DE ESTABILIDAD HISTÓRICA X3
+==========================================================================================================================
+mes | fecha_inicial | fecha_sbs | tabla | DataZone | bancos | faltantes | Promedio | estado
+2015-11 | 30/11/2015 | 30/11/2015 | ctl00_cphContent_rpgActualPrimTablaMn_OT | ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT | 17 | 3 | 0.39 | DISPONIBLE
+2016-06 | 30/06/2016 | 30/06/2016 | ctl00_cphContent_rpgActualPrimTablaMn_OT | ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT | 17 | 3 | 0.39 | DISPONIBLE
+2019-06 | 28/06/2019 | 28/06/2019 | ctl00_cphContent_rpgActualPrimTablaMn_OT | ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT | 15 | 1 | 0.29 | DISPONIBLE
+2020-06 | 30/06/2020 | 30/06/2020 | ctl00_cphContent_rpgActualPrimTablaMn_OT | ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT | 15 | 1 | 0.21 | DISPONIBLE
+2023-06 | 30/06/2023 | 30/06/2023 | ctl00_cphContent_rpgActualPrimTablaMn_OT | ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT | 17 | 4 | 0.14 | DISPONIBLE
+2025-12 | 31/12/2025 | 31/12/2025 | ctl00_cphContent_rpgActualPrimTablaMn_OT | ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT | 19 | 3 | 0.13 | DISPONIBLE
+
+--------------------------------------------------------------------------------------------------------------------------
+CONTROL GENERAL
+--------------------------------------------------------------------------------------------------------------------------
+Puntos solicitados = 6
+DISPONIBLE = 6
+MES_SIN_DATO = 0
+ESTRUCTURA_X3_NO_COMPATIBLE = 0
+ERROR_TECNICO = 0
+
+Tablas MN distintas entre puntos disponibles = 1
+  - ctl00_cphContent_rpgActualPrimTablaMn_OT
+DataZones MN distintas entre puntos disponibles = 1
+  - ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT
+
+No se interpolaron faltantes.
+No se homologaron nombres bancarios.
+No se seleccionaron bancos.
+No se ejecutaron los 122 meses.
+Solo se probaron los seis puntos históricos solicitados.
+
+==========================================================================================================================
+CLASIFICACIÓN FINAL
+==========================================================================================================================
+ESTADO = ESTABILIDAD_HISTORICA_X3_VALIDADA
+
+Los seis puntos pudieron extraerse con la estructura y metodología geométrica ya validada.

@@ -1,0 +1,221 @@
+
+==============================================================================================================
+PRUEBA ÚNICA Y + X1 - SBS 2015-11
+==============================================================================================================
+Mes único: 2015-11
+No se ejecutarán los 122 meses.
+No se homologarán nombres históricos.
+No se seleccionarán bancos.
+No se interpolarán datos.
+
+CONTROL Y / B-2359:
+  No utiliza abs_tol.
+  Utiliza math.fsum().
+  Utiliza la precisión visible de la celda Total Banca Múltiple.
+  El redondeo se realiza con Decimal + ROUND_HALF_UP.
+
+==============================================================================================================
+LOCALIZACIÓN Y DESCARGA - Y / B-2359
+==============================================================================================================
+Página oficial: https://www.sbs.gob.pe/app/stats_net/stats/EstadisticaSistemaFinancieroResultados.aspx?c=B-2359
+HTTP página: 200
+Palabras de control encontradas: ['creditos', 'modalidad', 'moneda']
+Identificador esperado: b-2359-no2015
+Coincidencias encontradas: 1
+  -> https://intranet2.sbs.gob.pe/estadistica/financiera/2015/Noviembre/B-2359-no2015.XLS
+Archivo origen SBS: B-2359-no2015.XLS
+Archivo crudo local: C:\Users\Crystell\Desktop\FINANZAS\datos_crudos\prueba_Y_X1_2015_11\Y_B-2359_2015_11_2024200485D.xls
+HTTP: 200
+Bytes: 80896
+SHA-256: 895f3a1a8c46f3fb9bf923003cc406b241ae7f2662226d53db09ccbd9a7d2b87
+Formato real: XLS_OLE
+
+==============================================================================================================
+LOCALIZACIÓN Y DESCARGA - X1 / B-2318
+==============================================================================================================
+Página oficial: https://www.sbs.gob.pe/app/stats_net/stats/EstadisticaSistemaFinancieroResultados.aspx?c=B-2318
+HTTP página: 200
+Palabras de control encontradas: ['movimiento', 'depositos']
+Identificador esperado: b-2318-no2015
+Coincidencias encontradas: 1
+  -> https://intranet2.sbs.gob.pe/estadistica/financiera/2015/Noviembre/B-2318-no2015.XLS
+Archivo origen SBS: B-2318-no2015.XLS
+Archivo crudo local: C:\Users\Crystell\Desktop\FINANZAS\datos_crudos\prueba_Y_X1_2015_11\X1_B-2318_2015_11_2024200485D.xls
+HTTP: 200
+Bytes: 21385
+SHA-256: 806b4bfb6f33e3d80b1a447ec403b9b6485c3b5afd2b0babff04b7764e36e9fd
+Formato real: XLSX_ZIP
+
+--------------------------------------------------------------------------------------------------------------
+CONTROL TOTAL BANCA MÚLTIPLE - Y / B-2359
+--------------------------------------------------------------------------------------------------------------
+Cantidad de bancos individuales = 17
+
+Control: Y / B-2359 / MN
+  Cantidad bancos = 17
+  Suma math.fsum() = 150373919.685
+  Total SBS raw = 150373919.72
+  Valor raw celda Excel = 150373919.72
+  Diferencia raw = -0.034999996423721313
+  Diferencia absoluta raw = 0.034999996423721313
+  Diferencia relativa raw = 2.327531029908124e-10
+  Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  Decimales mostrados = 0
+  Suma redondeada ROUND_HALF_UP = 150373920
+  Total SBS redondeado ROUND_HALF_UP = 150373920
+  Resultado = OK
+
+Control: Y / B-2359 / ME
+  Cantidad bancos = 17
+  Suma math.fsum() = 22433794.73206876
+  Total SBS raw = 22433794.733847063
+  Valor raw celda Excel = 22433794.733847063
+  Diferencia raw = -0.0017783045768737793
+  Diferencia absoluta raw = 0.0017783045768737793
+  Diferencia relativa raw = 7.926900455190295e-11
+  Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  Decimales mostrados = 0
+  Suma redondeada ROUND_HALF_UP = 22433795
+  Total SBS redondeado ROUND_HALF_UP = 22433795
+  Resultado = OK
+
+Control: Y / B-2359 / TOTAL
+  Cantidad bancos = 17
+  Suma math.fsum() = 226065543.148
+  Total SBS raw = 226065543.155
+  Valor raw celda Excel = 226065543.155
+  Diferencia raw = -0.006999999284744263
+  Diferencia absoluta raw = 0.006999999284744263
+  Diferencia relativa raw = 3.096446803458575e-11
+  Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  Decimales mostrados = 0
+  Suma redondeada ROUND_HALF_UP = 226065543
+  Total SBS redondeado ROUND_HALF_UP = 226065543
+  Resultado = OK
+
+==============================================================================================================
+Y = DOLARIZACIÓN DEL CRÉDITO (%)
+==============================================================================================================
+Reporte SBS: B-2359
+Formato real: XLS_OLE
+Hoja elegida dinámicamente: '15'
+Fila encabezados MN|ME|Total: 5
+Fila de bancos: 4
+Fila 'Total Créditos:': 65
+Bloques totales detectados: 18
+Bancos individuales: 17
+DOLCRED válidos: 16
+DOLCRED faltantes/no utilizables: 1
+
+--------------------------------------------------------------------------------------------------------------
+BANCO ORIGINAL → DOLCRED (%)
+--------------------------------------------------------------------------------------------------------------
+Banco Continental → 34.32430270065647
+Banco de Comercio → 12.61673600404831
+Banco de Crédito del Perú → 37.79558599102242
+Banco Financiero → 35.60298148326691
+Banco Interamericano de Finanzas → 35.768925911898734
+Scotiabank Perú → 37.13269371859765
+Citibank → 30.957276356500362
+Interbank → 28.44367661149138
+Mibanco → 3.8624056695370452
+Banco GNB → 28.91467009147901
+Banco Falabella Perú → 2.5640017358567646
+Santander Perú S.A. → 50.79700875545856
+Banco Ripley → 0.0
+Banco Azteca → 0.0
+Deutsche Bank → <FALTANTE>
+    problemas = ['TOTAL_NO_POSITIVO']
+B. Cencosud → 0.0
+B. ICBC → 96.25322180008908
+
+--------------------------------------------------------------------------------------------------------------
+AGREGADO DE CONTROL - NO ES BANCO
+--------------------------------------------------------------------------------------------------------------
+Nombre: 'Total Banca Múltiple'
+DOLCRED agregado: 33.482158483171695
+
+ESTADO Y = PRUEBA_Y_2015_11_VALIDADA
+
+--------------------------------------------------------------------------------------------------------------
+CONTROL TOTAL BANCA MÚLTIPLE - X1 / B-2318
+--------------------------------------------------------------------------------------------------------------
+Control: X1 / B-2318 / MN
+  Suma bancos = 97078726.595
+  Total SBS = 97078726.59499997
+  Diferencia absoluta = 2.9802322387695312e-08
+  Resultado = OK
+Control: X1 / B-2318 / ME
+  Suma bancos = 111756388.424
+  Total SBS = 111756388.42400002
+  Diferencia absoluta = 2.9802322387695312e-08
+  Resultado = OK
+
+==============================================================================================================
+X1 = DOLARIZACIÓN DE DEPÓSITOS (%)
+==============================================================================================================
+Reporte SBS: B-2318
+Formato real: XLSX_ZIP
+Hoja MN detectada: '22'
+  fila encabezado = 5
+  columna Empresas = 0
+  columna Saldo Final = 6
+Hoja ME detectada: '23'
+  fila encabezado = 5
+  columna Empresas = 0
+  columna Saldo Final = 6
+Bancos emparejados MN/ME: 17
+DOLDEP faltantes/no utilizables: 0
+Solo MN: []
+Solo ME: []
+Duplicados MN: []
+Duplicados ME: []
+
+--------------------------------------------------------------------------------------------------------------
+RESUMEN DE CONTROLES TOTAL BANCA MÚLTIPLE
+--------------------------------------------------------------------------------------------------------------
+MN: suma bancos=97078726.595 | total SBS=97078726.59499997 | diferencia absoluta=2.9802322387695312e-08 | resultado=OK
+ME: suma bancos=111756388.424 | total SBS=111756388.42400002 | diferencia absoluta=2.9802322387695312e-08 | resultado=OK
+
+--------------------------------------------------------------------------------------------------------------
+BANCO ORIGINAL → DOLDEP (%)
+--------------------------------------------------------------------------------------------------------------
+B. Azteca Perú → 7.362697606422118
+B. Cencosud → 2.058464652077757
+B. Continental → 54.96532281774902
+B. de Comercio → 30.857172781647346
+B. de Crédito del Perú (con sucursales en el exterior) → 56.39891076160877
+B. Falabella Perú . → 14.15703396856973
+B. Financiero → 40.03268532014875
+B. GNB → 39.81924136053367
+B. ICBC → 91.82981899305757
+B. Interamericano de Finanzas → 49.31422480191381
+B. Ripley → 2.548065789962517
+B. Santander Perú → 77.3156945629837
+Citibank → 61.49404029358112
+Deutsche Bank Perú → 99.81556317120085
+Interbank → 51.73490623781388
+Mibanco → 19.842005421083726
+Scotiabank Perú (con sucursales en el exterior) → 61.177729121046895
+
+ESTADO X1 = PRUEBA_X1_2015_11_VALIDADA
+
+==============================================================================================================
+RESUMEN FINAL
+==============================================================================================================
+Y: PRUEBA_Y_2015_11_VALIDADA
+X1: PRUEBA_X1_2015_11_VALIDADA
+
+Archivo Y:
+C:\Users\Crystell\Desktop\FINANZAS\salidas\diagnosticos\prueba_Y_dolcred_2015_11.csv
+
+Archivo X1:
+C:\Users\Crystell\Desktop\FINANZAS\salidas\diagnosticos\prueba_X1_doldep_2015_11.csv
+
+Los archivos de prueba están en salidas/diagnosticos.
+datos_procesados NO fue modificado.
+
+==============================================================================================================
+CLASIFICACIÓN
+==============================================================================================================
+ESTADO = PRUEBA_Y_X1_2015_11_VALIDADA

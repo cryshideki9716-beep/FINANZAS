@@ -1,0 +1,896 @@
+
+==========================================================================================================================
+DIAGNÓSTICO DE ACOTACIÓN DEL INICIO HISTÓRICO - CONSUMO MN
+==========================================================================================================================
+Meses incluidos:
+  2015-09
+  2015-12
+  2016-03
+
+Referencia ya conocida:
+  junio 2015 = MES_SIN_DATO
+  junio 2016 = DISPONIBLE
+
+Cada mes se evaluará con la misma regla mensual validada.
+Cada fecha parte nuevamente de la URL base SBS.
+Los errores técnicos NO se convertirán en ausencia de datos.
+
+NO se extraerán tasas.
+NO se seleccionarán bancos.
+NO se interpolarán datos.
+NO se consultarán otros meses.
+
+==========================================================================================================================
+MES: 2015-09
+==========================================================================================================================
+Último día calendario: 30/09/2015
+
+Regla mensual:
+1. empezar en el último día calendario;
+2. consultar exactamente esa fecha;
+3. si no es válida, retroceder un día;
+4. no salir del mismo mes;
+5. si hay error técnico, hacer como máximo un reintento;
+6. si también falla el reintento, detener el mes como ERROR_TECNICO.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 1: 30/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 30/09/2015
+Días retrocedidos: 0
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 30/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 2: 29/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 29/09/2015
+Días retrocedidos: 1
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: RESPUESTA_NO_CONFIRMADA
+Período 'al 29/09/2015' confirmado: False
+'No existe información...': False
+Tabla MN existe: True
+Tabla MN visible: True
+DataZone existe: True
+DataZone visible: True
+Consumo exacto: 1
+Bancos detectados: 20
+Promedio detectado: True
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 3: 28/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 28/09/2015
+Días retrocedidos: 2
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: RESPUESTA_NO_CONFIRMADA
+Período 'al 28/09/2015' confirmado: False
+'No existe información...': False
+Tabla MN existe: True
+Tabla MN visible: True
+DataZone existe: True
+DataZone visible: True
+Consumo exacto: 1
+Bancos detectados: 20
+Promedio detectado: True
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 4: 27/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 27/09/2015
+Días retrocedidos: 3
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 27/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 5: 26/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 26/09/2015
+Días retrocedidos: 4
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 26/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 6: 25/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 25/09/2015
+Días retrocedidos: 5
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 25/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 7: 24/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 24/09/2015
+Días retrocedidos: 6
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 24/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 8: 23/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 23/09/2015
+Días retrocedidos: 7
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 23/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 9: 22/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 22/09/2015
+Días retrocedidos: 8
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 22/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 10: 21/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 21/09/2015
+Días retrocedidos: 9
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 21/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 11: 20/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 20/09/2015
+Días retrocedidos: 10
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 20/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 12: 19/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 19/09/2015
+Días retrocedidos: 11
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 19/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 13: 18/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 18/09/2015
+Días retrocedidos: 12
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 18/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 14: 17/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 17/09/2015
+Días retrocedidos: 13
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 17/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 15: 16/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 16/09/2015
+Días retrocedidos: 14
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 16/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 16: 15/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 15/09/2015
+Días retrocedidos: 15
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 15/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 17: 14/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 14/09/2015
+Días retrocedidos: 16
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 14/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 18: 13/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 13/09/2015
+Días retrocedidos: 17
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 13/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 19: 12/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 12/09/2015
+Días retrocedidos: 18
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 12/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 20: 11/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 11/09/2015
+Días retrocedidos: 19
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 11/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 21: 10/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 10/09/2015
+Días retrocedidos: 20
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 10/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 22: 09/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 09/09/2015
+Días retrocedidos: 21
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 09/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 23: 08/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 08/09/2015
+Días retrocedidos: 22
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 08/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 24: 07/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 07/09/2015
+Días retrocedidos: 23
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 07/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 25: 06/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 06/09/2015
+Días retrocedidos: 24
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 06/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 26: 05/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 05/09/2015
+Días retrocedidos: 25
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 05/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 27: 04/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 04/09/2015
+Días retrocedidos: 26
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 04/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 28: 03/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 03/09/2015
+Días retrocedidos: 27
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 03/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 29: 02/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 02/09/2015
+Días retrocedidos: 28
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 02/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 30: 01/09/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 01/09/2015
+Días retrocedidos: 29
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 01/09/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La consulta pudo evaluarse técnicamente, pero no cumple todos los criterios.
+
+CLASIFICACIÓN DEL MES = MES_SIN_DATO
+
+Se evaluó técnicamente todo el mes hasta el día 1.
+No se encontró ninguna fecha que cumpliera simultáneamente:
+  1. período confirmado;
+  2. sin mensaje 'No existe información';
+  3. tabla MN visible;
+  4. DataZone visible;
+  5. exactamente un Consumo.
+
+==========================================================================================================================
+MES: 2015-12
+==========================================================================================================================
+Último día calendario: 31/12/2015
+
+Regla mensual:
+1. empezar en el último día calendario;
+2. consultar exactamente esa fecha;
+3. si no es válida, retroceder un día;
+4. no salir del mismo mes;
+5. si hay error técnico, hacer como máximo un reintento;
+6. si también falla el reintento, detener el mes como ERROR_TECNICO.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 1: 31/12/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 31/12/2015
+Días retrocedidos: 0
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 31/12/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: True
+Tabla MN visible: True
+DataZone existe: True
+DataZone visible: True
+Consumo exacto: 1
+Bancos detectados: 17
+Promedio detectado: True
+FECHA VÁLIDA: True
+
+[OK] ÚLTIMA FECHA DISPONIBLE ENCONTRADA.
+Fecha SBS utilizada: 31/12/2015
+Días retrocedidos: 0
+Cantidad de bancos: 17
+
+Encabezados bancarios:
+  Continental | Comercio | Crédito | Financiero | BIF | Scotiabank | Citibank | Interbank | Mibanco | GNB | Falabella | Santander | Ripley | Azteca | Deutsche | CAT | ICBC
+
+==========================================================================================================================
+MES: 2016-03
+==========================================================================================================================
+Último día calendario: 31/03/2016
+
+Regla mensual:
+1. empezar en el último día calendario;
+2. consultar exactamente esa fecha;
+3. si no es válida, retroceder un día;
+4. no salir del mismo mes;
+5. si hay error técnico, hacer como máximo un reintento;
+6. si también falla el reintento, detener el mes como ERROR_TECNICO.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 1: 31/03/2016
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 31/03/2016
+Días retrocedidos: 0
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 31/03/2016' confirmado: True
+'No existe información...': False
+Tabla MN existe: True
+Tabla MN visible: True
+DataZone existe: True
+DataZone visible: True
+Consumo exacto: 1
+Bancos detectados: 17
+Promedio detectado: True
+FECHA VÁLIDA: True
+
+[OK] ÚLTIMA FECHA DISPONIBLE ENCONTRADA.
+Fecha SBS utilizada: 31/03/2016
+Días retrocedidos: 0
+Cantidad de bancos: 17
+
+Encabezados bancarios:
+  Continental | Comercio | Crédito | Financiero | BIF | Scotiabank | Citibank | Interbank | Mibanco | GNB | Falabella | Santander | Ripley | Azteca | Deutsche | CAT | ICBC
+
+==========================================================================================================================
+RESUMEN - ACOTACIÓN DEL INICIO HISTÓRICO DE CONSUMO MN
+==========================================================================================================================
+mes | fecha_calendario_final | fecha_sbs_utilizada | dias_retrocedidos | disponible | cantidad_bancos
+2015-09 | 30/09/2015 | <NINGUNA> | 29 | MES_SIN_DATO | 0
+2015-12 | 31/12/2015 | 31/12/2015 | 0 | DISPONIBLE | 17
+2016-03 | 31/03/2016 | 31/03/2016 | 0 | DISPONIBLE | 17
+
+--------------------------------------------------------------------------------------------------------------------------
+DETALLE POR MES
+--------------------------------------------------------------------------------------------------------------------------
+
+MES: 2015-09
+  Estado: MES_SIN_DATO
+  Días evaluados: 30
+
+MES: 2015-12
+  Estado: DISPONIBLE
+  Días evaluados: 1
+  Fecha SBS utilizada: 31/12/2015
+  Días retrocedidos: 0
+  Cantidad de bancos: 17
+
+MES: 2016-03
+  Estado: DISPONIBLE
+  Días evaluados: 1
+  Fecha SBS utilizada: 31/03/2016
+  Días retrocedidos: 0
+  Cantidad de bancos: 17
+
+--------------------------------------------------------------------------------------------------------------------------
+ENCABEZADOS BANCARIOS DE LAS FECHAS DISPONIBLES
+--------------------------------------------------------------------------------------------------------------------------
+
+2015-09:
+  <SIN ENCABEZADOS VÁLIDOS>
+
+2015-12:
+  Continental | Comercio | Crédito | Financiero | BIF | Scotiabank | Citibank | Interbank | Mibanco | GNB | Falabella | Santander | Ripley | Azteca | Deutsche | CAT | ICBC
+
+2016-03:
+  Continental | Comercio | Crédito | Financiero | BIF | Scotiabank | Citibank | Interbank | Mibanco | GNB | Falabella | Santander | Ripley | Azteca | Deutsche | CAT | ICBC
+
+--------------------------------------------------------------------------------------------------------------------------
+INTERPRETACIÓN PARA ACOTAR EL INICIO HISTÓRICO
+--------------------------------------------------------------------------------------------------------------------------
+Puntos de referencia ya validados:
+  Junio 2015 = MES_SIN_DATO
+  Junio 2016 = DISPONIBLE
+
+Este diagnóstico solo añade tres puntos intermedios:
+  Septiembre 2015
+  Diciembre 2015
+  Marzo 2016
+
+No se declarará todavía el primer mes exacto disponible únicamente con estos tres puntos.
+Los resultados servirán para reducir el intervalo que deberá investigarse en el siguiente paso.
+
+--------------------------------------------------------------------------------------------------------------------------
+REGLA MENSUAL APLICADA
+--------------------------------------------------------------------------------------------------------------------------
+1. último día calendario del mes;
+2. recarga de URL base antes de cada fecha;
+3. DatePicker visible e interno deben coincidir;
+4. comprobar por separado 'al DD/MM/YYYY';
+5. comprobar por separado 'No existe información para la fecha elegida';
+6. SIN_INFORMACION tiene prioridad aunque la fecha esté confirmada;
+7. fecha válida requiere tabla MN visible;
+8. fecha válida requiere DataZone visible;
+9. fecha válida requiere exactamente una etiqueta Consumo;
+10. ante fecha no válida sin error técnico, retroceder un día;
+11. ante error técnico, hacer como máximo un reintento;
+12. si el reintento vuelve a fallar, clasificar el mes ERROR_TECNICO;
+13. MES_SIN_DATO solo se declara si se llegó al día 1 sin un error técnico no resuelto.
+
+No se extrajeron tasas.
+No se seleccionaron bancos finales.
+No se interpolaron datos.
+No se consultaron meses distintos de septiembre 2015, diciembre 2015 y marzo 2016.

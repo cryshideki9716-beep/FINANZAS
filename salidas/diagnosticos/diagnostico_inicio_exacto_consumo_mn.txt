@@ -1,0 +1,796 @@
+
+==========================================================================================================================
+DIAGNÓSTICO DEL INICIO EXACTO HISTÓRICO - CONSUMO MN
+==========================================================================================================================
+Hechos previos ya validados:
+  septiembre 2015 = MES_SIN_DATO
+  diciembre 2015 = DISPONIBLE el 31/12/2015
+
+Meses que se probarán ahora:
+  octubre 2015
+  noviembre 2015
+
+Cada mes usa exactamente la regla mensual ya validada.
+
+NO se extraerán tasas.
+NO se seleccionarán bancos.
+NO se interpolarán datos.
+NO se consultarán otros meses.
+
+==========================================================================================================================
+MES: 2015-10
+==========================================================================================================================
+Último día calendario: 31/10/2015
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 1: 31/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 31/10/2015
+Días retrocedidos: 0
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 2: 30/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 30/10/2015
+Días retrocedidos: 1
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 3: 29/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 29/10/2015
+Días retrocedidos: 2
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 4: 28/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 28/10/2015
+Días retrocedidos: 3
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 5: 27/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 27/10/2015
+Días retrocedidos: 4
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 6: 26/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 26/10/2015
+Días retrocedidos: 5
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 7: 25/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 25/10/2015
+Días retrocedidos: 6
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 8: 24/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 24/10/2015
+Días retrocedidos: 7
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 9: 23/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 23/10/2015
+Días retrocedidos: 8
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 10: 22/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 22/10/2015
+Días retrocedidos: 9
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 11: 21/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 21/10/2015
+Días retrocedidos: 10
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: RESPUESTA_NO_CONFIRMADA
+Período exacto confirmado: False
+SIN_INFORMACION: False
+Tabla MN existe: True
+Tabla MN visible: True
+DataZone existe: True
+DataZone visible: True
+Consumo exacto: 1
+Cantidad de bancos: 20
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 12: 20/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 20/10/2015
+Días retrocedidos: 11
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 13: 19/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 19/10/2015
+Días retrocedidos: 12
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 14: 18/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 18/10/2015
+Días retrocedidos: 13
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 15: 17/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 17/10/2015
+Días retrocedidos: 14
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 16: 16/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 16/10/2015
+Días retrocedidos: 15
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 17: 15/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 15/10/2015
+Días retrocedidos: 16
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 18: 14/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 14/10/2015
+Días retrocedidos: 17
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 19: 13/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 13/10/2015
+Días retrocedidos: 18
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 20: 12/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 12/10/2015
+Días retrocedidos: 19
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 21: 11/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 11/10/2015
+Días retrocedidos: 20
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 22: 10/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 10/10/2015
+Días retrocedidos: 21
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 23: 09/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 09/10/2015
+Días retrocedidos: 22
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 24: 08/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 08/10/2015
+Días retrocedidos: 23
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 25: 07/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 07/10/2015
+Días retrocedidos: 24
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 26: 06/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 06/10/2015
+Días retrocedidos: 25
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 27: 05/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 05/10/2015
+Días retrocedidos: 26
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 28: 04/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 04/10/2015
+Días retrocedidos: 27
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 29: 03/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 03/10/2015
+Días retrocedidos: 28
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 30: 02/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 02/10/2015
+Días retrocedidos: 29
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 31: 01/10/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 01/10/2015
+Días retrocedidos: 30
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Cantidad de bancos: 0
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La fecha se evaluó técnicamente, pero no cumple todos los criterios.
+
+CLASIFICACIÓN DEL MES = MES_SIN_DATO
+
+Se llegó al día 1 sin encontrar una fecha válida y sin dejar un error técnico no resuelto.
+
+==========================================================================================================================
+MES: 2015-11
+==========================================================================================================================
+Último día calendario: 30/11/2015
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 1: 30/11/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 30/11/2015
+Días retrocedidos: 0
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período exacto confirmado: True
+SIN_INFORMACION: False
+Tabla MN existe: True
+Tabla MN visible: True
+DataZone existe: True
+DataZone visible: True
+Consumo exacto: 1
+Cantidad de bancos: 17
+FECHA VÁLIDA: True
+
+[OK] ÚLTIMA FECHA DISPONIBLE DEL MES ENCONTRADA.
+Fecha SBS utilizada: 30/11/2015
+Días retrocedidos: 0
+Cantidad de bancos: 17
+
+==========================================================================================================================
+RESUMEN - DIAGNÓSTICO DEL INICIO EXACTO DE CONSUMO MN
+==========================================================================================================================
+mes | fecha_calendario_final | fecha_sbs_utilizada | dias_retrocedidos | disponible | cantidad_bancos
+2015-10 | 31/10/2015 | <NINGUNA> | 30 | MES_SIN_DATO | 0
+2015-11 | 30/11/2015 | 30/11/2015 | 0 | DISPONIBLE | 17
+
+--------------------------------------------------------------------------------------------------------------------------
+SECUENCIA CRONOLÓGICA PARA DETERMINAR EL INICIO
+--------------------------------------------------------------------------------------------------------------------------
+2015-09 | MES_SIN_DATO | hecho ya validado
+2015-10 | MES_SIN_DATO | resultado de esta prueba
+2015-11 | DISPONIBLE | resultado de esta prueba
+2015-12 | DISPONIBLE | 31/12/2015 | hecho ya validado
+
+--------------------------------------------------------------------------------------------------------------------------
+ENCABEZADOS BANCARIOS DE LAS FECHAS DISPONIBLES
+--------------------------------------------------------------------------------------------------------------------------
+
+2015-10:
+  <SIN ENCABEZADOS VÁLIDOS>
+
+2015-11:
+  Continental | Comercio | Crédito | Financiero | BIF | Scotiabank | Citibank | Interbank | Mibanco | GNB | Falabella | Santander | Ripley | Azteca | Deutsche | CAT | ICBC
+
+==========================================================================================================================
+DETERMINACIÓN DEL PRIMER MES DISPONIBLE DE X2
+==========================================================================================================================
+Estado: INICIO_EXACTO_DETERMINADO
+Motivo: Septiembre y octubre 2015 no tienen dato, mientras noviembre 2015 resultó DISPONIBLE.
+
+PRIMER MES DISPONIBLE = 2015-11
+Fecha SBS utilizada en ese mes = 30/11/2015
+
+La conclusión utiliza la secuencia cronológica:
+septiembre 2015 → octubre 2015 → noviembre 2015 → diciembre 2015
+
+--------------------------------------------------------------------------------------------------------------------------
+REGLA MENSUAL UTILIZADA
+--------------------------------------------------------------------------------------------------------------------------
+Una fecha solo es válida si:
+1. SBS confirma exactamente 'al DD/MM/YYYY';
+2. no aparece 'No existe información para la fecha elegida';
+3. la tabla MN existe y está visible;
+4. la DataZone MN existe y está visible;
+5. existe exactamente una etiqueta 'Consumo'.
+
+SIN_INFORMACION tiene prioridad aunque la fecha haya sido confirmada.
+Cada intento diario parte nuevamente de la URL base.
+Ante un error técnico se realiza como máximo un reintento.
+Si vuelve a fallar, el mes queda como ERROR_TECNICO.
+ERROR_TECNICO nunca se convierte en MES_SIN_DATO.
+
+No se extrajeron tasas.
+No se seleccionaron bancos finales.
+No se interpolaron datos.
+No se consultaron meses distintos de octubre y noviembre de 2015.

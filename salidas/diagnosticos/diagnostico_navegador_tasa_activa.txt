@@ -1,0 +1,1145 @@
+
+==============================================================================================================
+DIAGNÓSTICO SELENIUM - SBS TASA ACTIVA
+==============================================================================================================
+Se abrirá únicamente la URL oficial con tip=B.
+No se realizará ninguna consulta histórica.
+
+Abriendo Chrome...
+
+==============================================================================================================
+1. INFORMACIÓN GENERAL DEL NAVEGADOR
+==============================================================================================================
+URL solicitada: https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TIActivaTipoCreditoEmpresa.aspx?tip=B
+URL final: https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TIActivaTipoCreditoEmpresa.aspx?tip=B
+Título: ''
+¿Se detectó contenido SBS real?: True
+Longitud HTML renderizado: 507404 caracteres
+SHA256 HTML: c610fb4a0f91404565615c1491f2c1068ca66046e1fde431a744ad17b5115624
+User-Agent navegador: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36'
+Indicadores de bloqueo detectados: []
+
+Primeros 1500 caracteres visibles:
+TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO Ingrese fecha: Open the calendar popup. (dd/mm/aaaa) Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 22/09/2026 Moneda Nacional Moneda Extranjera Tasa Anual (%) BBVA Bancom Crédito Pichincha BIF Scotiabank Citibank Interbank Mibanco GNB Falabella Santander Ripley Alfin ICBC Bank of China BCI Compartamos Santander Cons. Bank Efectiva Promedio 4.81 6.66 5.04 4.77 6.08 5.41 s.i. 5.72 - 5.82 - 7.41 - 11.82 5.60 - 5.30 - - - 5.14 6.18 - 6.07 - 6.63 6.28 s.i. 5.99 - 6.24 - 8.36 - - - - - - - - 6.23 4.76 - 4.67 4.65 4.74 4.45 s.i. 4.40 - 5.00 - 6.80 - 10.85 - - - - - - 4.76 4.71 7.05 4.85 4.62 4.89 5.39 s.i. 5.31 - 5.88 - 7.77 - 13.00 4.61 - 5.36 - - - 5.09 6.40 4.65 5.82 4.95 6.26 5.96 s.i. 5.67 - 6.96 - 8.08 - - 6.34 - 5.18 - - - 6.05 5.48 - 5.75 - - 4.45 s.i. 6.71 - 6.46 - 6.57 - - - - - - - - 5.71 4.53 - 5.07 - 4.89 5.60 s.i. 6.36 - - - - - - 4.43 - - - - - 5.14 7.68 8.30 7.38 6.10 7.93 7.11 s.i. 7.27 - 6.80 - 8.62 - 10.76 - - 6.28 - - - 7.44 7.90 6.75 7.79 5.60 7.26 7.07 s.i. 7.23 - 7.52 - 7.78 - 11.00 - - - - - - 7.55 6.07 - 7.63 5.26 11.15 6.87 s.i. 7.86 - 5.30 - 10.10 - - - - 5.76 - - - 7.01 8.12 - 7.01 6.33 9.19 7.56 s.i. 7.11 - 7.18 - 6.80 - 9.15 - - 7.38 - - - 7.37 7.74 8.42 7.07 6.21 7.76 6.99 s.i. 7.11 - 6.72 - 6.50 - 11.18 - - 8.08 - - - 7.30 8.00 - 7.62 7.73 7.64 8.04 s.i. 6.82 - 7.85 - 7.13 - 8.51 - - - - - - 7.77 7.51 - 7.35 7.90 6.71 6.67 s.i. 7
+
+==============================================================================================================
+2. FORMULARIOS
+==============================================================================================================
+Formularios encontrados: 1
+
+FORMULARIO #1
+  id='aspnetForm'
+  name='aspnetForm'
+  method='POST'
+  action original='./TIActivaTipoCreditoEmpresa.aspx?tip=B'
+  action absoluta='https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TIActivaTipoCreditoEmpresa.aspx?tip=B'
+  enctype=None
+
+==============================================================================================================
+3. INPUTS
+==============================================================================================================
+Inputs encontrados: 18
+
+INPUT #1
+  type='hidden'
+  id='ctl00_MainScriptManager_TSM'
+  name='ctl00_MainScriptManager_TSM'
+  value=<LONGITUD 316, SHA256 e03ef34211e8410cfe1c99dbd1adaf45317601b376229512944e63afc3da3559>
+  checked=False
+  disabled=False
+  readonly=False
+
+INPUT #2
+  type='hidden'
+  id='__EVENTTARGET'
+  name='__EVENTTARGET'
+  value=''
+  checked=False
+  disabled=False
+  readonly=False
+
+INPUT #3
+  type='hidden'
+  id='__EVENTARGUMENT'
+  name='__EVENTARGUMENT'
+  value=''
+  checked=False
+  disabled=False
+  readonly=False
+
+INPUT #4
+  type='hidden'
+  id='__VIEWSTATE'
+  name='__VIEWSTATE'
+  value=<LONGITUD 321276, SHA256 0745c100104081464a3ba1be1a84b9fb7673a03d399b2c1801aaba1c67103c3b>
+  checked=False
+  disabled=False
+  readonly=False
+
+INPUT #5
+  type='hidden'
+  id='__VIEWSTATEGENERATOR'
+  name='__VIEWSTATEGENERATOR'
+  value='6CF503C4'
+  checked=False
+  disabled=False
+  readonly=False
+
+INPUT #6
+  type='hidden'
+  id='__EVENTVALIDATION'
+  name='__EVENTVALIDATION'
+  value='/wEdAAiO+Rrgu9iFJan8TfcJWqVKlawXGEyscjwHM2iJ+8drUdz81GR1o7NJCyAXkQgagG3oPDMR8cgDMq3ctkhYgDUUxIcewXjD0HU9lKm2J8FUGfucXt4z8wPDD/PWrojjDgTVjxAOzd3TV0zfA1op4PtMzWjlA4GHFyJ24Ec7vPZ4HTvgILbSL7KWMfRjelUBB5FjZoMfzeuppqE/DZ8jPRXA'
+  checked=False
+  disabled=False
+  readonly=False
+
+INPUT #7
+  type='text'
+  id='ctl00_cphContent_rdpDate'
+  name='ctl00$cphContent$rdpDate'
+  value='2026-09-22'
+  checked=False
+  disabled=False
+  readonly=False
+
+INPUT #8
+  type='text'
+  id='ctl00_cphContent_rdpDate_dateInput'
+  name='ctl00$cphContent$rdpDate$dateInput'
+  value='22/09/2026'
+  checked=False
+  disabled=False
+  readonly=False
+
+INPUT #9
+  type='hidden'
+  id='ctl00_cphContent_rdpDate_dateInput_ClientState'
+  name='ctl00_cphContent_rdpDate_dateInput_ClientState'
+  value='{"enabled":true,"emptyMessage":"","validationText":"2026-09-22-00-00-00","valueAsString":"2026-09-22-00-00-00","minDateStr":"1000-01-01-00-00-00","maxDateStr":"2099-12-31-00-00-00","lastSetTextBoxValue":"22/09/2026"}'
+  checked=False
+  disabled=False
+  readonly=False
+
+INPUT #10
+  type='hidden'
+  id='ctl00_cphContent_rdpDate_calendar_SD'
+  name='ctl00_cphContent_rdpDate_calendar_SD'
+  value='[]'
+  checked=False
+  disabled=False
+  readonly=False
+
+INPUT #11
+  type='hidden'
+  id='ctl00_cphContent_rdpDate_calendar_AD'
+  name='ctl00_cphContent_rdpDate_calendar_AD'
+  value='[[1000,1,1],[2099,12,30],[2026,9,23]]'
+  checked=False
+  disabled=False
+  readonly=False
+
+INPUT #12
+  type='hidden'
+  id='ctl00_cphContent_rdpDate_ClientState'
+  name='ctl00_cphContent_rdpDate_ClientState'
+  value='{"minDateStr":"1000-01-01-00-00-00","maxDateStr":"2099-12-31-00-00-00"}'
+  checked=False
+  disabled=False
+  readonly=False
+
+INPUT #13
+  type='submit'
+  id='ctl00_cphContent_btnConsultar'
+  name='ctl00$cphContent$btnConsultar'
+  value='Consultar'
+  checked=False
+  disabled=False
+  readonly=False
+
+INPUT #14
+  type='submit'
+  id='ctl00_cphContent_btnExportar'
+  name='ctl00$cphContent$btnExportar'
+  value='Exportar'
+  checked=False
+  disabled=False
+  readonly=False
+
+INPUT #15
+  type='hidden'
+  id='ctl00_cphContent_hdTipoMoneda'
+  name='ctl00$cphContent$hdTipoMoneda'
+  value='MN'
+  checked=False
+  disabled=False
+  readonly=False
+
+INPUT #16
+  type='hidden'
+  id='ctl00_cphContent_hdTipoEntidad'
+  name='ctl00$cphContent$hdTipoEntidad'
+  value='B'
+  checked=False
+  disabled=False
+  readonly=False
+
+INPUT #17
+  type='hidden'
+  id='ctl00_cphContent_rpgActualMn_ClientState'
+  name='ctl00_cphContent_rpgActualMn_ClientState'
+  value=None
+  checked=False
+  disabled=False
+  readonly=False
+
+INPUT #18
+  type='hidden'
+  id='ctl00_cphContent_rpgActualMex_ClientState'
+  name='ctl00_cphContent_rpgActualMex_ClientState'
+  value=None
+  checked=False
+  disabled=False
+  readonly=False
+
+==============================================================================================================
+4. CAMPOS HIDDEN Y ASP.NET
+==============================================================================================================
+Hidden encontrados: 14
+
+Nombre='ctl00_MainScriptManager_TSM'
+ID='ctl00_MainScriptManager_TSM'
+Longitud valor=316
+SHA256 valor=e03ef34211e8410cfe1c99dbd1adaf45317601b376229512944e63afc3da3559
+Inicio=';;System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf38'
+Final=':33715776:7c926187:88144a7a:8674cba1:b7778d6c:c08e9f8a:59462f1:a51ee93e:e04c56cc'
+
+Nombre='__EVENTTARGET'
+ID='__EVENTTARGET'
+Longitud valor=0
+Valor=''
+
+Nombre='__EVENTARGUMENT'
+ID='__EVENTARGUMENT'
+Longitud valor=0
+Valor=''
+
+Nombre='__VIEWSTATE'
+ID='__VIEWSTATE'
+Longitud valor=321276
+SHA256 valor=0745c100104081464a3ba1be1a84b9fb7673a03d399b2c1801aaba1c67103c3b
+Inicio='/wEPDwUKMTQ4NzU2NjIzOA9kFgJmD2QWAgIDD2QWAgIDD2QWAgIBD2QWAmYPZBYCAgEPFgIeBXN0eWxl'
+Final='MDAkY3BoQ29udGVudCRycGdBY3R1YWxNZXhyDGWWm6GNoraWa7y84kpm5Xd5rzOr3InAieepy7/gkA=='
+
+Nombre='__VIEWSTATEGENERATOR'
+ID='__VIEWSTATEGENERATOR'
+Longitud valor=8
+Valor='6CF503C4'
+
+Nombre='__EVENTVALIDATION'
+ID='__EVENTVALIDATION'
+Longitud valor=220
+SHA256 valor=52cc702f368a08105af092ab2f6db1fffc1ea0b307d28444f325438e154441da
+Inicio='/wEdAAiO+Rrgu9iFJan8TfcJWqVKlawXGEyscjwHM2iJ+8drUdz81GR1o7NJCyAXkQgagG3oPDMR8cgD'
+Final='zd3TV0zfA1op4PtMzWjlA4GHFyJ24Ec7vPZ4HTvgILbSL7KWMfRjelUBB5FjZoMfzeuppqE/DZ8jPRXA'
+
+Nombre='ctl00_cphContent_rdpDate_dateInput_ClientState'
+ID='ctl00_cphContent_rdpDate_dateInput_ClientState'
+Longitud valor=216
+SHA256 valor=fa4775987cf183361486d39c4763d73c02305d2406ce840d6919f800de72c3ed
+Inicio='{"enabled":true,"emptyMessage":"","validationText":"2026-09-22-00-00-00","valueA'
+Final='00-00-00","maxDateStr":"2099-12-31-00-00-00","lastSetTextBoxValue":"22/09/2026"}'
+
+Nombre='ctl00_cphContent_rdpDate_calendar_SD'
+ID='ctl00_cphContent_rdpDate_calendar_SD'
+Longitud valor=2
+Valor='[]'
+
+Nombre='ctl00_cphContent_rdpDate_calendar_AD'
+ID='ctl00_cphContent_rdpDate_calendar_AD'
+Longitud valor=37
+Valor='[[1000,1,1],[2099,12,30],[2026,9,23]]'
+
+Nombre='ctl00_cphContent_rdpDate_ClientState'
+ID='ctl00_cphContent_rdpDate_ClientState'
+Longitud valor=71
+Valor='{"minDateStr":"1000-01-01-00-00-00","maxDateStr":"2099-12-31-00-00-00"}'
+
+Nombre='ctl00$cphContent$hdTipoMoneda'
+ID='ctl00_cphContent_hdTipoMoneda'
+Longitud valor=2
+Valor='MN'
+
+Nombre='ctl00$cphContent$hdTipoEntidad'
+ID='ctl00_cphContent_hdTipoEntidad'
+Longitud valor=1
+Valor='B'
+
+Nombre='ctl00_cphContent_rpgActualMn_ClientState'
+ID='ctl00_cphContent_rpgActualMn_ClientState'
+Longitud valor=0
+Valor=''
+
+Nombre='ctl00_cphContent_rpgActualMex_ClientState'
+ID='ctl00_cphContent_rpgActualMex_ClientState'
+Longitud valor=0
+Valor=''
+
+==============================================================================================================
+5. SELECTS
+==============================================================================================================
+Selects encontrados: 0
+
+==============================================================================================================
+6. BOTONES
+==============================================================================================================
+Botones encontrados: 2
+
+BOTÓN #1
+  etiqueta=<input>
+  type='submit'
+  id='ctl00_cphContent_btnConsultar'
+  name='ctl00$cphContent$btnConsultar'
+  value='Consultar'
+  text=''
+  onclick=None
+
+BOTÓN #2
+  etiqueta=<input>
+  type='submit'
+  id='ctl00_cphContent_btnExportar'
+  name='ctl00$cphContent$btnExportar'
+  value='Exportar'
+  text=''
+  onclick=None
+
+==============================================================================================================
+7. CANDIDATOS A CONTROLES DE FECHA
+==============================================================================================================
+Candidatos: 45
+
+<div>
+  id='ctl00_cphContent_rdpDate_wrapper'
+  name=None
+  type=None
+  value=None
+  class=['RadPicker', 'RadPicker_Metro']
+  title=None
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<input>
+  id='ctl00_cphContent_rdpDate'
+  name='ctl00$cphContent$rdpDate'
+  type='text'
+  value='2026-09-22'
+  class=['rdfd_', 'radPreventDecorate']
+  title='Visually hidden input created for functionality purposes.'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<span>
+  id='ctl00_cphContent_rdpDate_dateInput_wrapper'
+  name=None
+  type=None
+  value=None
+  class=['riSingle', 'RadInput', 'RadInput_Metro']
+  title=None
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<input>
+  id='ctl00_cphContent_rdpDate_dateInput'
+  name='ctl00$cphContent$rdpDate$dateInput'
+  type='text'
+  value='22/09/2026'
+  class=['riTextBox', 'riEnabled']
+  title=None
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<input>
+  id='ctl00_cphContent_rdpDate_dateInput_ClientState'
+  name='ctl00_cphContent_rdpDate_dateInput_ClientState'
+  type='hidden'
+  value='{"enabled":true,"emptyMessage":"","validationText":"2026-09-22-00-00-00","valueAsString":"2026-09-22-00-00-00","minDateStr":"1000-01-01-00-00-00","maxDateStr":"2099-12-31-00-00-00","lastSetTextBoxValue":"22/09/2026"}'
+  class=None
+  title=None
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<a>
+  id='ctl00_cphContent_rdpDate_popupButton'
+  name=None
+  type=None
+  value=None
+  class=['rcCalPopup']
+  title='Open the calendar popup.'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<div>
+  id='ctl00_cphContent_rdpDate_calendar_wrapper'
+  name=None
+  type=None
+  value=None
+  class=None
+  title=None
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<table>
+  id='ctl00_cphContent_rdpDate_calendar'
+  name=None
+  type=None
+  value=None
+  class=['RadCalendar', 'RadCalendar_Metro']
+  title=None
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<a>
+  id='ctl00_cphContent_rdpDate_calendar_FNP'
+  name=None
+  type=None
+  value=None
+  class=['rcFastPrev']
+  title='<<'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<a>
+  id='ctl00_cphContent_rdpDate_calendar_NP'
+  name=None
+  type=None
+  value=None
+  class=['rcPrev']
+  title='<'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<td>
+  id='ctl00_cphContent_rdpDate_calendar_Title'
+  name=None
+  type=None
+  value=None
+  class=['rcTitle']
+  title=None
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<a>
+  id='ctl00_cphContent_rdpDate_calendar_NN'
+  name=None
+  type=None
+  value=None
+  class=['rcNext']
+  title='>'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<a>
+  id='ctl00_cphContent_rdpDate_calendar_FNN'
+  name=None
+  type=None
+  value=None
+  class=['rcFastNext']
+  title='>>'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<table>
+  id='ctl00_cphContent_rdpDate_calendar_Top'
+  name=None
+  type=None
+  value=None
+  class=['rcMainTable']
+  title=None
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<th>
+  id='ctl00_cphContent_rdpDate_calendar_Top_cs_1'
+  name=None
+  type=None
+  value=None
+  class=None
+  title='lunes'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<th>
+  id='ctl00_cphContent_rdpDate_calendar_Top_cs_2'
+  name=None
+  type=None
+  value=None
+  class=None
+  title='martes'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<th>
+  id='ctl00_cphContent_rdpDate_calendar_Top_cs_3'
+  name=None
+  type=None
+  value=None
+  class=None
+  title='miércoles'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<th>
+  id='ctl00_cphContent_rdpDate_calendar_Top_cs_4'
+  name=None
+  type=None
+  value=None
+  class=None
+  title='jueves'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<th>
+  id='ctl00_cphContent_rdpDate_calendar_Top_cs_5'
+  name=None
+  type=None
+  value=None
+  class=None
+  title='viernes'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<th>
+  id='ctl00_cphContent_rdpDate_calendar_Top_cs_6'
+  name=None
+  type=None
+  value=None
+  class=None
+  title='sábado'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<th>
+  id='ctl00_cphContent_rdpDate_calendar_Top_cs_7'
+  name=None
+  type=None
+  value=None
+  class=None
+  title='domingo'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<th>
+  id='ctl00_cphContent_rdpDate_calendar_Top_rs_1'
+  name=None
+  type=None
+  value=None
+  class=None
+  title=None
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<td>
+  id=None
+  name=None
+  type=None
+  value=None
+  class=['rcOtherMonth']
+  title='lunes, agosto 31, 2026'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<th>
+  id='ctl00_cphContent_rdpDate_calendar_Top_rs_2'
+  name=None
+  type=None
+  value=None
+  class=None
+  title=None
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<th>
+  id='ctl00_cphContent_rdpDate_calendar_Top_rs_3'
+  name=None
+  type=None
+  value=None
+  class=None
+  title=None
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<th>
+  id='ctl00_cphContent_rdpDate_calendar_Top_rs_4'
+  name=None
+  type=None
+  value=None
+  class=None
+  title=None
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<th>
+  id='ctl00_cphContent_rdpDate_calendar_Top_rs_5'
+  name=None
+  type=None
+  value=None
+  class=None
+  title=None
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<td>
+  id=None
+  name=None
+  type=None
+  value=None
+  class=['rcOtherMonth']
+  title='jueves, octubre 01, 2026'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<td>
+  id=None
+  name=None
+  type=None
+  value=None
+  class=['rcOtherMonth']
+  title='viernes, octubre 02, 2026'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<td>
+  id=None
+  name=None
+  type=None
+  value=None
+  class=['rcOtherMonth']
+  title='sábado, octubre 03, 2026'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<td>
+  id=None
+  name=None
+  type=None
+  value=None
+  class=['rcOtherMonth']
+  title='domingo, octubre 04, 2026'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<th>
+  id='ctl00_cphContent_rdpDate_calendar_Top_rs_6'
+  name=None
+  type=None
+  value=None
+  class=None
+  title=None
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<td>
+  id=None
+  name=None
+  type=None
+  value=None
+  class=['rcOtherMonth']
+  title='lunes, octubre 05, 2026'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<td>
+  id=None
+  name=None
+  type=None
+  value=None
+  class=['rcOtherMonth']
+  title='martes, octubre 06, 2026'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<td>
+  id=None
+  name=None
+  type=None
+  value=None
+  class=['rcOtherMonth']
+  title='miércoles, octubre 07, 2026'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<td>
+  id=None
+  name=None
+  type=None
+  value=None
+  class=['rcOtherMonth']
+  title='jueves, octubre 08, 2026'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<td>
+  id=None
+  name=None
+  type=None
+  value=None
+  class=['rcOtherMonth']
+  title='viernes, octubre 09, 2026'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<td>
+  id=None
+  name=None
+  type=None
+  value=None
+  class=['rcOtherMonth']
+  title='sábado, octubre 10, 2026'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<td>
+  id=None
+  name=None
+  type=None
+  value=None
+  class=['rcOtherMonth']
+  title='domingo, octubre 11, 2026'
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<input>
+  id='ctl00_cphContent_rdpDate_calendar_SD'
+  name='ctl00_cphContent_rdpDate_calendar_SD'
+  type='hidden'
+  value='[]'
+  class=None
+  title=None
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<input>
+  id='ctl00_cphContent_rdpDate_calendar_AD'
+  name='ctl00_cphContent_rdpDate_calendar_AD'
+  type='hidden'
+  value='[[1000,1,1],[2099,12,30],[2026,9,23]]'
+  class=None
+  title=None
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<input>
+  id='ctl00_cphContent_rdpDate_ClientState'
+  name='ctl00_cphContent_rdpDate_ClientState'
+  type='hidden'
+  value='{"minDateStr":"1000-01-01-00-00-00","maxDateStr":"2099-12-31-00-00-00"}'
+  class=None
+  title=None
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<td>
+  id=None
+  name=None
+  type=None
+  value=None
+  class=['APLI_txtFecha']
+  title=None
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<td>
+  id=None
+  name=None
+  type=None
+  value=None
+  class=['APLI_txtFecha']
+  title=None
+  placeholder=None
+  onchange=None
+  onclick=None
+
+<span>
+  id='ctl00_cphContent_lblMensajeFecha'
+  name=None
+  type=None
+  value=None
+  class=['APLI_subtitulo']
+  title=None
+  placeholder=None
+  onchange=None
+  onclick=None
+
+==============================================================================================================
+8. CONTROLES DE MONEDA
+==============================================================================================================
+Inputs radio:
+
+Elementos cuyo texto contiene 'Moneda Nacional' o 'Moneda Extranjera':
+
+<span>
+  id='ctl00_cphContent_lblMensajeFecha'
+  name=None
+  href=None
+  value=None
+  onclick=None
+  texto='Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 22/09/2026'
+
+<ul>
+  id='tabTasasSaldos'
+  name=None
+  href=None
+  value=None
+  onclick=None
+  texto='Moneda Nacional Moneda Extranjera'
+
+<li>
+  id='ctl00_cphContent_li_Mn'
+  name=None
+  href=None
+  value=None
+  onclick=None
+  texto='Moneda Nacional'
+
+<a>
+  id='ctl00_cphContent_lbtnMn'
+  name=None
+  href="javascript:__doPostBack('ctl00$cphContent$lbtnMn','')"
+  value=None
+  onclick=None
+  texto='Moneda Nacional'
+
+<li>
+  id='ctl00_cphContent_li_Mex'
+  name=None
+  href=None
+  value=None
+  onclick=None
+  texto='Moneda Extranjera'
+
+<a>
+  id='ctl00_cphContent_lbtnMex'
+  name=None
+  href="javascript:__doPostBack('ctl00$cphContent$lbtnMex','')"
+  value=None
+  onclick=None
+  texto='Moneda Extranjera'
+
+==============================================================================================================
+9. POSTBACKS Y EVENTOS
+==============================================================================================================
+Postbacks explícitos:
+
+  __EVENTTARGET='ctl00$cphContent$lbtnMn'
+  __EVENTARGUMENT=''
+
+  __EVENTTARGET='ctl00$cphContent$lbtnMex'
+  __EVENTARGUMENT=''
+
+Elementos con onclick/onchange:
+
+==============================================================================================================
+10. PRESENCIA DE 'CONSUMO'
+==============================================================================================================
+¿Aparece 'Consumo'?: True
+
+Filas <tr> que contienen 'Consumo':
+
+Consumo
+
+Consumo
+
+==============================================================================================================
+11. TABLAS Y ENCABEZADOS
+==============================================================================================================
+Tablas encontradas: 15
+
+TABLA CANDIDATA #10
+  id='ctl00_cphContent_rpgActualMn_OT'
+  class=['rpgTable']
+  Primeras celdas:
+    'Tasa Anual (%)'
+    'BBVA Bancom Crédito Pichincha BIF Scotiabank Citibank Interbank Mibanco GNB Falabella Santander Ripley Alfin ICBC Bank of China BCI Compartamos Santander Cons. Bank Efectiva Promedio 4.81 6.66 5.04 4.77 6.08 5.41 s.i. 5.72 - 5.82 - 7.41 - 11.82 5.60 - 5.30 - - - 5.14 6.18 - 6.07 - 6.63 6.28 s.i. 5.99 - 6.24 - 8.36 - - - - - - - - 6.23 4.76 - 4.67 4.65 4.74 4.45 s.i. 4.40 - 5.00 - 6.80 - 10.85 - - - - - - 4.76 4.71 7.05 4.85 4.62 4.89 5.39 s.i. 5.31 - 5.88 - 7.77 - 13.00 4.61 - 5.36 - - - 5.09 6.40 4.65 5.82 4.95 6.26 5.96 s.i. 5.67 - 6.96 - 8.08 - - 6.34 - 5.18 - - - 6.05 5.48 - 5.75 - - 4.45 s.i. 6.71 - 6.46 - 6.57 - - - - - - - - 5.71 4.53 - 5.07 - 4.89 5.60 s.i. 6.36 - - - - - - 4.43 - - - - - 5.14 7.68 8.30 7.38 6.10 7.93 7.11 s.i. 7.27 - 6.80 - 8.62 - 10.76 - - 6.28 - - - 7.44 7.90 6.75 7.79 5.60 7.26 7.07 s.i. 7.23 - 7.52 - 7.78 - 11.00 - - - - - - 7.55 6.07 - 7.63 5.26 11.15 6.87 s.i. 7.86 - 5.30 - 10.10 - - - - 5.76 - - - 7.01 8.12 - 7.01 6.33 9.19 7.56 s.i. 7.11 - 7.18 - 6.80 - 9.15 - - 7.38 - - - 7.37 7.74 8.42 7.07 6.21 7.76 6.99 s.i. 7.11 - 6.72 - 6.50 - 11.18 - - 8.08 - - - 7.30 8.00 - 7.62 7.73 7.64 8.04 s.i. 6.82 - 7.85 - 7.13 - 8.51 - - - - - - 7.77 7.51 - 7.35 7.90 6.71 6.67 s.i. 7.61 - - - - - 11.72 - - - - - - 7.61 12.33 10.47 8.98 6.21 9.72 9.07 s.i. 9.81 18.16 - - 9.54 - 10.99 - - - - - - 10.18 9.80 - 9.15 15.09 15.98 9.08 s.i. 9.40 - - - 13.00 - 7.75 - - - - - - 9.56 11.80 - 8.92 - 11.10 8.13 s.i. 9.16 - - - 10.62 - - - - - - - - 9.59 12.39 11.11 8.92 4.90 12.14 8.74 s.i. 10.86 - - - 7.97 - 13.00 - - - - - - 9.59 11.48 8.39 9.00 5.48 10.99 9.61 s.i. 9.42 - - - 9.83 - 11.69 - - - - - - 9.81 11.84 - 9.12 - 10.41 9.27 s.i. 10.62 18.16 - - - - - - - - - - - 10.39 12.90 25.00 8.75 - 8.41 8.63 s.i. 10.99 - - - - - 14.00 - - - - - - 11.16 15.36 18.52 21.07 13.27 17.21 12.98 s.i. 16.28 22.26 9.09 - - - 14.00 - - - 30.63 - 35.08 19.45 9.25 9.75 13.77 13.27 19.48 9.70 s.i. 12.28 - - - - - - - - - - - - 13.22 14.22 - 10.92 - - 10.66 s.i. - 111.31 - - - - - - - - - - - 12.37 15.38 10.00 8.96 - 14.14 9.04 s.i. 11.09 44.14 9.00 - - - - - - - - - - 13.00 14.30 - 11.22 - 9.67 10.55 s.i. 12.29 33.79 9.21 - - - 14.00 - - - 56.26 - - 15.79 15.36 16.91 15.49 - 9.28 9.74 s.i. 15.36 26.63 - - - - - - - - 39.66 - 38.52 23.70 15.67 19.01 22.75 - 14.50 13.66 s.i. 17.35 20.99 - - - - - - - - 30.20 - 34.73 19.94 22.53 21.34 64.17 36.61 22.65 - s.i. 16.85 54.45 - - - - - - - - 76.47 - 42.35 67.19 34.43 - 53.53 36.61 - - s.i. - - - - - - - - - - - - - 41.72 9.47 - 27.32 - 22.65 - s.i. 18.33 - - - - - - - - - - - - 26.27 12.92 - - - - - s.i. 17.00 53.56 - - - - - - - - 37.65 - - 52.65 35.33 - 94.49 - - - s.i. - 64.21 - - - - - - - - 36.92 - - 70.18 16.15 - 95.87 - - - s.i. - 69.96 - - - - - - - - 111.24 - - 78.75 43.25 - 74.20 - - - s.i. 9.54 66.01 - - - - - - - - 111.31 - 72.06 108.37 22.32 - 70.12 - - - s.i. - 59.07 - - - - - - - - 56.08 - 43.03 61.00 20.06 21.34 59.02 - - - s.i. 18.47 49.55 - - - - - - - - 34.94 - 42.29 39.94 53.60 15.27 58.13 38.37 26.15 52.57 s.i. 55.88 52.11 17.33 78.73 - 80.27 49.87 - - - 37.23 49.57 68.27 57.19 77.85 35.21 71.83 48.21 60.74 65.42 s.i. 65.80 - 30.76 86.45 - 101.88 - - - - - 82.47 - 73.72 11.58 - - - - - s.i. - 54.19 - - - - - - - - 89.59 - - 14.14 11.91 - 11.14 - 12.61 9.80 s.i. - - - - - - - - - - - - 68.81 15.48 30.65 24.74 89.27 12.30 2.69 25.33 s.i. 29.48 65.06 - 31.60 - 59.22 51.68 - - - 53.60 71.58 86.56 81.61 17.60 15.14 21.27 13.62 18.45 17.61 s.i. 17.76 36.42 12.35 25.60 - 34.21 49.80 - - - 35.58 46.00 67.71 24.25 - 50.15 - - - - s.i. - - - - - - - - - - - - - 50.15 7.56 9.42 7.72 7.92 7.81 7.33 s.i. 7.58 14.34 7.49 - - - - - - - - 11.00 - 7.67 7.56 9.42 7.72 7.92 7.81 7.33 s.i. 7.58 14.34 7.49 - - - - - - - - 11.00 - 7.67'
+    'BBVA'
+    'Bancom'
+    'Crédito'
+    'Pichincha'
+    'BIF'
+    'Scotiabank'
+    'Citibank'
+    'Interbank'
+    'Mibanco'
+    'GNB'
+    'Falabella'
+    'Santander'
+    'Ripley'
+    'Alfin'
+    'ICBC'
+    'Bank of China'
+    'BCI'
+    'Compartamos'
+    'Santander Cons. Bank'
+    'Efectiva'
+    'Promedio'
+    '4.81'
+    '6.66'
+    '5.04'
+    '4.77'
+    '6.08'
+    '5.41'
+    's.i.'
+    '5.72'
+    '-'
+    '5.82'
+    '-'
+    '7.41'
+    '-'
+    '11.82'
+    '5.60'
+    '-'
+    '5.30'
+    '-'
+    '-'
+    '-'
+    '5.14'
+    '6.18'
+    '-'
+    '6.07'
+    '-'
+    '6.63'
+    '6.28'
+    's.i.'
+    '5.99'
+    '-'
+    '6.24'
+    '-'
+    '8.36'
+    '-'
+    '-'
+    '-'
+    '-'
+    '-'
+    '-'
+    '-'
+    '-'
+    '6.23'
+    '4.76'
+    '-'
+    '4.67'
+    '4.65'
+    '4.74'
+    '4.45'
+    's.i.'
+    '4.40'
+    '-'
+    '5.00'
+    '-'
+    '6.80'
+    '-'
+    '10.85'
+
+  Primeros 2000 caracteres de la tabla:
+Tasa Anual (%) BBVA Bancom Crédito Pichincha BIF Scotiabank Citibank Interbank Mibanco GNB Falabella Santander Ripley Alfin ICBC Bank of China BCI Compartamos Santander Cons. Bank Efectiva Promedio 4.81 6.66 5.04 4.77 6.08 5.41 s.i. 5.72 - 5.82 - 7.41 - 11.82 5.60 - 5.30 - - - 5.14 6.18 - 6.07 - 6.63 6.28 s.i. 5.99 - 6.24 - 8.36 - - - - - - - - 6.23 4.76 - 4.67 4.65 4.74 4.45 s.i. 4.40 - 5.00 - 6.80 - 10.85 - - - - - - 4.76 4.71 7.05 4.85 4.62 4.89 5.39 s.i. 5.31 - 5.88 - 7.77 - 13.00 4.61 - 5.36 - - - 5.09 6.40 4.65 5.82 4.95 6.26 5.96 s.i. 5.67 - 6.96 - 8.08 - - 6.34 - 5.18 - - - 6.05 5.48 - 5.75 - - 4.45 s.i. 6.71 - 6.46 - 6.57 - - - - - - - - 5.71 4.53 - 5.07 - 4.89 5.60 s.i. 6.36 - - - - - - 4.43 - - - - - 5.14 7.68 8.30 7.38 6.10 7.93 7.11 s.i. 7.27 - 6.80 - 8.62 - 10.76 - - 6.28 - - - 7.44 7.90 6.75 7.79 5.60 7.26 7.07 s.i. 7.23 - 7.52 - 7.78 - 11.00 - - - - - - 7.55 6.07 - 7.63 5.26 11.15 6.87 s.i. 7.86 - 5.30 - 10.10 - - - - 5.76 - - - 7.01 8.12 - 7.01 6.33 9.19 7.56 s.i. 7.11 - 7.18 - 6.80 - 9.15 - - 7.38 - - - 7.37 7.74 8.42 7.07 6.21 7.76 6.99 s.i. 7.11 - 6.72 - 6.50 - 11.18 - - 8.08 - - - 7.30 8.00 - 7.62 7.73 7.64 8.04 s.i. 6.82 - 7.85 - 7.13 - 8.51 - - - - - - 7.77 7.51 - 7.35 7.90 6.71 6.67 s.i. 7.61 - - - - - 11.72 - - - - - - 7.61 12.33 10.47 8.98 6.21 9.72 9.07 s.i. 9.81 18.16 - - 9.54 - 10.99 - - - - - - 10.18 9.80 - 9.15 15.09 15.98 9.08 s.i. 9.40 - - - 13.00 - 7.75 - - - - - - 9.56 11.80 - 8.92 - 11.10 8.13 s.i. 9.16 - - - 10.62 - - - - - - - - 9.59 12.39 11.11 8.92 4.90 12.14 8.74 s.i. 10.86 - - - 7.97 - 13.00 - - - - - - 9.59 11.48 8.39 9.00 5.48 10.99 9.61 s.i. 9.42 - - - 9.83 - 11.69 - - - - - - 9.81 11.84 - 9.12 - 10.41 9.27 s.i. 10.62 18.16 - - - - - - - - - - - 10.39 12.90 25.00 8.75 - 8.41 8.63 s.i. 10.99 - - - - - 14.00 - - - - - - 11.16 15.36 18.52 21.07 13.27 17.21 12.98 s.i. 16.28 22.26 9.09 - - - 14.00 - - - 30.63 - 35.08 19.45 9.25 9.75 13.77 13.27 19.48 9.70 s.i. 12.28 - - - - - - - - - - - - 13.22 14.22 - 10.92 - - 10.66 s.i. - 
+
+TABLA CANDIDATA #12
+  id='ctl00_cphContent_rpgActualMex_OT'
+  class=['rpgTable']
+  Primeras celdas:
+    'Tasa Anual (%)'
+    'BBVA Bancom Crédito Pichincha BIF Scotiabank Citibank Interbank Mibanco GNB Falabella Santander Ripley Alfin ICBC Bank of China BCI Compartamos Santander Cons. Bank Efectiva Promedio 5.99 - 4.36 4.41 4.91 4.94 s.i. 5.23 - 5.21 - 6.65 - - 6.62 3.83 5.32 - - - 4.84 5.48 - 4.96 6.50 4.37 4.90 s.i. 4.72 - 5.59 - 7.75 - - - - - - - - 4.92 7.25 - 4.44 - 4.64 5.71 s.i. 4.74 - 6.60 - 5.71 - - - - 4.10 - - - 4.61 4.33 - 3.86 4.38 4.52 3.88 s.i. 5.45 - 4.68 - 5.88 - - 6.65 3.83 4.81 - - - 4.44 5.27 - 4.24 - 6.10 4.76 s.i. 4.12 - 4.43 - 7.74 - - - - 4.72 - - - 4.86 5.71 - 5.17 - 5.85 4.10 s.i. 7.70 - - - 8.24 - - - - - - - - 5.61 6.25 - 5.25 - 9.43 6.91 s.i. 5.95 - - - 9.18 - - 5.61 - 7.00 - - - 6.30 7.16 7.04 6.04 5.84 7.10 5.25 s.i. 6.57 - 6.27 - 6.58 - 9.95 6.10 - 6.57 - - - 6.30 7.48 - 6.54 6.62 6.44 5.48 s.i. 6.45 - 6.84 - 7.16 - - - - - - - - 6.65 7.18 - 5.46 4.25 6.14 6.24 s.i. 6.44 - - - 6.12 - - - - - - - - 5.65 6.41 6.98 6.43 6.12 8.47 6.34 s.i. 6.64 - 5.92 - 6.44 - 11.00 6.16 - 5.18 - - - 6.45 7.55 8.30 6.07 4.99 6.98 4.52 s.i. 7.27 - 6.17 - 7.57 - - - - 7.73 - - - 6.16 6.59 6.14 5.82 8.96 6.82 5.11 s.i. 6.79 - - - 9.15 - - - - - - - - 6.50 6.98 - 6.40 6.01 10.62 6.57 s.i. 6.40 - 6.12 - 7.29 - 9.30 5.40 - - - - - 6.72 8.93 9.52 7.52 8.45 8.40 7.52 s.i. 9.08 - 10.00 - 7.78 - - - - - - - - 7.86 8.92 - 8.38 10.31 14.05 8.14 s.i. 8.38 - - - 9.41 - - - - - - - - 8.60 8.53 - 7.41 - - 7.65 s.i. 11.63 - - - 5.99 - - - - - - - - 7.48 9.22 10.31 5.62 10.50 7.33 8.35 s.i. 9.99 - 10.00 - 6.25 - - - - - - - - 6.34 9.46 7.95 9.00 6.55 9.00 7.56 s.i. 9.09 - - - 8.35 - - - - - - - - 8.81 9.89 12.00 8.18 11.32 7.00 6.46 s.i. 11.59 - - - 10.29 - - - - - - - - 8.72 7.73 - 8.09 8.15 9.50 6.90 s.i. 9.10 - - - 10.29 - - - - - - - - 7.85 10.60 7.75 8.23 17.29 11.35 7.07 s.i. 11.85 - 5.94 - 5.58 - - - - - - - - 8.58 8.93 7.75 12.00 17.29 14.57 9.07 s.i. 13.62 - 5.94 - - - - - - - - - - 11.87 10.11 - 7.29 - - 6.37 s.i. 10.10 - - - - - - - - - - - - 7.92 11.34 - 5.48 - 5.69 10.03 s.i. 9.20 - - - 5.58 - - - - - - - - 5.75 12.82 - 7.46 - 8.56 6.92 s.i. 10.54 - - - - - - - - - - - - 7.78 12.71 - 6.79 - 7.80 5.15 s.i. - - - - - - - - - - - - - 6.05 11.34 - 6.61 - - 10.20 s.i. 11.01 - - - - - - - - - - - - 7.76 16.61 - 23.64 20.36 - - s.i. 17.22 - - - - - - - - - - - - 21.13 34.74 - 22.51 20.36 - - s.i. - - - - - - - - - - - - - 24.13 13.48 - 28.01 - - - s.i. 17.22 - - - - - - - - - - - - 21.56 - - - - - - s.i. - - - - - - - - - - - - - - - - - - - - s.i. - - - - - - - - - - - - - - - - - - - - s.i. - - - - - - - - - - - - - - - - - - - - s.i. - - - - - - - - - - - - - - - - - - - - s.i. - - - - - - - - - - - - - - 10.00 - - - - - s.i. - - - - - - - - - - - - - 10.00 52.92 37.33 48.41 47.05 45.67 58.32 s.i. 59.87 - 32.60 - - - - - - - - - - 51.53 64.04 37.33 57.63 47.05 52.10 62.44 s.i. 61.19 - 46.74 - - - - - - - - - - 59.56 16.20 - - - - - s.i. - - - - - - - - - - - - - 16.20 9.95 - 9.50 - 8.99 4.99 s.i. - - - - - - - - - - - - - 8.05 5.01 - 5.23 - 13.38 - s.i. 5.86 - - - - - - - - - - - - 5.14 7.83 - 5.52 - 7.05 9.34 s.i. 8.93 - 10.20 - - - - - - - - - - 6.09 - - - - - - s.i. - - - - - - - - - - - - - - 7.08 - 6.89 - 7.57 6.52 s.i. 7.23 - - - - - - - - - - - - 6.95 7.08 - 6.89 - 7.57 6.52 s.i. 7.23 - - - - - - - - - - - - 6.95'
+    'BBVA'
+    'Bancom'
+    'Crédito'
+    'Pichincha'
+    'BIF'
+    'Scotiabank'
+    'Citibank'
+    'Interbank'
+    'Mibanco'
+    'GNB'
+    'Falabella'
+    'Santander'
+    'Ripley'
+    'Alfin'
+    'ICBC'
+    'Bank of China'
+    'BCI'
+    'Compartamos'
+    'Santander Cons. Bank'
+    'Efectiva'
+    'Promedio'
+    '5.99'
+    '-'
+    '4.36'
+    '4.41'
+    '4.91'
+    '4.94'
+    's.i.'
+    '5.23'
+    '-'
+    '5.21'
+    '-'
+    '6.65'
+    '-'
+    '-'
+    '6.62'
+    '3.83'
+    '5.32'
+    '-'
+    '-'
+    '-'
+    '4.84'
+    '5.48'
+    '-'
+    '4.96'
+    '6.50'
+    '4.37'
+    '4.90'
+    's.i.'
+    '4.72'
+    '-'
+    '5.59'
+    '-'
+    '7.75'
+    '-'
+    '-'
+    '-'
+    '-'
+    '-'
+    '-'
+    '-'
+    '-'
+    '4.92'
+    '7.25'
+    '-'
+    '4.44'
+    '-'
+    '4.64'
+    '5.71'
+    's.i.'
+    '4.74'
+    '-'
+    '6.60'
+    '-'
+    '5.71'
+    '-'
+    '-'
+
+  Primeros 2000 caracteres de la tabla:
+Tasa Anual (%) BBVA Bancom Crédito Pichincha BIF Scotiabank Citibank Interbank Mibanco GNB Falabella Santander Ripley Alfin ICBC Bank of China BCI Compartamos Santander Cons. Bank Efectiva Promedio 5.99 - 4.36 4.41 4.91 4.94 s.i. 5.23 - 5.21 - 6.65 - - 6.62 3.83 5.32 - - - 4.84 5.48 - 4.96 6.50 4.37 4.90 s.i. 4.72 - 5.59 - 7.75 - - - - - - - - 4.92 7.25 - 4.44 - 4.64 5.71 s.i. 4.74 - 6.60 - 5.71 - - - - 4.10 - - - 4.61 4.33 - 3.86 4.38 4.52 3.88 s.i. 5.45 - 4.68 - 5.88 - - 6.65 3.83 4.81 - - - 4.44 5.27 - 4.24 - 6.10 4.76 s.i. 4.12 - 4.43 - 7.74 - - - - 4.72 - - - 4.86 5.71 - 5.17 - 5.85 4.10 s.i. 7.70 - - - 8.24 - - - - - - - - 5.61 6.25 - 5.25 - 9.43 6.91 s.i. 5.95 - - - 9.18 - - 5.61 - 7.00 - - - 6.30 7.16 7.04 6.04 5.84 7.10 5.25 s.i. 6.57 - 6.27 - 6.58 - 9.95 6.10 - 6.57 - - - 6.30 7.48 - 6.54 6.62 6.44 5.48 s.i. 6.45 - 6.84 - 7.16 - - - - - - - - 6.65 7.18 - 5.46 4.25 6.14 6.24 s.i. 6.44 - - - 6.12 - - - - - - - - 5.65 6.41 6.98 6.43 6.12 8.47 6.34 s.i. 6.64 - 5.92 - 6.44 - 11.00 6.16 - 5.18 - - - 6.45 7.55 8.30 6.07 4.99 6.98 4.52 s.i. 7.27 - 6.17 - 7.57 - - - - 7.73 - - - 6.16 6.59 6.14 5.82 8.96 6.82 5.11 s.i. 6.79 - - - 9.15 - - - - - - - - 6.50 6.98 - 6.40 6.01 10.62 6.57 s.i. 6.40 - 6.12 - 7.29 - 9.30 5.40 - - - - - 6.72 8.93 9.52 7.52 8.45 8.40 7.52 s.i. 9.08 - 10.00 - 7.78 - - - - - - - - 7.86 8.92 - 8.38 10.31 14.05 8.14 s.i. 8.38 - - - 9.41 - - - - - - - - 8.60 8.53 - 7.41 - - 7.65 s.i. 11.63 - - - 5.99 - - - - - - - - 7.48 9.22 10.31 5.62 10.50 7.33 8.35 s.i. 9.99 - 10.00 - 6.25 - - - - - - - - 6.34 9.46 7.95 9.00 6.55 9.00 7.56 s.i. 9.09 - - - 8.35 - - - - - - - - 8.81 9.89 12.00 8.18 11.32 7.00 6.46 s.i. 11.59 - - - 10.29 - - - - - - - - 8.72 7.73 - 8.09 8.15 9.50 6.90 s.i. 9.10 - - - 10.29 - - - - - - - - 7.85 10.60 7.75 8.23 17.29 11.35 7.07 s.i. 11.85 - 5.94 - 5.58 - - - - - - - - 8.58 8.93 7.75 12.00 17.29 14.57 9.07 s.i. 13.62 - 5.94 - - - - - - - - - - 11.87 10.11 - 7.29 - - 6.37 s.i. 10.10 - - - - - - - - - - - - 7.92 11.34 - 5.48 - 5.69 10
+
+==============================================================================================================
+12. POSIBLES NOMBRES DE BANCOS VISIBLES
+==============================================================================================================
+Candidatos únicos: 5
+  'BBVA'
+  'Bancom'
+  'Scotiabank'
+  'Interbank'
+  'Mibanco'
+
+==============================================================================================================
+13. SCRIPTS EXTERNOS
+==============================================================================================================
+Scripts externos: 9
+  https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/ruxitagentjs_ICA7NVfjqrux_10345260810170330.js
+  https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/scripts/reportes.js
+  https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/WebResource.axd?d=rgfEyDv5Jn4FqJ_LNR24KkQC6ZIOeNXZXkjGvQbKELOLXnVxUCwteuhfA8eTPidVTBSw0NQlpYYW-cDhkgmciqj_OYMBc_2JyB5eqy9-FrM1&t=638901361900000000
+  https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl00_MainScriptManager_TSM&compress=1&_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3aa8328cc8-0a99-4e41-8fe3-b58afac64e45%3aea597d4b%3ab25378d2%3bTelerik.Web.UI%3aen-US%3a2fd12a9c-8a58-4b42-ba79-49ffdab676db%3a16e4e7cd%3af7645509%3a22a6274a%3a33715776%3a7c926187%3a88144a7a%3a8674cba1%3ab7778d6c%3ac08e9f8a%3a59462f1%3aa51ee93e%3ae04c56cc
+  https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/scripts/perfect-scrollbar-0.4.10.with-mousewheel.min.js
+  https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/scripts/bootstrap.js
+  https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/scripts/bootstrap-modal.js
+  https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/scripts/bootstrap-table.js
+  https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/scripts/bootstrap-modalmanager.js
+
+==============================================================================================================
+14. COOKIES DEL NAVEGADOR
+==============================================================================================================
+Cookies encontradas: 5
+
+  name='dtCookie'
+  domain='.sbs.gob.pe'
+  path='/'
+  value_length=93
+
+  name='incap_ses_980_2355492'
+  domain='.sbs.gob.pe'
+  path='/'
+  value_length=56
+
+  name='ASP.NET_SessionId'
+  domain='www.sbs.gob.pe'
+  path='/'
+  value_length=24
+
+  name='visid_incap_2355492'
+  domain='.sbs.gob.pe'
+  path='/'
+  value_length=76
+
+  name='TS01fc2e41'
+  domain='.www.sbs.gob.pe'
+  path='/'
+  value_length=170
+
+==============================================================================================================
+15. RESUMEN AUTOMÁTICO
+==============================================================================================================
+Página real detectada: True
+'Consumo' presente: True
+'Moneda Nacional' presente: True
+'Moneda Extranjera' presente: True
+Formularios: 1
+Inputs: 18
+Hidden: 14
+Selects: 0
+Tablas: 15
+
+El navegador NO cambió la fecha.
+El navegador NO seleccionó moneda.
+El navegador NO seleccionó bancos.
+El navegador NO consultó meses históricos.
+El navegador NO realizó la descarga de los 211 meses.

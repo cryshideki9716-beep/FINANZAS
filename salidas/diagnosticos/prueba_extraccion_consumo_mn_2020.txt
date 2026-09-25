@@ -1,0 +1,178 @@
+
+========================================================================================================================
+PRUEBA DE EXTRACCIÓN CONTROLADA CONSUMO MN - 30/06/2020
+========================================================================================================================
+Se consultará únicamente 30/06/2020.
+
+Objetivo:
+Demostrar qué fila numérica de DataZone corresponde exactamente a la etiqueta externa Consumo.
+
+NO se consultarán otros meses.
+NO se descargarán 211 meses.
+NO se seleccionarán los cinco bancos finales.
+NO se interpolarán valores.
+[OK] Página SBS real cargada.
+
+========================================================================================================================
+VALIDACIÓN PRE-CONSULTA
+========================================================================================================================
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+Fecha visible: '30/06/2020'
+Fecha interna: '2020-06-30'
+[OK] Visible e interna son exactamente 30/06/2020.
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+
+========================================================================================================================
+CONSULTAR
+========================================================================================================================
+
+[OK] SBS confirmó explícitamente:
+  id='ctl00_cphContent_lblMensajeFecha' | text='Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2020'
+
+[OK] El resultado histórico sigue confirmado como 'al 30/06/2020'.
+
+========================================================================================================================
+COMPROBACIÓN DE ESTRUCTURA MN
+========================================================================================================================
+Tabla MN externa encontrada: 1
+DataZone MN encontrada: 1
+
+========================================================================================================================
+RECONSTRUCCIÓN DE FILAS
+========================================================================================================================
+
+------------------------------------------------------------------------------------------------------------------------
+RECONSTRUCCIÓN ETIQUETA EXTERNA → FILA DATAZONE
+------------------------------------------------------------------------------------------------------------------------
+La correspondencia siguiente se obtuvo mediante alineación vertical en pantalla.
+No se utilizó ningún offset fijo.
+
+etiqueta | data_row_index | overlap_vertical | distancia_centros | columnas
+Corporativos | 1 | 1.000000 | 0.000000 | 16
+Descuentos | 2 | 1.000000 | 0.000000 | 16
+Préstamos hasta 30 días | 3 | 1.000000 | 0.000000 | 16
+Préstamos de 31 a 90 días | 4 | 1.000000 | 0.000000 | 16
+Préstamos de 91 a 180 días | 5 | 1.000000 | 0.000000 | 16
+Préstamos de 181 a 360 días | 6 | 1.000000 | 0.000000 | 16
+Préstamos a más de 360 días | 7 | 1.000000 | 0.000000 | 16
+Grandes Empresas | 8 | 1.000000 | 0.000000 | 16
+Descuentos | 9 | 1.000000 | 0.000000 | 16
+Préstamos hasta 30 días | 10 | 1.000000 | 0.000000 | 16
+Préstamos de 31 a 90 días | 11 | 1.000000 | 0.000000 | 16
+Préstamos de 91 a 180 días | 12 | 1.000000 | 0.000000 | 16
+Préstamos de 181 a 360 días | 13 | 1.000000 | 0.000000 | 16
+Préstamos a más de 360 días | 14 | 1.000000 | 0.000000 | 16
+Medianas Empresas | 15 | 1.000000 | 0.000000 | 16
+Descuentos | 16 | 1.000000 | 0.000000 | 16
+Préstamos hasta 30 días | 17 | 1.000000 | 0.000000 | 16
+Préstamos de 31 a 90 días | 18 | 1.000000 | 0.000000 | 16
+Préstamos de 91 a 180 días | 19 | 1.000000 | 0.000000 | 16
+Préstamos de 181 a 360 días | 20 | 1.000000 | 0.000000 | 16
+Préstamos a más de 360 días | 21 | 1.000000 | 0.000000 | 16
+Pequeñas Empresas | 22 | 1.000000 | 0.000000 | 16
+Descuentos | 23 | 1.000000 | 0.000000 | 16
+Préstamos hasta 30 días | 24 | 1.000000 | 0.000000 | 16
+Préstamos de 31 a 90 días | 25 | 1.000000 | 0.000000 | 16
+Préstamos de 91 a 180 días | 26 | 1.000000 | 0.000000 | 16
+Préstamos de 181 a 360 días | 27 | 1.000000 | 0.000000 | 16
+Préstamos a más de 360 días | 28 | 1.000000 | 0.000000 | 16
+Microempresas | 29 | 1.000000 | 0.000000 | 16
+Tarjetas de Crédito | 30 | 1.000000 | 0.000000 | 16
+Descuentos | 31 | 1.000000 | 0.000000 | 16
+Préstamos Revolventes | 32 | 1.000000 | 0.000000 | 16
+Préstamos a cuota fija hasta 30 días | 33 | 1.000000 | 0.000000 | 16
+Préstamos a cuota fija de 31 a 90 días | 34 | 1.000000 | 0.000000 | 16
+Préstamos a cuota fija de 91 a 180 días | 35 | 1.000000 | 0.000000 | 16
+Préstamos a cuota fija de 181 a 360 días | 36 | 1.000000 | 0.000000 | 16
+Préstamos a cuota fija a más de 360 días | 37 | 1.000000 | 0.000000 | 16
+Consumo | 38 | 1.000000 | 0.000000 | 16
+Tarjetas de Crédito | 39 | 1.000000 | 0.000000 | 16
+Préstamos Revolventes | 40 | 1.000000 | 0.000000 | 16
+Préstamos no Revolventes para automóviles | 41 | 1.000000 | 0.000000 | 16
+Préstamos no Revolventes para libre disponibilidad hasta 360 días | 42 | 1.000000 | 0.000000 | 16
+Préstamos no Revolventes para libre disponibilidad a más de 360 días | 43 | 1.000000 | 0.000000 | 16
+Créditos pignoraticios | 44 | 1.000000 | 0.000000 | 16
+Hipotecarios | 45 | 1.000000 | 0.000000 | 16
+Préstamos hipotecarios para vivienda | 46 | 1.000000 | 0.000000 | 16
+
+========================================================================================================================
+VALIDACIÓN DE LA FILA CONSUMO
+========================================================================================================================
+Tabla MN externa: ctl00_cphContent_rpgActualMn_OT
+DataZone MN: ctl00_cphContent_rpgActualMn_ctl00_DataZone_DT
+Filas numéricas de 16 columnas detectadas: 46
+
+Mapeo específico de Consumo:
+  DataZone row index: 38
+  Solapamiento vertical: 1.000000
+  Distancia entre centros Y: 0.000000
+
+Detección de encabezados:
+  Fila DOM usada como encabezado: 2
+  Encabezados alineados: 16
+  Encabezados únicos: 16
+  Distancia vertical al Consumo: 690.000000
+
+------------------------------------------------------------------------------------------------------------------------
+VALIDACIÓN 16 × 16
+------------------------------------------------------------------------------------------------------------------------
+Cantidad de encabezados: 16
+Cantidad de valores Consumo: 16
+[OK] 16 encabezados y 16 valores.
+
+Encabezados detectados:
+  01. BBVA
+  02. Comercio
+  03. Crédito
+  04. Pichincha
+  05. BIF
+  06. Scotiabank
+  07. Citibank
+  08. Interbank
+  09. Mibanco
+  10. GNB
+  11. Falabella
+  12. Santander
+  13. Ripley
+  14. Azteca
+  15. ICBC
+  16. Promedio
+
+========================================================================================================================
+RESULTADO: CONSUMO MN - 30/06/2020
+========================================================================================================================
+banco | tasa_consumo_mn
+--------------------------------------------------------------------------------
+BBVA | 38.70
+Comercio | 16.80
+Crédito | 28.37
+Pichincha | 38.94
+BIF | 24.61
+Scotiabank | 33.63
+Citibank | -
+Interbank | 49.31
+Mibanco | 53.41
+GNB | 36.32
+Falabella | 50.37
+Santander | -
+Ripley | 59.23
+Azteca | 147.18
+ICBC | -
+Promedio | 38.64
+
+NOTA:
+Promedio se conserva como el encabezado número 16 porque esta es una prueba estructural completa.
+No se está considerando Promedio como uno de los cinco bancos finales.
+Los faltantes no se convirtieron a cero y no se interpolaron.
+
+========================================================================================================================
+CLASIFICACIÓN FINAL DE LA PRUEBA
+========================================================================================================================
+ESTADO = EXTRACCION_CONSUMO_MN_2020_VALIDADA
+
+La etiqueta externa 'Consumo' fue relacionada con una única fila numérica de DataZone mediante alineación geométrica vertical.
+No se utilizó un offset fijo de filas.
+Los 16 encabezados fueron relacionados con las 16 celdas de la fila mediante alineación horizontal.
+El período fue confirmado independientemente mediante el texto visible 'al 30/06/2020'.

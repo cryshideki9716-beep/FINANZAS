@@ -1,0 +1,10 @@
+﻿Diagnóstico,Variable,Estadístico,p_valor,Hipótesis_nula,Decisión_5pct,Detalle
+VIF,X1,1.4867654616932149,,,,Factor de inflación de la varianza
+VIF,X2,1.5221402074552461,,,,Factor de inflación de la varianza
+VIF,X3,1.076253185511526,,,,Factor de inflación de la varianza
+VIF,X4,1.0122571062965868,,,,Factor de inflación de la varianza
+Breusch-Pagan/Koenker LM,,90.71452358256647,9.283447060335668e-19,Homocedasticidad,Rechazar H0 al 5%,Versión studentizada; robust=True
+Breusch-Pagan/Koenker F,,24.100344265857583,2.4918747517749883e-19,Homocedasticidad,Rechazar H0 al 5%,Versión studentizada; robust=True
+Wooldridge-Drukker,rho,186.03701343336806,3.0871029769358734e-08,No autocorrelación AR(1) en el error original,Rechazar H0 al 5%,H0: rho=-0.5; rho estimado=0.078339
+Pesaran CD,,11.40710692615562,3.853330734128963e-30,Independencia transversal,Rechazar H0 al 5%,66 pares de bancos
+F de poolability,,291.4686175573787,0.0,Efectos bancarios conjuntamente iguales a cero,Rechazar H0 al 5%,Prueba complementaria; la F convencional supone homocedasticidad

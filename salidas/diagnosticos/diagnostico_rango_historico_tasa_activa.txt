@@ -1,0 +1,559 @@
+
+======================================================================================================================
+DIAGNÓSTICO DE RANGO HISTÓRICO SBS - TASA ACTIVA CONSUMO MN
+======================================================================================================================
+Se consultarán únicamente estas cuatro fechas:
+  31/12/2010
+  31/12/2011
+  30/06/2015
+  30/06/2020
+
+Antes de CADA fecha se volverá a cargar la URL base.
+Consumo se buscará únicamente en la TABLA EXTERNA MN completa.
+La DataZone se utilizará únicamente para diagnosticar columnas.
+
+NO se extraerán tasas.
+NO se descargarán 211 meses.
+NO se seleccionarán bancos.
+NO se interpolarán datos.
+
+======================================================================================================================
+FECHA DE CONTROL: 31/12/2010
+======================================================================================================================
+Recargando URL base...
+[OK] Página SBS real cargada.
+URL base cargada: https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TIActivaTipoCreditoEmpresa.aspx?tip=B
+
+----------------------------------------------------------------------------------------------------------------------
+CONFIGURACIÓN PRE-CONSULTA
+----------------------------------------------------------------------------------------------------------------------
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+
+----------------------------------------------------------------------------------------------------------------------
+VALIDACIÓN DE FECHA
+----------------------------------------------------------------------------------------------------------------------
+Después del teclado:
+Fecha objetivo: 2010-12-31
+Fecha visible: '31/12/2010'
+Visible interpretada: 2010-12-31
+Fecha interna: '2010-12-31'
+Interna interpretada: 2010-12-31
+Visible exacta: True
+Interna exacta: True
+[OK] Fecha visible e interna correctas.
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+[OK] Configuración pre-consulta correcta.
+
+----------------------------------------------------------------------------------------------------------------------
+CONSULTAR
+----------------------------------------------------------------------------------------------------------------------
+Evidencia de respuesta: 'HTML_CAMBIO'
+¿SBS muestra la fecha solicitada como texto visible?: False
+Coincidencias visibles de fecha: 0
+
+----------------------------------------------------------------------------------------------------------------------
+ESTRUCTURA POST-CONSULTA
+----------------------------------------------------------------------------------------------------------------------
+URL final: https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TIActivaTipoCreditoEmpresa.aspx?tip=B
+Título final: ''
+SHA256 HTML: 914b3d77de48fb0e424d1e4def9c1c1cc27423f0462d7215702e5e6e99ef4057
+Cantidad total de tablas: 15
+
+TABLA MN EXTERNA:
+  ID: ctl00_cphContent_rpgActualMn_OT
+  Existe: True
+  Celdas originales exactas 'Consumo': 1
+  Consumo válido (exactamente uno): True
+  Coincidencias: [{'fila': 86, 'celda': 0, 'texto': 'Consumo'}]
+
+DATAZONE MN:
+  ID: ctl00_cphContent_rpgActualMn_ctl00_DataZone_DT
+  Existe: True
+  'Consumo' dentro de DataZone (solo diagnóstico): 0
+  Filas DataZone: 47
+  Máximo de columnas lógicas DataZone: 21
+  Promedio detectado: True
+  Cantidad de celdas Promedio: 1
+  Bancos/columnas bancarias estimadas: 20
+  Fila más ancha DataZone: 0
+  Encabezados/textos de la fila más ancha:
+    'BBVA'
+    'Bancom'
+    'Crédito'
+    'Pichincha'
+    'BIF'
+    'Scotiabank'
+    'Citibank'
+    'Interbank'
+    'Mibanco'
+    'GNB'
+    'Falabella'
+    'Santander'
+    'Ripley'
+    'Alfin'
+    'ICBC'
+    'Bank of China'
+    'BCI'
+    'Compartamos'
+    'Santander Cons. Bank'
+    'Efectiva'
+    'Promedio'
+
+RELACIÓN ENTRE ZONAS:
+  ¿Concepto y datos parecen estar en zonas separadas?: True
+  [OK] Consumo está en la tabla MN completa aunque no aparezca en la DataZone.
+  La ausencia de Consumo en DataZone NO se considera falta de la categoría.
+
+Tabla MN utilizable estructuralmente: True
+Problemas estructurales: []
+
+IDs DE TODAS LAS TABLAS:
+  None
+  None
+  None
+  None
+  None
+  None
+  'ctl00_cphContent_rdpDate_calendar'
+  None
+  'ctl00_cphContent_rdpDate_calendar_Top'
+  'ctl00_cphContent_rpgActualMn_OT'
+  'ctl00_cphContent_rpgActualMn_ctl00_DataZone_DT'
+  'ctl00_cphContent_rpgActualMex_OT'
+  'ctl00_cphContent_rpgActualMex_ctl00_DataZone_DT'
+  None
+  None
+
+----------------------------------------------------------------------------------------------------------------------
+CONTROLES POST-CONSULTA
+----------------------------------------------------------------------------------------------------------------------
+Fecha visible post: '31/12/2010'
+Fecha interna post: '2010-12-31'
+hdTipoMoneda post: None
+hdTipoEntidad post: None
+
+======================================================================================================================
+FECHA DE CONTROL: 31/12/2011
+======================================================================================================================
+Recargando URL base...
+[OK] Página SBS real cargada.
+URL base cargada: https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TIActivaTipoCreditoEmpresa.aspx?tip=B
+
+----------------------------------------------------------------------------------------------------------------------
+CONFIGURACIÓN PRE-CONSULTA
+----------------------------------------------------------------------------------------------------------------------
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+
+----------------------------------------------------------------------------------------------------------------------
+VALIDACIÓN DE FECHA
+----------------------------------------------------------------------------------------------------------------------
+Después del teclado:
+Fecha objetivo: 2011-12-31
+Fecha visible: '31/12/2011'
+Visible interpretada: 2011-12-31
+Fecha interna: '2011-12-31'
+Interna interpretada: 2011-12-31
+Visible exacta: True
+Interna exacta: True
+[OK] Fecha visible e interna correctas.
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+[OK] Configuración pre-consulta correcta.
+
+----------------------------------------------------------------------------------------------------------------------
+CONSULTAR
+----------------------------------------------------------------------------------------------------------------------
+Evidencia de respuesta: 'HTML_CAMBIO'
+¿SBS muestra la fecha solicitada como texto visible?: False
+Coincidencias visibles de fecha: 0
+
+----------------------------------------------------------------------------------------------------------------------
+ESTRUCTURA POST-CONSULTA
+----------------------------------------------------------------------------------------------------------------------
+URL final: https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TIActivaTipoCreditoEmpresa.aspx?tip=B
+Título final: ''
+SHA256 HTML: b9099246b7eaa8ed2380b8f280d531c1275f5e28dd8dc4cbe315b3ec66885c1f
+Cantidad total de tablas: 15
+
+TABLA MN EXTERNA:
+  ID: ctl00_cphContent_rpgActualMn_OT
+  Existe: True
+  Celdas originales exactas 'Consumo': 1
+  Consumo válido (exactamente uno): True
+  Coincidencias: [{'fila': 86, 'celda': 0, 'texto': 'Consumo'}]
+
+DATAZONE MN:
+  ID: ctl00_cphContent_rpgActualMn_ctl00_DataZone_DT
+  Existe: True
+  'Consumo' dentro de DataZone (solo diagnóstico): 0
+  Filas DataZone: 47
+  Máximo de columnas lógicas DataZone: 21
+  Promedio detectado: True
+  Cantidad de celdas Promedio: 1
+  Bancos/columnas bancarias estimadas: 20
+  Fila más ancha DataZone: 0
+  Encabezados/textos de la fila más ancha:
+    'BBVA'
+    'Bancom'
+    'Crédito'
+    'Pichincha'
+    'BIF'
+    'Scotiabank'
+    'Citibank'
+    'Interbank'
+    'Mibanco'
+    'GNB'
+    'Falabella'
+    'Santander'
+    'Ripley'
+    'Alfin'
+    'ICBC'
+    'Bank of China'
+    'BCI'
+    'Compartamos'
+    'Santander Cons. Bank'
+    'Efectiva'
+    'Promedio'
+
+RELACIÓN ENTRE ZONAS:
+  ¿Concepto y datos parecen estar en zonas separadas?: True
+  [OK] Consumo está en la tabla MN completa aunque no aparezca en la DataZone.
+  La ausencia de Consumo en DataZone NO se considera falta de la categoría.
+
+Tabla MN utilizable estructuralmente: True
+Problemas estructurales: []
+
+IDs DE TODAS LAS TABLAS:
+  None
+  None
+  None
+  None
+  None
+  None
+  'ctl00_cphContent_rdpDate_calendar'
+  None
+  'ctl00_cphContent_rdpDate_calendar_Top'
+  'ctl00_cphContent_rpgActualMn_OT'
+  'ctl00_cphContent_rpgActualMn_ctl00_DataZone_DT'
+  'ctl00_cphContent_rpgActualMex_OT'
+  'ctl00_cphContent_rpgActualMex_ctl00_DataZone_DT'
+  None
+  None
+
+----------------------------------------------------------------------------------------------------------------------
+CONTROLES POST-CONSULTA
+----------------------------------------------------------------------------------------------------------------------
+Fecha visible post: '31/12/2011'
+Fecha interna post: '2011-12-31'
+hdTipoMoneda post: 'MN'
+hdTipoEntidad post: 'B'
+
+======================================================================================================================
+FECHA DE CONTROL: 30/06/2015
+======================================================================================================================
+Recargando URL base...
+[OK] Página SBS real cargada.
+URL base cargada: https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TIActivaTipoCreditoEmpresa.aspx?tip=B
+
+----------------------------------------------------------------------------------------------------------------------
+CONFIGURACIÓN PRE-CONSULTA
+----------------------------------------------------------------------------------------------------------------------
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+
+----------------------------------------------------------------------------------------------------------------------
+VALIDACIÓN DE FECHA
+----------------------------------------------------------------------------------------------------------------------
+Después del teclado:
+Fecha objetivo: 2015-06-30
+Fecha visible: '30/06/2015'
+Visible interpretada: 2015-06-30
+Fecha interna: '2015-06-30'
+Interna interpretada: 2015-06-30
+Visible exacta: True
+Interna exacta: True
+[OK] Fecha visible e interna correctas.
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+[OK] Configuración pre-consulta correcta.
+
+----------------------------------------------------------------------------------------------------------------------
+CONSULTAR
+----------------------------------------------------------------------------------------------------------------------
+Evidencia de respuesta: 'HTML_CAMBIO'
+¿SBS muestra la fecha solicitada como texto visible?: False
+Coincidencias visibles de fecha: 0
+
+----------------------------------------------------------------------------------------------------------------------
+ESTRUCTURA POST-CONSULTA
+----------------------------------------------------------------------------------------------------------------------
+URL final: https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TIActivaTipoCreditoEmpresa.aspx?tip=B
+Título final: ''
+SHA256 HTML: aeddc42ed1ee27fbedd7c6c042f0d8a157f3a2fe0498fdb009108a6e44135846
+Cantidad total de tablas: 15
+
+TABLA MN EXTERNA:
+  ID: ctl00_cphContent_rpgActualMn_OT
+  Existe: True
+  Celdas originales exactas 'Consumo': 1
+  Consumo válido (exactamente uno): True
+  Coincidencias: [{'fila': 86, 'celda': 0, 'texto': 'Consumo'}]
+
+DATAZONE MN:
+  ID: ctl00_cphContent_rpgActualMn_ctl00_DataZone_DT
+  Existe: True
+  'Consumo' dentro de DataZone (solo diagnóstico): 0
+  Filas DataZone: 47
+  Máximo de columnas lógicas DataZone: 21
+  Promedio detectado: True
+  Cantidad de celdas Promedio: 1
+  Bancos/columnas bancarias estimadas: 20
+  Fila más ancha DataZone: 0
+  Encabezados/textos de la fila más ancha:
+    'BBVA'
+    'Bancom'
+    'Crédito'
+    'Pichincha'
+    'BIF'
+    'Scotiabank'
+    'Citibank'
+    'Interbank'
+    'Mibanco'
+    'GNB'
+    'Falabella'
+    'Santander'
+    'Ripley'
+    'Alfin'
+    'ICBC'
+    'Bank of China'
+    'BCI'
+    'Compartamos'
+    'Santander Cons. Bank'
+    'Efectiva'
+    'Promedio'
+
+RELACIÓN ENTRE ZONAS:
+  ¿Concepto y datos parecen estar en zonas separadas?: True
+  [OK] Consumo está en la tabla MN completa aunque no aparezca en la DataZone.
+  La ausencia de Consumo en DataZone NO se considera falta de la categoría.
+
+Tabla MN utilizable estructuralmente: True
+Problemas estructurales: []
+
+IDs DE TODAS LAS TABLAS:
+  None
+  None
+  None
+  None
+  None
+  None
+  'ctl00_cphContent_rdpDate_calendar'
+  None
+  'ctl00_cphContent_rdpDate_calendar_Top'
+  'ctl00_cphContent_rpgActualMn_OT'
+  'ctl00_cphContent_rpgActualMn_ctl00_DataZone_DT'
+  'ctl00_cphContent_rpgActualMex_OT'
+  'ctl00_cphContent_rpgActualMex_ctl00_DataZone_DT'
+  None
+  None
+
+----------------------------------------------------------------------------------------------------------------------
+CONTROLES POST-CONSULTA
+----------------------------------------------------------------------------------------------------------------------
+Fecha visible post: '30/06/2015'
+Fecha interna post: '2015-06-30'
+hdTipoMoneda post: 'MN'
+hdTipoEntidad post: 'B'
+
+======================================================================================================================
+FECHA DE CONTROL: 30/06/2020
+======================================================================================================================
+Recargando URL base...
+[OK] Página SBS real cargada.
+URL base cargada: https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TIActivaTipoCreditoEmpresa.aspx?tip=B
+
+----------------------------------------------------------------------------------------------------------------------
+CONFIGURACIÓN PRE-CONSULTA
+----------------------------------------------------------------------------------------------------------------------
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+
+----------------------------------------------------------------------------------------------------------------------
+VALIDACIÓN DE FECHA
+----------------------------------------------------------------------------------------------------------------------
+Después del teclado:
+Fecha objetivo: 2020-06-30
+Fecha visible: '30/06/2020'
+Visible interpretada: 2020-06-30
+Fecha interna: '2020-06-30'
+Interna interpretada: 2020-06-30
+Visible exacta: True
+Interna exacta: True
+[OK] Fecha visible e interna correctas.
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+[OK] Configuración pre-consulta correcta.
+
+----------------------------------------------------------------------------------------------------------------------
+CONSULTAR
+----------------------------------------------------------------------------------------------------------------------
+Evidencia de respuesta: 'HTML_CAMBIO'
+¿SBS muestra la fecha solicitada como texto visible?: False
+Coincidencias visibles de fecha: 0
+
+----------------------------------------------------------------------------------------------------------------------
+ESTRUCTURA POST-CONSULTA
+----------------------------------------------------------------------------------------------------------------------
+URL final: https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TIActivaTipoCreditoEmpresa.aspx?tip=B
+Título final: ''
+SHA256 HTML: da452ff2beb47e14bab632a0bb9772c1c4037a9bc492f33543e3e2eb7e58b082
+Cantidad total de tablas: 15
+
+TABLA MN EXTERNA:
+  ID: ctl00_cphContent_rpgActualMn_OT
+  Existe: True
+  Celdas originales exactas 'Consumo': 1
+  Consumo válido (exactamente uno): True
+  Coincidencias: [{'fila': 86, 'celda': 0, 'texto': 'Consumo'}]
+
+DATAZONE MN:
+  ID: ctl00_cphContent_rpgActualMn_ctl00_DataZone_DT
+  Existe: True
+  'Consumo' dentro de DataZone (solo diagnóstico): 0
+  Filas DataZone: 47
+  Máximo de columnas lógicas DataZone: 21
+  Promedio detectado: True
+  Cantidad de celdas Promedio: 1
+  Bancos/columnas bancarias estimadas: 20
+  Fila más ancha DataZone: 0
+  Encabezados/textos de la fila más ancha:
+    'BBVA'
+    'Bancom'
+    'Crédito'
+    'Pichincha'
+    'BIF'
+    'Scotiabank'
+    'Citibank'
+    'Interbank'
+    'Mibanco'
+    'GNB'
+    'Falabella'
+    'Santander'
+    'Ripley'
+    'Alfin'
+    'ICBC'
+    'Bank of China'
+    'BCI'
+    'Compartamos'
+    'Santander Cons. Bank'
+    'Efectiva'
+    'Promedio'
+
+RELACIÓN ENTRE ZONAS:
+  ¿Concepto y datos parecen estar en zonas separadas?: True
+  [OK] Consumo está en la tabla MN completa aunque no aparezca en la DataZone.
+  La ausencia de Consumo en DataZone NO se considera falta de la categoría.
+
+Tabla MN utilizable estructuralmente: True
+Problemas estructurales: []
+
+IDs DE TODAS LAS TABLAS:
+  None
+  None
+  None
+  None
+  None
+  None
+  'ctl00_cphContent_rdpDate_calendar'
+  None
+  'ctl00_cphContent_rdpDate_calendar_Top'
+  'ctl00_cphContent_rpgActualMn_OT'
+  'ctl00_cphContent_rpgActualMn_ctl00_DataZone_DT'
+  'ctl00_cphContent_rpgActualMex_OT'
+  'ctl00_cphContent_rpgActualMex_ctl00_DataZone_DT'
+  None
+  None
+
+----------------------------------------------------------------------------------------------------------------------
+CONTROLES POST-CONSULTA
+----------------------------------------------------------------------------------------------------------------------
+Fecha visible post: '30/06/2020'
+Fecha interna post: '2020-06-30'
+hdTipoMoneda post: 'MN'
+hdTipoEntidad post: 'B'
+
+======================================================================================================================
+RESUMEN COMPARATIVO DEL RANGO HISTÓRICO
+======================================================================================================================
+
+FECHA: 31/12/2010
+  Estado: OK
+  SBS mostró fecha solicitada: False
+  Tabla MN externa: True
+  Tabla MN interna/DataZone: True
+  Consumo exacto en tabla MN externa: 1
+  Consumo externo válido: True
+  Consumo dentro de DataZone (solo diagnóstico): 0
+  Zonas separadas: True
+  Tabla MN utilizable: True
+  Columnas DataZone: 21
+  Promedio detectado: True
+  Bancos estimados: 20
+  Problemas estructurales: []
+
+FECHA: 31/12/2011
+  Estado: OK
+  SBS mostró fecha solicitada: False
+  Tabla MN externa: True
+  Tabla MN interna/DataZone: True
+  Consumo exacto en tabla MN externa: 1
+  Consumo externo válido: True
+  Consumo dentro de DataZone (solo diagnóstico): 0
+  Zonas separadas: True
+  Tabla MN utilizable: True
+  Columnas DataZone: 21
+  Promedio detectado: True
+  Bancos estimados: 20
+  Problemas estructurales: []
+
+FECHA: 30/06/2015
+  Estado: OK
+  SBS mostró fecha solicitada: False
+  Tabla MN externa: True
+  Tabla MN interna/DataZone: True
+  Consumo exacto en tabla MN externa: 1
+  Consumo externo válido: True
+  Consumo dentro de DataZone (solo diagnóstico): 0
+  Zonas separadas: True
+  Tabla MN utilizable: True
+  Columnas DataZone: 21
+  Promedio detectado: True
+  Bancos estimados: 20
+  Problemas estructurales: []
+
+FECHA: 30/06/2020
+  Estado: OK
+  SBS mostró fecha solicitada: False
+  Tabla MN externa: True
+  Tabla MN interna/DataZone: True
+  Consumo exacto en tabla MN externa: 1
+  Consumo externo válido: True
+  Consumo dentro de DataZone (solo diagnóstico): 0
+  Zonas separadas: True
+  Tabla MN utilizable: True
+  Columnas DataZone: 21
+  Promedio detectado: True
+  Bancos estimados: 20
+  Problemas estructurales: []
+
+----------------------------------------------------------------------------------------------------------------------
+TABLA COMPACTA
+----------------------------------------------------------------------------------------------------------------------
+fecha | estado | fecha_sbs | mn_externa | mn_datazone | consumo_externa | consumo_datazone | zonas_separadas | utilizable | columnas_datazone | bancos_estimados
+31/12/2010 | OK | False | True | True | 1 | 0 | True | True | 21 | 20
+31/12/2011 | OK | False | True | True | 1 | 0 | True | True | 21 | 20
+30/06/2015 | OK | False | True | True | 1 | 0 | True | True | 21 | 20
+30/06/2020 | OK | False | True | True | 1 | 0 | True | True | 21 | 20

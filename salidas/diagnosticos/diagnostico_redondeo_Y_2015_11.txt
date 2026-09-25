@@ -1,0 +1,641 @@
+
+======================================================================================================================
+DIAGNÓSTICO DE PRECISIÓN / REDONDEO Y - B-2359 - 2015-11
+======================================================================================================================
+Este programa NO valida Y.
+Este programa NO cambia tolerancias.
+Este programa NO ejecuta X1.
+Este programa NO cambia el parser ni DOLCRED.
+
+Tolerancia actual preservada:
+  rel_tol = 1e-14
+  abs_tol = 1e-06
+
+======================================================================================================================
+ARCHIVO OFICIAL B-2359
+======================================================================================================================
+Página oficial: https://www.sbs.gob.pe/app/stats_net/stats/EstadisticaSistemaFinancieroResultados.aspx?c=B-2359
+HTTP página: 200
+Identificador esperado: b-2359-no2015
+Coincidencias: 1
+  -> https://intranet2.sbs.gob.pe/estadistica/financiera/2015/Noviembre/B-2359-no2015.XLS
+Archivo origen SBS: B-2359-no2015.XLS
+Archivo local: C:\Users\Crystell\Desktop\FINANZAS\datos_crudos\prueba_Y_X1_2015_11\Y_B-2359_2015_11_2024200485D.xls
+HTTP: 200
+Bytes: 80896
+SHA-256: 895f3a1a8c46f3fb9bf923003cc406b241ae7f2662226d53db09ccbd9a7d2b87
+Formato real: XLS_OLE
+
+======================================================================================================================
+PARSER Y - SIN CAMBIOS
+======================================================================================================================
+Hoja: '15'
+Fila encabezados MN|ME|Total: 5
+Fila bancos: 4
+Fila Total Créditos: 65
+Bloques detectados: 18
+Cantidad bancos individuales: 17
+Agregado encontrado: 'Total Banca Múltiple'
+
+----------------------------------------------------------------------------------------------------------------------
+DIAGNÓSTICO SUMA DE BANCOS VS TOTAL BANCA MÚLTIPLE
+----------------------------------------------------------------------------------------------------------------------
+
+VARIABLE: MN
+  Cantidad de bancos individuales = 17
+  Suma con sum() = 150373919.685
+  Suma con math.fsum() = 150373919.685
+  Total SBS = 150373919.72
+  Diferencia sum() - SBS = -0.034999996423721313
+  Diferencia absoluta sum() = 0.034999996423721313
+  Diferencia fsum() - SBS = -0.034999996423721313
+  Diferencia absoluta fsum() = 0.034999996423721313
+  sum() - math.fsum() = 0.0
+  Diferencia absoluta sum() vs fsum() = 0.0
+  math.isclose(sum, SBS) con tolerancia ACTUAL = False
+  math.isclose(fsum, SBS) con tolerancia ACTUAL = False
+
+VARIABLE: ME
+  Cantidad de bancos individuales = 17
+  Suma con sum() = 22433794.73206876
+  Suma con math.fsum() = 22433794.73206876
+  Total SBS = 22433794.733847063
+  Diferencia sum() - SBS = -0.0017783045768737793
+  Diferencia absoluta sum() = 0.0017783045768737793
+  Diferencia fsum() - SBS = -0.0017783045768737793
+  Diferencia absoluta fsum() = 0.0017783045768737793
+  sum() - math.fsum() = 0.0
+  Diferencia absoluta sum() vs fsum() = 0.0
+  math.isclose(sum, SBS) con tolerancia ACTUAL = False
+  math.isclose(fsum, SBS) con tolerancia ACTUAL = False
+
+VARIABLE: TOTAL
+  Cantidad de bancos individuales = 17
+  Suma con sum() = 226065543.148
+  Suma con math.fsum() = 226065543.148
+  Total SBS = 226065543.155
+  Diferencia sum() - SBS = -0.006999999284744263
+  Diferencia absoluta sum() = 0.006999999284744263
+  Diferencia fsum() - SBS = -0.006999999284744263
+  Diferencia absoluta fsum() = 0.006999999284744263
+  sum() - math.fsum() = 0.0
+  Diferencia absoluta sum() vs fsum() = 0.0
+  math.isclose(sum, SBS) con tolerancia ACTUAL = False
+  math.isclose(fsum, SBS) con tolerancia ACTUAL = False
+
+======================================================================================================================
+METADATOS DE LAS CELDAS EXCEL
+======================================================================================================================
+
+----------------------------------------------------------------------------------------------------------------------
+RESUMEN DE FORMATOS NUMÉRICOS OBSERVADOS
+----------------------------------------------------------------------------------------------------------------------
+
+MN:
+  Formatos Excel distintos = ['_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)']
+  Decimales inferidos distintos = ['0']
+
+ME:
+  Formatos Excel distintos = ['_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)']
+  Decimales inferidos distintos = ['0']
+
+TOTAL:
+  Formatos Excel distintos = ['_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)']
+  Decimales inferidos distintos = ['0']
+
+----------------------------------------------------------------------------------------------------------------------
+VALORES INDIVIDUALES Y FORMATO EXCEL
+----------------------------------------------------------------------------------------------------------------------
+
+BANCO: Banco Continental
+  MN:
+    valor parser = 32190088.531999998
+    valor raw Excel = 32190088.531999998
+    fila 0-based = 65
+    columna 0-based = 1
+    xf/style = 123
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  ME:
+    valor parser = 4986250.852400711
+    valor raw Excel = 4986250.852400711
+    fila 0-based = 65
+    columna 0-based = 2
+    xf/style = 124
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  TOTAL:
+    valor parser = 49013698.911
+    valor raw Excel = 49013698.911
+    fila 0-based = 65
+    columna 0-based = 3
+    xf/style = 125
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+
+BANCO: Banco de Comercio
+  MN:
+    valor parser = 1008290.219
+    valor raw Excel = 1008290.219
+    fila 0-based = 65
+    columna 0-based = 4
+    xf/style = 123
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  ME:
+    valor parser = 43147.85566093657
+    valor raw Excel = 43147.85566093657
+    fila 0-based = 65
+    columna 0-based = 5
+    xf/style = 124
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  TOTAL:
+    valor parser = 1153871.088
+    valor raw Excel = 1153871.088
+    fila 0-based = 65
+    columna 0-based = 6
+    xf/style = 125
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+
+BANCO: Banco de Crédito del Perú
+  MN:
+    valor parser = 47420409.140999995
+    valor raw Excel = 47420409.140999995
+    fila 0-based = 65
+    columna 0-based = 7
+    xf/style = 123
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  ME:
+    valor parser = 8539650.53023118
+    valor raw Excel = 8539650.53023118
+    fila 0-based = 65
+    columna 0-based = 8
+    xf/style = 124
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  TOTAL:
+    valor parser = 76233190.034
+    valor raw Excel = 76233190.034
+    fila 0-based = 65
+    columna 0-based = 9
+    xf/style = 125
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+
+BANCO: Banco Financiero
+  MN:
+    valor parser = 4115171.9790000003
+    valor raw Excel = 4115171.9790000003
+    fila 0-based = 65
+    columna 0-based = 10
+    xf/style = 123
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  ME:
+    valor parser = 674316.0835803201
+    valor raw Excel = 674316.0835803201
+    fila 0-based = 65
+    columna 0-based = 11
+    xf/style = 124
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  TOTAL:
+    valor parser = 6390314.449
+    valor raw Excel = 6390314.449
+    fila 0-based = 65
+    columna 0-based = 12
+    xf/style = 125
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+
+BANCO: Banco Interamericano de Finanzas
+  MN:
+    valor parser = 5211954.711
+    valor raw Excel = 5211954.711
+    fila 0-based = 65
+    columna 0-based = 13
+    xf/style = 123
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  ME:
+    valor parser = 860233.3369887375
+    valor raw Excel = 860233.3369887375
+    fila 0-based = 65
+    columna 0-based = 14
+    xf/style = 124
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  TOTAL:
+    valor parser = 8114381.995
+    valor raw Excel = 8114381.995
+    fila 0-based = 65
+    columna 0-based = 15
+    xf/style = 125
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+
+BANCO: Scotiabank Perú
+  MN:
+    valor parser = 23327800.663
+    valor raw Excel = 23327800.663
+    fila 0-based = 65
+    columna 0-based = 16
+    xf/style = 123
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  ME:
+    valor parser = 4083761.029342027
+    valor raw Excel = 4083761.029342027
+    fila 0-based = 65
+    columna 0-based = 17
+    xf/style = 124
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  TOTAL:
+    valor parser = 37106410.379
+    valor raw Excel = 37106410.379
+    fila 0-based = 65
+    columna 0-based = 18
+    xf/style = 125
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+
+BANCO: Citibank
+  MN:
+    valor parser = 1626357.6860000002
+    valor raw Excel = 1626357.6860000002
+    fila 0-based = 65
+    columna 0-based = 19
+    xf/style = 123
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  ME:
+    valor parser = 216130.37907528155
+    valor raw Excel = 216130.37907528155
+    fila 0-based = 65
+    columna 0-based = 20
+    xf/style = 124
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  TOTAL:
+    valor parser = 2355581.588
+    valor raw Excel = 2355581.588
+    fila 0-based = 65
+    columna 0-based = 21
+    xf/style = 125
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+
+BANCO: Interbank
+  MN:
+    valor parser = 18046520.116
+    valor raw Excel = 18046520.116
+    fila 0-based = 65
+    columna 0-based = 22
+    xf/style = 123
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  ME:
+    valor parser = 2126111.838767042
+    valor raw Excel = 2126111.838767042
+    fila 0-based = 65
+    columna 0-based = 23
+    xf/style = 124
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  TOTAL:
+    valor parser = 25220021.462
+    valor raw Excel = 25220021.462
+    fila 0-based = 65
+    columna 0-based = 24
+    xf/style = 125
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+
+BANCO: Mibanco
+  MN:
+    valor parser = 7475840.567
+    valor raw Excel = 7475840.567
+    fila 0-based = 65
+    columna 0-based = 25
+    xf/style = 123
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  ME:
+    valor parser = 89018.35921754595
+    valor raw Excel = 89018.35921754595
+    fila 0-based = 65
+    columna 0-based = 26
+    xf/style = 124
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  TOTAL:
+    valor parser = 7776188.513
+    valor raw Excel = 7776188.513
+    fila 0-based = 65
+    columna 0-based = 27
+    xf/style = 125
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+
+BANCO: Banco GNB
+  MN:
+    valor parser = 2635118.652
+    valor raw Excel = 2635118.652
+    fila 0-based = 65
+    columna 0-based = 28
+    xf/style = 123
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  ME:
+    valor parser = 317682.54534676945
+    valor raw Excel = 317682.54534676945
+    fila 0-based = 65
+    columna 0-based = 29
+    xf/style = 124
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  TOTAL:
+    valor parser = 3706979.563
+    valor raw Excel = 3706979.563
+    fila 0-based = 65
+    columna 0-based = 30
+    xf/style = 125
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+
+BANCO: Banco Falabella Perú
+  MN:
+    valor parser = 3603220.0700000003
+    valor raw Excel = 3603220.0700000003
+    fila 0-based = 65
+    columna 0-based = 31
+    xf/style = 123
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  ME:
+    valor parser = 28102.47540011855
+    valor raw Excel = 28102.47540011855
+    fila 0-based = 65
+    columna 0-based = 32
+    xf/style = 124
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  TOTAL:
+    valor parser = 3698037.824
+    valor raw Excel = 3698037.824
+    fila 0-based = 65
+    columna 0-based = 33
+    xf/style = 125
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+
+BANCO: Santander Perú S.A.
+  MN:
+    valor parser = 1421599.186
+    valor raw Excel = 1421599.186
+    fila 0-based = 65
+    columna 0-based = 34
+    xf/style = 123
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  ME:
+    valor parser = 434989.4463544754
+    valor raw Excel = 434989.4463544754
+    fila 0-based = 65
+    columna 0-based = 35
+    xf/style = 124
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  TOTAL:
+    valor parser = 2889253.58
+    valor raw Excel = 2889253.58
+    fila 0-based = 65
+    columna 0-based = 36
+    xf/style = 125
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+
+BANCO: Banco Ripley
+  MN:
+    valor parser = 1444065.796
+    valor raw Excel = 1444065.796
+    fila 0-based = 65
+    columna 0-based = 37
+    xf/style = 123
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  ME:
+    valor parser = 0.0
+    valor raw Excel = 0.0
+    fila 0-based = 65
+    columna 0-based = 38
+    xf/style = 124
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  TOTAL:
+    valor parser = 1444065.796
+    valor raw Excel = 1444065.796
+    fila 0-based = 65
+    columna 0-based = 39
+    xf/style = 125
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+
+BANCO: Banco Azteca
+  MN:
+    valor parser = 432858.254
+    valor raw Excel = 432858.254
+    fila 0-based = 65
+    columna 0-based = 40
+    xf/style = 123
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  ME:
+    valor parser = 0.0
+    valor raw Excel = 0.0
+    fila 0-based = 65
+    columna 0-based = 41
+    xf/style = 124
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  TOTAL:
+    valor parser = 432858.254
+    valor raw Excel = 432858.254
+    fila 0-based = 65
+    columna 0-based = 42
+    xf/style = 125
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+
+BANCO: Deutsche Bank
+  MN:
+    valor parser = 0.0
+    valor raw Excel = 0.0
+    fila 0-based = 65
+    columna 0-based = 43
+    xf/style = 123
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  ME:
+    valor parser = 0.0
+    valor raw Excel = 0.0
+    fila 0-based = 65
+    columna 0-based = 44
+    xf/style = 124
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  TOTAL:
+    valor parser = 0.0
+    valor raw Excel = 0.0
+    fila 0-based = 65
+    columna 0-based = 45
+    xf/style = 125
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+
+BANCO: B. Cencosud
+  MN:
+    valor parser = 410106.113
+    valor raw Excel = 410106.113
+    fila 0-based = 65
+    columna 0-based = 46
+    xf/style = 123
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  ME:
+    valor parser = 0.0
+    valor raw Excel = 0.0
+    fila 0-based = 65
+    columna 0-based = 47
+    xf/style = 124
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  TOTAL:
+    valor parser = 410106.113
+    valor raw Excel = 410106.113
+    fila 0-based = 65
+    columna 0-based = 48
+    xf/style = 125
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+
+BANCO: B. ICBC
+  MN:
+    valor parser = 4518.0
+    valor raw Excel = 4518.0
+    fila 0-based = 65
+    columna 0-based = 49
+    xf/style = 123
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  ME:
+    valor parser = 34399.99970361588
+    valor raw Excel = 34399.99970361588
+    fila 0-based = 65
+    columna 0-based = 50
+    xf/style = 124
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  TOTAL:
+    valor parser = 120583.599
+    valor raw Excel = 120583.599
+    fila 0-based = 65
+    columna 0-based = 51
+    xf/style = 125
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+
+TOTAL BANCA MÚLTIPLE: Total Banca Múltiple
+  MN:
+    valor parser = 150373919.72
+    valor raw Excel = 150373919.72
+    fila 0-based = 65
+    columna 0-based = 52
+    xf/style = 123
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  ME:
+    valor parser = 22433794.733847063
+    valor raw Excel = 22433794.733847063
+    fila 0-based = 65
+    columna 0-based = 53
+    xf/style = 124
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+  TOTAL:
+    valor parser = 226065543.155
+    valor raw Excel = 226065543.155
+    fila 0-based = 65
+    columna 0-based = 54
+    xf/style = 125
+    format_key = 167
+    formato Excel = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+    decimales inferidos del formato = 0
+
+======================================================================================================================
+CLASIFICACIÓN DEL DIAGNÓSTICO
+======================================================================================================================
+ESTADO = DIAGNOSTICO_PRECISION_Y_2015_11_COMPLETADO
+
+IMPORTANTE:
+Este estado NO significa que Y haya sido validada.
+No se modificó la tolerancia.
+No se tomó ninguna decisión sobre aceptar las diferencias.
+El siguiente paso será interpretar si las diferencias provienen de acumulación float, del formato/redondeo de las celdas SBS o de otra característica del archivo.

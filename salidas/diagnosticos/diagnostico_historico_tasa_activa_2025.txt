@@ -1,0 +1,392 @@
+
+======================================================================================================================
+DIAGNÓSTICO HISTÓRICO SBS - 31/12/2025
+======================================================================================================================
+Se consultará únicamente:
+  31/12/2025
+
+NO se extraerán tasas.
+NO se consultarán otros meses.
+NO se descargarán 211 meses.
+NO se elegirán bancos.
+NO se realizará interpolación.
+
+Abriendo página oficial SBS...
+
+Esperando aplicación SBS...
+[OK] SBS cargó sin intervención manual.
+
+======================================================================================================================
+ESTADO INICIAL
+======================================================================================================================
+URL inicial: https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TIActivaTipoCreditoEmpresa.aspx?tip=B
+Título inicial: ''
+hdTipoMoneda inicial: 'MN'
+hdTipoEntidad inicial: 'B'
+Fecha visible inicial: '23/09/2026'
+Fecha interna inicial: '2026-09-23'
+
+----------------------------------------------------------------------------------------------------------------------
+ESTABLECER FECHA PRE-CONSULTA
+----------------------------------------------------------------------------------------------------------------------
+Después del teclado:
+Fecha objetivo: 2025-12-31
+Fecha visible texto: '31/12/2025'
+Fecha visible interpretada: 2025-12-31
+Fecha interna texto: '2025-12-31'
+Fecha interna interpretada: 2025-12-31
+Visible exacta: True
+Interna exacta: True
+
+[OK] Visible e interna coinciden exactamente.
+
+======================================================================================================================
+VALIDACIÓN FINAL PRE-CONSULTA
+======================================================================================================================
+Fecha objetivo: 2025-12-31
+Fecha visible texto: '31/12/2025'
+Fecha visible interpretada: 2025-12-31
+Fecha interna texto: '2025-12-31'
+Fecha interna interpretada: 2025-12-31
+Visible exacta: True
+Interna exacta: True
+
+[OK] Se permite pulsar Consultar.
+
+======================================================================================================================
+RESPUESTA A LA CONSULTA 31/12/2025
+======================================================================================================================
+
+Coincidencias visibles con 31/12/2025 ANTES del click:
+  <NINGUNA>
+
+Pulsando Consultar...
+
+[OK] Se detectó una NUEVA fecha visible de resultado:
+  {'className': 'APLI_subtitulo', 'id': 'ctl00_cphContent_lblMensajeFecha', 'tag': 'SPAN', 'text': 'Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 31/12/2025'}
+
+No se esperará ningún ID específico de tabla.
+
+Fecha de resultado detectada: True
+Coincidencia utilizada:
+{'className': 'APLI_subtitulo', 'id': 'ctl00_cphContent_lblMensajeFecha', 'tag': 'SPAN', 'text': 'Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 31/12/2025'}
+
+======================================================================================================================
+ESTADO DE LA PÁGINA HISTÓRICA DESPUÉS DE CONSULTAR
+======================================================================================================================
+URL final: https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TIActivaTipoCreditoEmpresa.aspx?tip=B
+Título: ''
+Longitud HTML renderizado: 498424
+SHA256 HTML: 14636890ee8d43abcefe86daa645703b5259f47ee6c765df126419d07fa439de
+Longitud texto visible: 5491
+
+----------------------------------------------------------------------------------------------------------------------
+TEXTO VISIBLE DE LA PÁGINA
+----------------------------------------------------------------------------------------------------------------------
+TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO
+Ingrese fecha: 
+Open the calendar popup.
+ (dd/mm/aaaa)
+Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 31/12/2025
+
+Moneda Nacional
+Moneda Extranjera
+
+
+
+Tasa Anual (%)
+BBVA Bancom Crédito Pichincha BIF Scotiabank Citibank Interbank Mibanco GNB Falabella Santander Ripley Alfin ICBC Bank of China BCI Compartamos Santander Cons. Bank Promedio
+5.21 4.88 5.35 5.67 6.92 6.03 s.i. 7.29 - 5.93 - 7.01 - 11.76 5.72 - 5.90 - - 5.71
+5.82 - 5.99 5.10 6.84 6.52 s.i. 6.10 - - - 8.27 - - - - - - - 6.29
+4.67 5.20 5.28 4.76 4.72 6.02 s.i. 6.16 - - - - - - 5.55 - 4.67 - - 5.13
+5.25 4.79 4.97 5.25 6.85 5.26 s.i. 6.60 - 5.70 - 8.14 - 12.70 6.92 - 4.73 - - 5.40
+5.88 4.91 5.92 4.85 6.10 6.18 s.i. 5.85 - 5.99 - 6.41 - 10.32 5.08 - 5.30 - - 5.96
+5.26 - 5.54 - 6.00 4.77 s.i. 8.05 - 6.50 - 5.93 - - - - - - - 5.10
+6.07 - 5.29 6.35 7.76 7.72 s.i. 8.88 - - - - - - - - 6.52 - - 6.36
+7.68 6.68 7.54 5.99 7.92 7.29 s.i. 7.36 - 6.79 - 7.79 - 10.38 - - 5.38 - - 7.56
+8.07 - 8.04 6.86 7.87 7.14 s.i. 7.39 - 7.36 - 6.85 - - - - - - - 7.73
+6.99 - 8.18 5.41 9.22 6.22 s.i. 8.22 - 5.95 - 9.72 - - - - - - - 7.84
+7.63 7.51 7.26 6.69 9.13 7.78 s.i. 7.04 - 8.92 - 7.26 - 12.15 - - 5.38 - - 7.46
+7.67 5.65 7.21 5.98 8.32 7.14 s.i. 7.34 - 6.05 - 7.93 - 9.18 - - - - - 7.36
+7.48 - 6.91 5.67 7.78 8.50 s.i. 6.52 - 7.95 - 8.25 - 11.00 - - - - - 7.01
+7.58 - 7.27 6.83 7.56 7.28 s.i. 7.74 - 7.00 - 7.76 - 10.68 - - - - - 7.63
+11.30 9.64 9.74 7.11 10.82 9.15 s.i. 8.97 - - - 7.20 - 12.61 - - - - - 9.75
+9.93 13.00 10.13 - 15.62 9.08 s.i. 9.35 - - - 10.21 - - - - - - - 9.99
+10.34 - 8.92 9.01 10.35 9.31 s.i. 11.68 - - - 6.60 - - - - - - - 8.87
+11.84 11.30 9.75 5.71 12.72 9.43 s.i. 9.77 - - - 7.15 - 13.00 - - - - - 10.33
+10.67 11.82 9.59 9.30 10.13 9.21 s.i. 6.74 - - - 8.95 - 11.90 - - - - - 9.48
+11.80 7.82 9.34 - 9.71 9.57 s.i. 11.27 - - - - - 13.00 - - - - - 10.14
+11.81 - 10.07 7.80 8.37 8.63 s.i. 12.17 - - - 7.02 - 14.50 - - - - - 9.56
+15.41 18.08 20.25 14.00 9.83 12.62 s.i. 13.86 25.45 8.94 - - - 13.00 - - - 30.94 - 19.47
+9.22 - 13.66 - 18.91 9.82 s.i. 11.30 - - - - - - - - - - - 12.98
+17.96 - 9.21 - 12.00 14.01 s.i. 10.21 43.20 - - - - 13.00 - - - - - 11.82
+15.79 15.00 8.89 - 11.38 10.05 s.i. 9.87 45.61 7.50 - - - 13.00 - - - - - 13.34
+15.46 12.62 10.71 14.00 10.58 9.27 s.i. 13.18 36.28 10.17 - - - 13.00 - - - - - 16.47
+15.73 25.79 10.02 - 8.90 9.28 s.i. 9.02 30.75 - - - - - - - - 41.36 - 25.84
+15.51 18.08 22.37 - 7.01 13.44 s.i. 14.91 23.69 - - - - - - - - 30.32 - 19.86
+20.48 22.19 45.50 7.00 24.98 22.90 s.i. 17.37 57.39 - - - - - - - - 83.98 - 71.39
+34.21 - 54.64 29.44 - - s.i. - - - - - - - - - - - - 39.92
+9.03 - 24.33 - 24.98 - s.i. 13.44 - - - - - - - - - - - 18.25
+16.78 - - - - - s.i. 8.00 55.44 - - - - - - - - 39.30 - 54.71
+26.08 - - - - - s.i. - 86.78 - - - - - - - - - - 39.72
+30.05 - - - - - s.i. - 76.21 - - - - - - - - 109.83 - 83.74
+16.50 - 53.42 - - - s.i. - 72.44 - - - - - - - - 110.24 - 109.23
+18.41 22.00 - - - - s.i. 23.00 63.91 - - - - - - - - 55.74 - 60.39
+18.98 22.25 46.14 7.00 - 22.90 s.i. 19.65 53.72 - - - - - - - - 36.29 - 33.54
+53.60 14.96 62.09 44.12 29.46 54.62 s.i. 60.09 55.31 20.14 86.03 - 85.96 52.38 - - - 36.92 46.81 61.09
+75.81 32.68 69.80 50.00 62.30 66.45 s.i. 67.52 - 32.26 93.91 - 101.68 - - - - - 72.93 74.94
+11.69 - - - - - s.i. - 61.64 - - - - - - - - 85.79 - 13.00
+12.53 - 11.94 - 12.16 11.11 s.i. - - - - - - - - - - - - 12.31
+18.01 31.23 90.02 21.14 11.23 25.21 s.i. 25.36 65.42 - 28.43 - 59.17 48.50 - - - 50.61 - 80.64
+18.87 14.78 18.38 15.66 19.33 16.97 s.i. 18.22 42.41 12.08 22.62 - 32.80 52.49 - - - 35.15 43.33 23.39
+- 49.24 - - - - s.i. - - - - - - - - - - - - 49.24
+7.70 9.28 8.06 8.71 8.33 7.58 s.i. 7.69 15.82 7.24 - - - - - - - - 11.89 7.89
+7.70 9.28 8.06 8.71 8.33 7.58 s.i. 7.69 15.82 7.24 - - - - - - - - 11.89 7.89
+Corporativos
+Descuentos
+Préstamos hasta 30 días
+Préstamos de 31 a 90 días
+Préstamos de 91 a 180 días
+Préstamos de 181 a 360 días
+Préstamos a más de 360 días
+Grandes Empresas
+Descuentos
+Préstamos hasta 30 días
+Préstamos de 31 a 90 días
+Préstamos de 91 a 180 días
+Préstamos de 181 a 360 días
+Préstamos a más de 360 días
+Medianas Empresas
+Descuentos
+Préstamos hasta 30 días
+Préstamos de 31 a 90 días
+Préstamos de 91 a 180 días
+Préstamos de 181 a 360 días
+Préstamos a más de 360 días
+Pequeñas Empresas
+Descuentos
+Préstamos hasta 30 días
+Préstamos de 31 a 90 días
+Préstamos de 91 a 180 días
+Préstamos de 181 a 360 días
+Préstamos a más de 360 días
+Microempresas
+Tarjetas de Crédito
+Descuentos
+Préstamos Revolventes
+Préstamos a cuota fija hasta 30 días
+Préstamos a cuota fija de 31 a 90 días
+Préstamos a cuota fija de 91 a 180 días
+Préstamos a cuota fija de 181 a 360 días
+Préstamos a cuota fija a más de 360 días
+Consumo
+Tarjetas de Crédito
+Préstamos Revolventes
+Préstamos no Revolventes para automóviles
+Préstamos no Revolventes para libre disponibilidad hasta 360 días
+Préstamos no Revolventes para libre disponibilidad a más de 360 días
+Créditos pignoraticios
+Hipotecarios
+Préstamos hipotecarios para vivienda
+
+
+
+Nota: Cuadro elaborado sobre la base de la información remitida diariamente por las Empresas Bancarias a través del Reporte N°6. Las tasas de interés tienen carácter referencial. Las definiciones de los tipos de crédito se encuentran en el Reglamento para la Evaluación y Clasificación del Deudor y la Exigencia de Provisiones, aprobado mediante Resolución SBS N° 11356-2008 (Ver definiciones).
+
+----------------------------------------------------------------------------------------------------------------------
+CONTROLES DESPUÉS DE LA CONSULTA
+----------------------------------------------------------------------------------------------------------------------
+Fecha visible: '31/12/2025'
+Fecha interna: '2025-12-31'
+hdTipoMoneda: 'MN'
+hdTipoEntidad: 'B'
+Fecha visible interpretada: 2025-12-31
+Fecha interna interpretada: 2025-12-31
+
+----------------------------------------------------------------------------------------------------------------------
+PRESENCIA DE CONSUMO
+----------------------------------------------------------------------------------------------------------------------
+'Consumo' en texto visible: True
+'Consumo' en HTML: True
+Filas <tr> con 'Consumo': 2
+
+Coincidencia #1:
+Consumo
+
+Coincidencia #2:
+Consumo
+
+----------------------------------------------------------------------------------------------------------------------
+TODAS LAS TABLAS EXISTENTES
+----------------------------------------------------------------------------------------------------------------------
+Cantidad total de tablas: 15
+Tabla #1: id=None | class=None | filas=2
+Tabla #2: id=None | class=None | filas=1
+Tabla #3: id=None | class=['APLI_conteTabla2_new'] | filas=16
+Tabla #4: id=None | class=None | filas=15
+Tabla #5: id=None | class=['tbl-padding'] | filas=14
+Tabla #6: id=None | class=['rcTable', 'rcSingle'] | filas=13
+Tabla #7: id='ctl00_cphContent_rdpDate_calendar' | class=['RadCalendar', 'RadCalendar_Metro'] | filas=11
+Tabla #8: id=None | class=None | filas=2
+Tabla #9: id='ctl00_cphContent_rdpDate_calendar_Top' | class=['rcMainTable'] | filas=7
+Tabla #10: id='ctl00_cphContent_rpgActualMn_OT' | class=['rpgTable'] | filas=96
+Tabla #11: id='ctl00_cphContent_rpgActualMn_ctl00_DataZone_DT' | class=['rpgTable'] | filas=47
+Tabla #12: id='ctl00_cphContent_rpgActualMex_OT' | class=['rpgTable'] | filas=96
+Tabla #13: id='ctl00_cphContent_rpgActualMex_ctl00_DataZone_DT' | class=['rpgTable'] | filas=47
+Tabla #14: id=None | class=['APLI_conteTablaMensaje'] | filas=1
+Tabla #15: id=None | class=['APLI_conteTablaMensaje'] | filas=1
+
+LISTA DE IDs DE TABLAS:
+  1. None
+  2. None
+  3. None
+  4. None
+  5. None
+  6. None
+  7. 'ctl00_cphContent_rdpDate_calendar'
+  8. None
+  9. 'ctl00_cphContent_rdpDate_calendar_Top'
+  10. 'ctl00_cphContent_rpgActualMn_OT'
+  11. 'ctl00_cphContent_rpgActualMn_ctl00_DataZone_DT'
+  12. 'ctl00_cphContent_rpgActualMex_OT'
+  13. 'ctl00_cphContent_rpgActualMex_ctl00_DataZone_DT'
+  14. None
+  15. None
+
+----------------------------------------------------------------------------------------------------------------------
+TABLAS CANDIDATAS
+----------------------------------------------------------------------------------------------------------------------
+Cantidad de tablas candidatas: 6
+
+====================================================================================================
+TABLA CANDIDATA #2
+id=None
+class=None
+Longitud texto=45
+Encabezados <th>: []
+Primeras filas:
+  Fila 0: ['TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO']
+Primeros 1500 caracteres del texto:
+TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO
+
+====================================================================================================
+TABLA CANDIDATA #10
+id='ctl00_cphContent_rpgActualMn_OT'
+class=['rpgTable']
+Longitud texto=4819
+Encabezados <th>: ['', 'BBVA', 'Bancom', 'Crédito', 'Pichincha', 'BIF', 'Scotiabank', 'Citibank', 'Interbank', 'Mibanco', 'GNB', 'Falabella', 'Santander', 'Ripley', 'Alfin', 'ICBC', 'Bank of China', 'BCI', 'Compartamos', 'Santander Cons. Bank', 'Promedio']
+Primeras filas:
+  Fila 0: ['']
+  Fila 1: ['Tasa Anual (%)', 'BBVA Bancom Crédito Pichincha BIF Scotiabank Citibank Interbank Mibanco GNB Falabella Santander Ripley Alfin ICBC Bank of China BCI Compartamos Santander Cons. Bank Promedio 5.21 4.88 5.35 5.67 6.92 6.03 s.i. 7.29 - 5.93 - 7.01 - 11.76 5.72 - 5.90 - - 5.71 5.82 - 5.99 5.10 6.84 6.52 s.i. 6.10 - - - 8.27 - - - - - - - 6.29 4.67 5.20 5.28 4.76 4.72 6.02 s.i. 6.16 - - - - - - 5.55 - 4.67 - - 5.13 5.25 4.79 4.97 5.25 6.85 5.26 s.i. 6.60 - 5.70 - 8.14 - 12.70 6.92 - 4.73 - - 5.40 5.88 4.91 5.92 4.85 6.10 6.18 s.i. 5.85 - 5.99 - 6.41 - 10.32 5.08 - 5.30 - - 5.96 5.26 - 5.54 - 6.00 4.77 s.i. 8.05 - 6.50 - 5.93 - - - - - - - 5.10 6.07 - 5.29 6.35 7.76 7.72 s.i. 8.88 - - - - - - - - 6.52 - - 6.36 7.68 6.68 7.54 5.99 7.92 7.29 s.i. 7.36 - 6.79 - 7.79 - 10.38 - - 5.38 - - 7.56 8.07 - 8.04 6.86 7.87 7.14 s.i. 7.39 - 7.36 - 6.85 - - - - - - - 7.73 6.99 - 8.18 5.41 9.22 6.22 s.i. 8.22 - 5.95 - 9.72 - - - - - - - 7.84 7.63 7.51 7.26 6.69 9.13 7.78 s.i. 7.04 - 8.92 - 7.26 - 12.15 - - 5.38 - - 7.46 7.67 5.65 7.21 5.98 8.32 7.14 s.i. 7.34 - 6.05 - 7.93 - 9.18 - - - - - 7.36 7.48 - 6.91 5.67 7.78 8.50 s.i. 6.52 - 7.95 - 8.25 - 11.00 - - - - - 7.01 7.58 - 7.27 6.83 7.56 7.28 s.i. 7.74 - 7.00 - 7.76 - 10.68 - - - - - 7.63 11.30 9.64 9.74 7.11 10.82 9.15 s.i. 8.97 - - - 7.20 - 12.61 - - - - - 9.75 9.93 13.00 10.13 - 15.62 9.08 s.i. 9.35 - - - 10.21 - - - - - - - 9.99 10.34 - 8.92 9.01 10.35 9.31 s.i. 11.68 - - - 6.60 - - - - - - - 8.87 11.84 11.30 9.75 5.71 12.72 9.43 s.i. 9.77 - - - 7.15 - 13.00 - - - - - 10.33 10.67 11.82 9.59 9.30 10.13 9.21 s.i. 6.74 - - - 8.95 - 11.90 - - - - - 9.48 11.80 7.82 9.34 - 9.71 9.57 s.i. 11.27 - - - - - 13.00 - - - - - 10.14 11.81 - 10.07 7.80 8.37 8.63 s.i. 12.17 - - - 7.02 - 14.50 - - - - - 9.56 15.41 18.08 20.25 14.00 9.83 12.62 s.i. 13.86 25.45 8.94 - - - 13.00 - - - 30.94 - 19.47 9.22 - 13.66 - 18.91 9.82 s.i. 11.30 - - - - - - - - - - - 12.98 17.96 - 9.21 - 12.00 14.01 s.i. 10.21 43.20 - - - - 13.00 - - - - - 11.82 15.79 15.00 8.89 - 11.38 10.05 s.i. 9.87 45.61 7.50 - - - 13.00 - - - - - 13.34 15.46 12.62 10.71 14.00 10.58 9.27 s.i. 13.18 36.28 10.17 - - - 13.00 - - - - - 16.47 15.73 25.79 10.02 - 8.90 9.28 s.i. 9.02 30.75 - - - - - - - - 41.36 - 25.84 15.51 18.08 22.37 - 7.01 13.44 s.i. 14.91 23.69 - - - - - - - - 30.32 - 19.86 20.48 22.19 45.50 7.00 24.98 22.90 s.i. 17.37 57.39 - - - - - - - - 83.98 - 71.39 34.21 - 54.64 29.44 - - s.i. - - - - - - - - - - - - 39.92 9.03 - 24.33 - 24.98 - s.i. 13.44 - - - - - - - - - - - 18.25 16.78 - - - - - s.i. 8.00 55.44 - - - - - - - - 39.30 - 54.71 26.08 - - - - - s.i. - 86.78 - - - - - - - - - - 39.72 30.05 - - - - - s.i. - 76.21 - - - - - - - - 109.83 - 83.74 16.50 - 53.42 - - - s.i. - 72.44 - - - - - - - - 110.24 - 109.23 18.41 22.00 - - - - s.i. 23.00 63.91 - - - - - - - - 55.74 - 60.39 18.98 22.25 46.14 7.00 - 22.90 s.i. 19.65 53.72 - - - - - - - - 36.29 - 33.54 53.60 14.96 62.09 44.12 29.46 54.62 s.i. 60.09 55.31 20.14 86.03 - 85.96 52.38 - - - 36.92 46.81 61.09 75.81 32.68 69.80 50.00 62.30 66.45 s.i. 67.52 - 32.26 93.91 - 101.68 - - - - - 72.93 74.94 11.69 - - - - - s.i. - 61.64 - - - - - - - - 85.79 - 13.00 12.53 - 11.94 - 12.16 11.11 s.i. - - - - - - - - - - - - 12.31 18.01 31.23 90.02 21.14 11.23 25.21 s.i. 25.36 65.42 - 28.43 - 59.17 48.50 - - - 50.61 - 80.64 18.87 14.78 18.38 15.66 19.33 16.97 s.i. 18.22 42.41 12.08 22.62 - 32.80 52.49 - - - 35.15 43.33 23.39 - 49.24 - - - - s.i. - - - - - - - - - - - - 49.24 7.70 9.28 8.06 8.71 8.33 7.58 s.i. 7.69 15.82 7.24 - - - - - - - - 11.89 7.89 7.70 9.28 8.06 8.71 8.33 7.58 s.i. 7.69 15.82 7.24 - - - - - - - - 11.89 7.89', 'BBVA', 'Bancom', 'Crédito', 'Pichincha', 'BIF', 'Scotiabank', 'Citibank', 'Interbank', 'Mibanco', 'GNB', 'Falabella', 'Santander', 'Ripley', 'Alfin', 'ICBC', 'Bank of China', 'BCI', 'Compartamos', 'Santander Cons. Bank', 'Promedio', '5.21', '4.88', '5.35', '5.67', '6.92', '6.03', 's.i.', '7.29', '-', '5.93', '-', '7.01', '-']
+  Fila 2: ['BBVA', 'Bancom', 'Crédito', 'Pichincha', 'BIF', 'Scotiabank', 'Citibank', 'Interbank', 'Mibanco', 'GNB', 'Falabella', 'Santander', 'Ripley', 'Alfin', 'ICBC', 'Bank of China', 'BCI', 'Compartamos', 'Santander Cons. Bank', 'Promedio']
+  Fila 3: ['5.21', '4.88', '5.35', '5.67', '6.92', '6.03', 's.i.', '7.29', '-', '5.93', '-', '7.01', '-', '11.76', '5.72', '-', '5.90', '-', '-', '5.71']
+  Fila 4: ['5.82', '-', '5.99', '5.10', '6.84', '6.52', 's.i.', '6.10', '-', '-', '-', '8.27', '-', '-', '-', '-', '-', '-', '-', '6.29']
+  Fila 5: ['4.67', '5.20', '5.28', '4.76', '4.72', '6.02', 's.i.', '6.16', '-', '-', '-', '-', '-', '-', '5.55', '-', '4.67', '-', '-', '5.13']
+  Fila 6: ['5.25', '4.79', '4.97', '5.25', '6.85', '5.26', 's.i.', '6.60', '-', '5.70', '-', '8.14', '-', '12.70', '6.92', '-', '4.73', '-', '-', '5.40']
+  Fila 7: ['5.88', '4.91', '5.92', '4.85', '6.10', '6.18', 's.i.', '5.85', '-', '5.99', '-', '6.41', '-', '10.32', '5.08', '-', '5.30', '-', '-', '5.96']
+  Fila 8: ['5.26', '-', '5.54', '-', '6.00', '4.77', 's.i.', '8.05', '-', '6.50', '-', '5.93', '-', '-', '-', '-', '-', '-', '-', '5.10']
+  Fila 9: ['6.07', '-', '5.29', '6.35', '7.76', '7.72', 's.i.', '8.88', '-', '-', '-', '-', '-', '-', '-', '-', '6.52', '-', '-', '6.36']
+Primeros 1500 caracteres del texto:
+Tasa Anual (%) BBVA Bancom Crédito Pichincha BIF Scotiabank Citibank Interbank Mibanco GNB Falabella Santander Ripley Alfin ICBC Bank of China BCI Compartamos Santander Cons. Bank Promedio 5.21 4.88 5.35 5.67 6.92 6.03 s.i. 7.29 - 5.93 - 7.01 - 11.76 5.72 - 5.90 - - 5.71 5.82 - 5.99 5.10 6.84 6.52 s.i. 6.10 - - - 8.27 - - - - - - - 6.29 4.67 5.20 5.28 4.76 4.72 6.02 s.i. 6.16 - - - - - - 5.55 - 4.67 - - 5.13 5.25 4.79 4.97 5.25 6.85 5.26 s.i. 6.60 - 5.70 - 8.14 - 12.70 6.92 - 4.73 - - 5.40 5.88 4.91 5.92 4.85 6.10 6.18 s.i. 5.85 - 5.99 - 6.41 - 10.32 5.08 - 5.30 - - 5.96 5.26 - 5.54 - 6.00 4.77 s.i. 8.05 - 6.50 - 5.93 - - - - - - - 5.10 6.07 - 5.29 6.35 7.76 7.72 s.i. 8.88 - - - - - - - - 6.52 - - 6.36 7.68 6.68 7.54 5.99 7.92 7.29 s.i. 7.36 - 6.79 - 7.79 - 10.38 - - 5.38 - - 7.56 8.07 - 8.04 6.86 7.87 7.14 s.i. 7.39 - 7.36 - 6.85 - - - - - - - 7.73 6.99 - 8.18 5.41 9.22 6.22 s.i. 8.22 - 5.95 - 9.72 - - - - - - - 7.84 7.63 7.51 7.26 6.69 9.13 7.78 s.i. 7.04 - 8.92 - 7.26 - 12.15 - - 5.38 - - 7.46 7.67 5.65 7.21 5.98 8.32 7.14 s.i. 7.34 - 6.05 - 7.93 - 9.18 - - - - - 7.36 7.48 - 6.91 5.67 7.78 8.50 s.i. 6.52 - 7.95 - 8.25 - 11.00 - - - - - 7.01 7.58 - 7.27 6.83 7.56 7.28 s.i. 7.74 - 7.00 - 7.76 - 10.68 - - - - - 7.63 11.30 9.64 9.74 7.11 10.82 9.15 s.i. 8.97 - - - 7.20 - 12.61 - - - - - 9.75 9.93 13.00 10.13 - 15.62 9.08 s.i. 9.35 - - - 10.21 - - - - - - - 9.99 10.34 - 8.92 9.01 10.35 9.31 s.i. 11.68 - - - 6.60 - - - - - - - 8.87 11.84 11.30 9.75 5.71 12.72 9.43 s.i. 9.77 - - 
+
+====================================================================================================
+TABLA CANDIDATA #11
+id='ctl00_cphContent_rpgActualMn_ctl00_DataZone_DT'
+class=['rpgTable']
+Longitud texto=3597
+Encabezados <th>: ['BBVA', 'Bancom', 'Crédito', 'Pichincha', 'BIF', 'Scotiabank', 'Citibank', 'Interbank', 'Mibanco', 'GNB', 'Falabella', 'Santander', 'Ripley', 'Alfin', 'ICBC', 'Bank of China', 'BCI', 'Compartamos', 'Santander Cons. Bank', 'Promedio']
+Primeras filas:
+  Fila 0: ['BBVA', 'Bancom', 'Crédito', 'Pichincha', 'BIF', 'Scotiabank', 'Citibank', 'Interbank', 'Mibanco', 'GNB', 'Falabella', 'Santander', 'Ripley', 'Alfin', 'ICBC', 'Bank of China', 'BCI', 'Compartamos', 'Santander Cons. Bank', 'Promedio']
+  Fila 1: ['5.21', '4.88', '5.35', '5.67', '6.92', '6.03', 's.i.', '7.29', '-', '5.93', '-', '7.01', '-', '11.76', '5.72', '-', '5.90', '-', '-', '5.71']
+  Fila 2: ['5.82', '-', '5.99', '5.10', '6.84', '6.52', 's.i.', '6.10', '-', '-', '-', '8.27', '-', '-', '-', '-', '-', '-', '-', '6.29']
+  Fila 3: ['4.67', '5.20', '5.28', '4.76', '4.72', '6.02', 's.i.', '6.16', '-', '-', '-', '-', '-', '-', '5.55', '-', '4.67', '-', '-', '5.13']
+  Fila 4: ['5.25', '4.79', '4.97', '5.25', '6.85', '5.26', 's.i.', '6.60', '-', '5.70', '-', '8.14', '-', '12.70', '6.92', '-', '4.73', '-', '-', '5.40']
+  Fila 5: ['5.88', '4.91', '5.92', '4.85', '6.10', '6.18', 's.i.', '5.85', '-', '5.99', '-', '6.41', '-', '10.32', '5.08', '-', '5.30', '-', '-', '5.96']
+  Fila 6: ['5.26', '-', '5.54', '-', '6.00', '4.77', 's.i.', '8.05', '-', '6.50', '-', '5.93', '-', '-', '-', '-', '-', '-', '-', '5.10']
+  Fila 7: ['6.07', '-', '5.29', '6.35', '7.76', '7.72', 's.i.', '8.88', '-', '-', '-', '-', '-', '-', '-', '-', '6.52', '-', '-', '6.36']
+  Fila 8: ['7.68', '6.68', '7.54', '5.99', '7.92', '7.29', 's.i.', '7.36', '-', '6.79', '-', '7.79', '-', '10.38', '-', '-', '5.38', '-', '-', '7.56']
+  Fila 9: ['8.07', '-', '8.04', '6.86', '7.87', '7.14', 's.i.', '7.39', '-', '7.36', '-', '6.85', '-', '-', '-', '-', '-', '-', '-', '7.73']
+Primeros 1500 caracteres del texto:
+BBVA Bancom Crédito Pichincha BIF Scotiabank Citibank Interbank Mibanco GNB Falabella Santander Ripley Alfin ICBC Bank of China BCI Compartamos Santander Cons. Bank Promedio 5.21 4.88 5.35 5.67 6.92 6.03 s.i. 7.29 - 5.93 - 7.01 - 11.76 5.72 - 5.90 - - 5.71 5.82 - 5.99 5.10 6.84 6.52 s.i. 6.10 - - - 8.27 - - - - - - - 6.29 4.67 5.20 5.28 4.76 4.72 6.02 s.i. 6.16 - - - - - - 5.55 - 4.67 - - 5.13 5.25 4.79 4.97 5.25 6.85 5.26 s.i. 6.60 - 5.70 - 8.14 - 12.70 6.92 - 4.73 - - 5.40 5.88 4.91 5.92 4.85 6.10 6.18 s.i. 5.85 - 5.99 - 6.41 - 10.32 5.08 - 5.30 - - 5.96 5.26 - 5.54 - 6.00 4.77 s.i. 8.05 - 6.50 - 5.93 - - - - - - - 5.10 6.07 - 5.29 6.35 7.76 7.72 s.i. 8.88 - - - - - - - - 6.52 - - 6.36 7.68 6.68 7.54 5.99 7.92 7.29 s.i. 7.36 - 6.79 - 7.79 - 10.38 - - 5.38 - - 7.56 8.07 - 8.04 6.86 7.87 7.14 s.i. 7.39 - 7.36 - 6.85 - - - - - - - 7.73 6.99 - 8.18 5.41 9.22 6.22 s.i. 8.22 - 5.95 - 9.72 - - - - - - - 7.84 7.63 7.51 7.26 6.69 9.13 7.78 s.i. 7.04 - 8.92 - 7.26 - 12.15 - - 5.38 - - 7.46 7.67 5.65 7.21 5.98 8.32 7.14 s.i. 7.34 - 6.05 - 7.93 - 9.18 - - - - - 7.36 7.48 - 6.91 5.67 7.78 8.50 s.i. 6.52 - 7.95 - 8.25 - 11.00 - - - - - 7.01 7.58 - 7.27 6.83 7.56 7.28 s.i. 7.74 - 7.00 - 7.76 - 10.68 - - - - - 7.63 11.30 9.64 9.74 7.11 10.82 9.15 s.i. 8.97 - - - 7.20 - 12.61 - - - - - 9.75 9.93 13.00 10.13 - 15.62 9.08 s.i. 9.35 - - - 10.21 - - - - - - - 9.99 10.34 - 8.92 9.01 10.35 9.31 s.i. 11.68 - - - 6.60 - - - - - - - 8.87 11.84 11.30 9.75 5.71 12.72 9.43 s.i. 9.77 - - - 7.15 - 13.00 
+
+====================================================================================================
+TABLA CANDIDATA #12
+id='ctl00_cphContent_rpgActualMex_OT'
+class=['rpgTable']
+Longitud texto=4476
+Encabezados <th>: ['', 'BBVA', 'Bancom', 'Crédito', 'Pichincha', 'BIF', 'Scotiabank', 'Citibank', 'Interbank', 'Mibanco', 'GNB', 'Falabella', 'Santander', 'Ripley', 'Alfin', 'ICBC', 'Bank of China', 'BCI', 'Compartamos', 'Santander Cons. Bank', 'Efectiva', 'Promedio']
+Primeras filas:
+  Fila 0: ['']
+  Fila 1: ['Tasa Anual (%)', 'BBVA Bancom Crédito Pichincha BIF Scotiabank Citibank Interbank Mibanco GNB Falabella Santander Ripley Alfin ICBC Bank of China BCI Compartamos Santander Cons. Bank Efectiva Promedio 5.93 - 4.36 4.41 5.20 4.94 s.i. 5.21 - 5.24 - 6.61 - - 6.51 3.83 5.32 - - - 4.83 5.52 - 4.96 6.50 4.37 4.88 s.i. 4.68 - 5.59 - 7.42 - - - - - - - - 4.89 7.25 - 4.44 - 4.64 5.71 s.i. 4.74 - 6.60 - 5.71 - - 4.96 - 4.10 - - - 4.61 4.33 - 3.85 4.38 4.52 3.89 s.i. 5.45 - 4.93 - 5.88 - - 6.65 3.83 4.81 - - - 4.45 5.27 - 4.26 - 5.71 4.76 s.i. 4.14 - 4.43 - 7.74 - - - - 4.72 - - - 4.87 5.70 - 5.12 - 5.85 4.10 s.i. 7.70 - - - 8.24 - - - - - - - - 5.60 6.18 - 5.27 - 8.77 6.91 s.i. 5.95 - - - 9.18 - - 5.61 - 7.00 - - - 6.34 7.14 7.04 6.02 5.87 7.12 5.26 s.i. 6.55 - 6.33 - 6.78 - 9.95 6.10 - 6.57 - - - 6.31 7.55 - 6.51 6.62 6.47 5.47 s.i. 6.37 - 7.10 - 7.23 - - - - - - - - 6.64 7.11 - 5.44 4.25 6.14 6.24 s.i. 6.44 - - - 6.06 - - - - - - - - 5.61 6.36 6.98 6.44 6.24 8.29 6.43 s.i. 6.69 - 5.94 - 6.41 - 11.00 6.16 - 5.18 - - - 6.44 7.49 8.30 6.09 4.99 7.14 4.51 s.i. 7.28 - 6.17 - 7.58 - - - - 7.73 - - - 6.16 6.36 6.14 5.86 8.96 7.45 6.94 s.i. 6.79 - - - 9.15 - - - - - - - - 6.50 6.86 - 6.42 6.01 10.62 6.57 s.i. 6.40 - 6.12 - 8.27 - 9.30 5.40 - - - - - 6.96 8.94 8.82 7.55 8.45 8.40 7.53 s.i. 9.09 - 10.00 - 7.78 - - - - - - - - 7.88 8.91 - 8.38 10.30 13.97 8.13 s.i. 8.40 - - - 9.49 - - - - - - - - 8.61 8.66 - 7.46 - - 7.90 s.i. 11.63 - - - 6.01 - - - - - - - - 7.53 9.25 9.00 5.65 10.50 7.31 8.36 s.i. 9.99 - 10.00 - 6.24 - - - - - - - - 6.36 9.47 7.95 9.05 6.55 9.00 7.55 s.i. 9.10 - - - 8.08 - - - - - - - - 8.84 9.89 12.00 8.14 11.32 7.00 6.46 s.i. 11.59 - - - 10.29 - - - - - - - - 8.71 7.73 - 8.05 8.15 8.61 6.94 s.i. 9.10 - - - 10.29 - - - - - - - - 7.87 10.67 - 8.16 17.29 10.60 7.07 s.i. 11.97 - 5.94 - 5.58 - - - - - - - - 8.55 8.90 - 11.98 17.29 14.56 9.12 s.i. 13.61 - 5.94 - - - - - - - - - - 11.84 10.58 - 7.29 - - 6.37 s.i. 10.10 - - - - - - - - - - - - 8.02 11.28 - 5.01 - 5.87 10.01 s.i. 9.41 - - - 5.58 - - - - - - - - 5.35 12.61 - 7.18 - 9.00 6.89 s.i. 10.54 - - - - - - - - - - - - 7.60 12.66 - 6.79 - - 5.15 s.i. - - - - - - - - - - - - - 6.04 11.36 - 6.58 - 8.52 10.36 s.i. 11.01 - - - - - - - - - - - - 7.85 16.60 - 23.53 20.36 - - s.i. 17.69 - - - - - - - - - - - - 21.10 34.88 - 22.39 20.36 - - s.i. - - - - - - - - - - - - - 24.00 13.48 - 28.15 - - - s.i. 17.69 - - - - - - - - - - - - 21.66 - - - - - - s.i. - - - - - - - - - - - - - - - - - - - - s.i. - - - - - - - - - - - - - - - - - - - - s.i. - - - - - - - - - - - - - - - - - - - - s.i. - - - - - - - - - - - - - - - - - - - - s.i. - - - - - - - - - - - - - - 10.00 - - - - - s.i. - - - - - - - - - - - - - 10.00 52.81 37.69 48.33 47.07 45.74 57.62 s.i. 59.83 - 32.53 - - - - - - - - - - 51.40 64.09 37.69 57.63 47.07 52.25 62.44 s.i. 61.21 - 46.69 - - - - - - - - - - 59.57 16.20 - - - - - s.i. - - - - - - - - - - - - - 16.20 9.95 - 9.43 - 8.99 4.79 s.i. - - - - - - - - - - - - - 7.66 5.09 - 5.22 - 13.38 - s.i. 5.86 - - - - - - - - - - - - 5.16 7.83 - 5.50 - 7.05 9.34 s.i. 8.86 - 10.20 - - - - - - - - - - 6.06 - - - - - - s.i. - - - - - - - - - - - - - - 7.08 - 6.91 - 7.57 6.52 s.i. 7.27 - - - - - - - - - - - - 6.97 7.08 - 6.91 - 7.57 6.52 s.i. 7.27 - - - - - - - - - - - - 6.97', 'BBVA', 'Bancom', 'Crédito', 'Pichincha', 'BIF', 'Scotiabank', 'Citibank', 'Interbank', 'Mibanco', 'GNB', 'Falabella', 'Santander', 'Ripley', 'Alfin', 'ICBC', 'Bank of China', 'BCI', 'Compartamos', 'Santander Cons. Bank', 'Efectiva', 'Promedio', '5.93', '-', '4.36', '4.41', '5.20', '4.94', 's.i.', '5.21', '-', '5.24', '-', '6.61']
+  Fila 2: ['BBVA', 'Bancom', 'Crédito', 'Pichincha', 'BIF', 'Scotiabank', 'Citibank', 'Interbank', 'Mibanco', 'GNB', 'Falabella', 'Santander', 'Ripley', 'Alfin', 'ICBC', 'Bank of China', 'BCI', 'Compartamos', 'Santander Cons. Bank', 'Efectiva', 'Promedio']
+  Fila 3: ['5.93', '-', '4.36', '4.41', '5.20', '4.94', 's.i.', '5.21', '-', '5.24', '-', '6.61', '-', '-', '6.51', '3.83', '5.32', '-', '-', '-', '4.83']
+  Fila 4: ['5.52', '-', '4.96', '6.50', '4.37', '4.88', 's.i.', '4.68', '-', '5.59', '-', '7.42', '-', '-', '-', '-', '-', '-', '-', '-', '4.89']
+  Fila 5: ['7.25', '-', '4.44', '-', '4.64', '5.71', 's.i.', '4.74', '-', '6.60', '-', '5.71', '-', '-', '4.96', '-', '4.10', '-', '-', '-', '4.61']
+  Fila 6: ['4.33', '-', '3.85', '4.38', '4.52', '3.89', 's.i.', '5.45', '-', '4.93', '-', '5.88', '-', '-', '6.65', '3.83', '4.81', '-', '-', '-', '4.45']
+  Fila 7: ['5.27', '-', '4.26', '-', '5.71', '4.76', 's.i.', '4.14', '-', '4.43', '-', '7.74', '-', '-', '-', '-', '4.72', '-', '-', '-', '4.87']
+  Fila 8: ['5.70', '-', '5.12', '-', '5.85', '4.10', 's.i.', '7.70', '-', '-', '-', '8.24', '-', '-', '-', '-', '-', '-', '-', '-', '5.60']
+  Fila 9: ['6.18', '-', '5.27', '-', '8.77', '6.91', 's.i.', '5.95', '-', '-', '-', '9.18', '-', '-', '5.61', '-', '7.00', '-', '-', '-', '6.34']
+Primeros 1500 caracteres del texto:
+Tasa Anual (%) BBVA Bancom Crédito Pichincha BIF Scotiabank Citibank Interbank Mibanco GNB Falabella Santander Ripley Alfin ICBC Bank of China BCI Compartamos Santander Cons. Bank Efectiva Promedio 5.93 - 4.36 4.41 5.20 4.94 s.i. 5.21 - 5.24 - 6.61 - - 6.51 3.83 5.32 - - - 4.83 5.52 - 4.96 6.50 4.37 4.88 s.i. 4.68 - 5.59 - 7.42 - - - - - - - - 4.89 7.25 - 4.44 - 4.64 5.71 s.i. 4.74 - 6.60 - 5.71 - - 4.96 - 4.10 - - - 4.61 4.33 - 3.85 4.38 4.52 3.89 s.i. 5.45 - 4.93 - 5.88 - - 6.65 3.83 4.81 - - - 4.45 5.27 - 4.26 - 5.71 4.76 s.i. 4.14 - 4.43 - 7.74 - - - - 4.72 - - - 4.87 5.70 - 5.12 - 5.85 4.10 s.i. 7.70 - - - 8.24 - - - - - - - - 5.60 6.18 - 5.27 - 8.77 6.91 s.i. 5.95 - - - 9.18 - - 5.61 - 7.00 - - - 6.34 7.14 7.04 6.02 5.87 7.12 5.26 s.i. 6.55 - 6.33 - 6.78 - 9.95 6.10 - 6.57 - - - 6.31 7.55 - 6.51 6.62 6.47 5.47 s.i. 6.37 - 7.10 - 7.23 - - - - - - - - 6.64 7.11 - 5.44 4.25 6.14 6.24 s.i. 6.44 - - - 6.06 - - - - - - - - 5.61 6.36 6.98 6.44 6.24 8.29 6.43 s.i. 6.69 - 5.94 - 6.41 - 11.00 6.16 - 5.18 - - - 6.44 7.49 8.30 6.09 4.99 7.14 4.51 s.i. 7.28 - 6.17 - 7.58 - - - - 7.73 - - - 6.16 6.36 6.14 5.86 8.96 7.45 6.94 s.i. 6.79 - - - 9.15 - - - - - - - - 6.50 6.86 - 6.42 6.01 10.62 6.57 s.i. 6.40 - 6.12 - 8.27 - 9.30 5.40 - - - - - 6.96 8.94 8.82 7.55 8.45 8.40 7.53 s.i. 9.09 - 10.00 - 7.78 - - - - - - - - 7.88 8.91 - 8.38 10.30 13.97 8.13 s.i. 8.40 - - - 9.49 - - - - - - - - 8.61 8.66 - 7.46 - - 7.90 s.i. 11.63 - - - 6.01 - - - - - - - - 7.53 9.25 9.00 5.65 10.50 7.31 8.36 s.
+
+====================================================================================================
+TABLA CANDIDATA #13
+id='ctl00_cphContent_rpgActualMex_ctl00_DataZone_DT'
+class=['rpgTable']
+Longitud texto=3254
+Encabezados <th>: ['BBVA', 'Bancom', 'Crédito', 'Pichincha', 'BIF', 'Scotiabank', 'Citibank', 'Interbank', 'Mibanco', 'GNB', 'Falabella', 'Santander', 'Ripley', 'Alfin', 'ICBC', 'Bank of China', 'BCI', 'Compartamos', 'Santander Cons. Bank', 'Efectiva', 'Promedio']
+Primeras filas:
+  Fila 0: ['BBVA', 'Bancom', 'Crédito', 'Pichincha', 'BIF', 'Scotiabank', 'Citibank', 'Interbank', 'Mibanco', 'GNB', 'Falabella', 'Santander', 'Ripley', 'Alfin', 'ICBC', 'Bank of China', 'BCI', 'Compartamos', 'Santander Cons. Bank', 'Efectiva', 'Promedio']
+  Fila 1: ['5.93', '-', '4.36', '4.41', '5.20', '4.94', 's.i.', '5.21', '-', '5.24', '-', '6.61', '-', '-', '6.51', '3.83', '5.32', '-', '-', '-', '4.83']
+  Fila 2: ['5.52', '-', '4.96', '6.50', '4.37', '4.88', 's.i.', '4.68', '-', '5.59', '-', '7.42', '-', '-', '-', '-', '-', '-', '-', '-', '4.89']
+  Fila 3: ['7.25', '-', '4.44', '-', '4.64', '5.71', 's.i.', '4.74', '-', '6.60', '-', '5.71', '-', '-', '4.96', '-', '4.10', '-', '-', '-', '4.61']
+  Fila 4: ['4.33', '-', '3.85', '4.38', '4.52', '3.89', 's.i.', '5.45', '-', '4.93', '-', '5.88', '-', '-', '6.65', '3.83', '4.81', '-', '-', '-', '4.45']
+  Fila 5: ['5.27', '-', '4.26', '-', '5.71', '4.76', 's.i.', '4.14', '-', '4.43', '-', '7.74', '-', '-', '-', '-', '4.72', '-', '-', '-', '4.87']
+  Fila 6: ['5.70', '-', '5.12', '-', '5.85', '4.10', 's.i.', '7.70', '-', '-', '-', '8.24', '-', '-', '-', '-', '-', '-', '-', '-', '5.60']
+  Fila 7: ['6.18', '-', '5.27', '-', '8.77', '6.91', 's.i.', '5.95', '-', '-', '-', '9.18', '-', '-', '5.61', '-', '7.00', '-', '-', '-', '6.34']
+  Fila 8: ['7.14', '7.04', '6.02', '5.87', '7.12', '5.26', 's.i.', '6.55', '-', '6.33', '-', '6.78', '-', '9.95', '6.10', '-', '6.57', '-', '-', '-', '6.31']
+  Fila 9: ['7.55', '-', '6.51', '6.62', '6.47', '5.47', 's.i.', '6.37', '-', '7.10', '-', '7.23', '-', '-', '-', '-', '-', '-', '-', '-', '6.64']
+Primeros 1500 caracteres del texto:
+BBVA Bancom Crédito Pichincha BIF Scotiabank Citibank Interbank Mibanco GNB Falabella Santander Ripley Alfin ICBC Bank of China BCI Compartamos Santander Cons. Bank Efectiva Promedio 5.93 - 4.36 4.41 5.20 4.94 s.i. 5.21 - 5.24 - 6.61 - - 6.51 3.83 5.32 - - - 4.83 5.52 - 4.96 6.50 4.37 4.88 s.i. 4.68 - 5.59 - 7.42 - - - - - - - - 4.89 7.25 - 4.44 - 4.64 5.71 s.i. 4.74 - 6.60 - 5.71 - - 4.96 - 4.10 - - - 4.61 4.33 - 3.85 4.38 4.52 3.89 s.i. 5.45 - 4.93 - 5.88 - - 6.65 3.83 4.81 - - - 4.45 5.27 - 4.26 - 5.71 4.76 s.i. 4.14 - 4.43 - 7.74 - - - - 4.72 - - - 4.87 5.70 - 5.12 - 5.85 4.10 s.i. 7.70 - - - 8.24 - - - - - - - - 5.60 6.18 - 5.27 - 8.77 6.91 s.i. 5.95 - - - 9.18 - - 5.61 - 7.00 - - - 6.34 7.14 7.04 6.02 5.87 7.12 5.26 s.i. 6.55 - 6.33 - 6.78 - 9.95 6.10 - 6.57 - - - 6.31 7.55 - 6.51 6.62 6.47 5.47 s.i. 6.37 - 7.10 - 7.23 - - - - - - - - 6.64 7.11 - 5.44 4.25 6.14 6.24 s.i. 6.44 - - - 6.06 - - - - - - - - 5.61 6.36 6.98 6.44 6.24 8.29 6.43 s.i. 6.69 - 5.94 - 6.41 - 11.00 6.16 - 5.18 - - - 6.44 7.49 8.30 6.09 4.99 7.14 4.51 s.i. 7.28 - 6.17 - 7.58 - - - - 7.73 - - - 6.16 6.36 6.14 5.86 8.96 7.45 6.94 s.i. 6.79 - - - 9.15 - - - - - - - - 6.50 6.86 - 6.42 6.01 10.62 6.57 s.i. 6.40 - 6.12 - 8.27 - 9.30 5.40 - - - - - 6.96 8.94 8.82 7.55 8.45 8.40 7.53 s.i. 9.09 - 10.00 - 7.78 - - - - - - - - 7.88 8.91 - 8.38 10.30 13.97 8.13 s.i. 8.40 - - - 9.49 - - - - - - - - 8.61 8.66 - 7.46 - - 7.90 s.i. 11.63 - - - 6.01 - - - - - - - - 7.53 9.25 9.00 5.65 10.50 7.31 8.36 s.i. 9.99 - 10.00
+
+====================================================================================================
+TABLA CANDIDATA #14
+id=None
+class=['APLI_conteTablaMensaje']
+Longitud texto=396
+Encabezados <th>: []
+Primeras filas:
+  Fila 0: ['Nota: Cuadro elaborado sobre la base de la información remitida diariamente por las Empresas Bancarias a través del Reporte N°6. Las tasas de interés tienen carácter referencial. Las definiciones de los tipos de crédito se encuentran en el Reglamento para la Evaluación y Clasificación del Deudor y la Exigencia de Provisiones, aprobado mediante Resolución SBS N° 11356-2008 ( Ver definiciones ).']
+Primeros 1500 caracteres del texto:
+Nota: Cuadro elaborado sobre la base de la información remitida diariamente por las Empresas Bancarias a través del Reporte N°6. Las tasas de interés tienen carácter referencial. Las definiciones de los tipos de crédito se encuentran en el Reglamento para la Evaluación y Clasificación del Deudor y la Exigencia de Provisiones, aprobado mediante Resolución SBS N° 11356-2008 ( Ver definiciones ).
+
+----------------------------------------------------------------------------------------------------------------------
+ARCHIVO HTML
+----------------------------------------------------------------------------------------------------------------------
+HTML guardado en:
+C:\Users\Crystell\Desktop\FINANZAS\salidas\diagnosticos\tasa_activa_2025_renderizada.html
+
+----------------------------------------------------------------------------------------------------------------------
+SCREENSHOT
+----------------------------------------------------------------------------------------------------------------------
+Screenshot guardado: True
+Método: CDP_FULL_PAGE
+Ruta PNG:
+C:\Users\Crystell\Desktop\FINANZAS\salidas\diagnosticos\tasa_activa_2025_pagina.png
+
+======================================================================================================================
+RESUMEN DEL DIAGNÓSTICO
+======================================================================================================================
+Fecha consultada: 31/12/2025
+Fecha visible de resultado detectada: True
+URL final: https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TIActivaTipoCreditoEmpresa.aspx?tip=B
+Título final: ''
+Fecha visible post: '31/12/2025'
+Fecha interna post: '2025-12-31'
+hdTipoMoneda post: 'MN'
+hdTipoEntidad post: 'B'
+'Consumo' visible: True
+'Consumo' en HTML: True
+
+El diagnóstico NO intentó extraer tasas bancarias.
+El diagnóstico NO exigió ningún ID específico de tabla.

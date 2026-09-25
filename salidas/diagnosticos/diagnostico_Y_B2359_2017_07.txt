@@ -1,0 +1,348 @@
+
+==========================================================================================================================
+DIAGNÓSTICO LOCAL Y / B-2359 / 2017-07
+==========================================================================================================================
+No se realizará ninguna descarga.
+No se modifica el script de producción.
+No se modifica DOLCRED.
+No se modifica el parser.
+No se ejecuta X1.
+
+Archivo esperado = C:\Users\Crystell\Desktop\FINANZAS\datos_crudos\Y_B2359_2024200485D\Y_B-2359_2024200485D_2017-07.xls
+Tamaño bytes = 79872
+SHA-256 = 3c771222229afcb2e58eb5df20be2ce0df150417211ac3949e334ccb88ef4a40
+Formato real = XLS_OLE
+
+==========================================================================================================================
+CONTROLES TOTAL BANCA MÚLTIPLE - 2017-07
+==========================================================================================================================
+
+--------------------------------------------------------------------------------------------------------------------------
+MN
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad de bancos individuales = 16
+sum() = 158671871.482
+math.fsum() = 158671871.482
+Total Banca Múltiple SBS raw (parser) = 158671871.52
+Total Banca Múltiple SBS raw (celda) = 158671871.52
+Diferencia absoluta sum() = 0.038000017404556274
+Diferencia relativa sum() = 2.3948805191830434e-10
+Diferencia absoluta math.fsum() = 0.038000017404556274
+Diferencia relativa math.fsum() = 2.3948805191830434e-10
+sum() - math.fsum() = 0.0
+Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales mostrados = 0
+Suma ROUND_HALF_UP = 158671871
+Total SBS ROUND_HALF_UP = 158671872
+¿Coinciden a precisión mostrada? = False
+
+--------------------------------------------------------------------------------------------------------------------------
+ME
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad de bancos individuales = 16
+sum() = 23775582.32119716
+math.fsum() = 23775582.32119716
+Total Banca Múltiple SBS raw (parser) = 23775582.32335699
+Total Banca Múltiple SBS raw (celda) = 23775582.32335699
+Diferencia absoluta sum() = 0.0021598301827907562
+Diferencia relativa sum() = 9.084236732527691e-11
+Diferencia absoluta math.fsum() = 0.0021598301827907562
+Diferencia relativa math.fsum() = 9.084236732527691e-11
+sum() - math.fsum() = 0.0
+Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales mostrados = 0
+Suma ROUND_HALF_UP = 23775582
+Total SBS ROUND_HALF_UP = 23775582
+¿Coinciden a precisión mostrada? = True
+
+--------------------------------------------------------------------------------------------------------------------------
+TOTAL
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad de bancos individuales = 16
+sum() = 235728533.825
+math.fsum() = 235728533.825
+Total Banca Múltiple SBS raw (parser) = 235728533.834
+Total Banca Múltiple SBS raw (celda) = 235728533.834
+Diferencia absoluta sum() = 0.009000003337860107
+Diferencia relativa sum() = 3.8179524521193134e-11
+Diferencia absoluta math.fsum() = 0.009000003337860107
+Diferencia relativa math.fsum() = 3.8179524521193134e-11
+sum() - math.fsum() = 0.0
+Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales mostrados = 0
+Suma ROUND_HALF_UP = 235728534
+Total SBS ROUND_HALF_UP = 235728534
+¿Coinciden a precisión mostrada? = True
+
+==========================================================================================================================
+VALORES INDIVIDUALES MN - TODOS LOS BLOQUES DETECTADOS
+==========================================================================================================================
+
+Bloque 01 | 'Banco Continental'
+  Clasificación = BANCO_INCLUIDO_EN_LA_SUMA
+  Columnas MN/ME/TOTAL = 1/2/3
+  Encabezado MN raw = 'MN \n(S/. Miles)'
+  Nombre raw en las 3 columnas = 'Banco Continental' | '' | ''
+  MN raw = 31788848.725
+  MN convertido = 31788848.725
+  MN ctype = 2
+  MN formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  MN decimales mostrados = 0
+
+Bloque 02 | 'Banco de Comercio'
+  Clasificación = BANCO_INCLUIDO_EN_LA_SUMA
+  Columnas MN/ME/TOTAL = 4/5/6
+  Encabezado MN raw = 'MN \n(S/. Miles)'
+  Nombre raw en las 3 columnas = 'Banco de Comercio' | '' | ''
+  MN raw = 1258127.396
+  MN convertido = 1258127.396
+  MN ctype = 2
+  MN formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  MN decimales mostrados = 0
+
+Bloque 03 | 'Banco de Crédito del Perú'
+  Clasificación = BANCO_INCLUIDO_EN_LA_SUMA
+  Columnas MN/ME/TOTAL = 7/8/9
+  Encabezado MN raw = 'MN \n(S/. Miles)'
+  Nombre raw en las 3 columnas = 'Banco de Crédito del Perú ' | '' | ''
+  MN raw = 47226831.319
+  MN convertido = 47226831.319
+  MN ctype = 2
+  MN formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  MN decimales mostrados = 0
+
+Bloque 04 | 'Banco Financiero'
+  Clasificación = BANCO_INCLUIDO_EN_LA_SUMA
+  Columnas MN/ME/TOTAL = 10/11/12
+  Encabezado MN raw = 'MN \n(S/. Miles)'
+  Nombre raw en las 3 columnas = 'Banco Financiero ' | '' | ''
+  MN raw = 4697525.868000001
+  MN convertido = 4697525.868000001
+  MN ctype = 2
+  MN formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  MN decimales mostrados = 0
+
+Bloque 05 | 'Banco Interamericano de Finanzas'
+  Clasificación = BANCO_INCLUIDO_EN_LA_SUMA
+  Columnas MN/ME/TOTAL = 13/14/15
+  Encabezado MN raw = 'MN \n(S/. Miles)'
+  Nombre raw en las 3 columnas = 'Banco Interamericano de Finanzas' | '' | ''
+  MN raw = 6101246.886
+  MN convertido = 6101246.886
+  MN ctype = 2
+  MN formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  MN decimales mostrados = 0
+
+Bloque 06 | 'Scotiabank Perú'
+  Clasificación = BANCO_INCLUIDO_EN_LA_SUMA
+  Columnas MN/ME/TOTAL = 16/17/18
+  Encabezado MN raw = 'MN \n(S/. Miles)'
+  Nombre raw en las 3 columnas = 'Scotiabank Perú' | '' | ''
+  MN raw = 26766280.182
+  MN convertido = 26766280.182
+  MN ctype = 2
+  MN formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  MN decimales mostrados = 0
+
+Bloque 07 | 'Citibank'
+  Clasificación = BANCO_INCLUIDO_EN_LA_SUMA
+  Columnas MN/ME/TOTAL = 19/20/21
+  Encabezado MN raw = 'MN \n(S/. Miles)'
+  Nombre raw en las 3 columnas = 'Citibank' | '' | ''
+  MN raw = 1389685.234
+  MN convertido = 1389685.234
+  MN ctype = 2
+  MN formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  MN decimales mostrados = 0
+
+Bloque 08 | 'Interbank'
+  Clasificación = BANCO_INCLUIDO_EN_LA_SUMA
+  Columnas MN/ME/TOTAL = 22/23/24
+  Encabezado MN raw = 'MN \n(S/. Miles)'
+  Nombre raw en las 3 columnas = 'Interbank ' | '' | ''
+  MN raw = 19877358.734
+  MN convertido = 19877358.734
+  MN ctype = 2
+  MN formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  MN decimales mostrados = 0
+
+Bloque 09 | 'Mibanco'
+  Clasificación = BANCO_INCLUIDO_EN_LA_SUMA
+  Columnas MN/ME/TOTAL = 25/26/27
+  Encabezado MN raw = 'MN \n(S/. Miles)'
+  Nombre raw en las 3 columnas = 'Mibanco' | '' | ''
+  MN raw = 8752240.725
+  MN convertido = 8752240.725
+  MN ctype = 2
+  MN formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  MN decimales mostrados = 0
+
+Bloque 10 | 'Banco GNB'
+  Clasificación = BANCO_INCLUIDO_EN_LA_SUMA
+  Columnas MN/ME/TOTAL = 28/29/30
+  Encabezado MN raw = 'MN \n(S/. Miles)'
+  Nombre raw en las 3 columnas = 'Banco GNB' | '' | ''
+  MN raw = 2898296.872
+  MN convertido = 2898296.872
+  MN ctype = 2
+  MN formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  MN decimales mostrados = 0
+
+Bloque 11 | 'Banco Falabella Perú'
+  Clasificación = BANCO_INCLUIDO_EN_LA_SUMA
+  Columnas MN/ME/TOTAL = 31/32/33
+  Encabezado MN raw = 'MN \n(S/. Miles)'
+  Nombre raw en las 3 columnas = 'Banco Falabella Perú ' | '' | ''
+  MN raw = 3633297.9260000004
+  MN convertido = 3633297.9260000004
+  MN ctype = 2
+  MN formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  MN decimales mostrados = 0
+
+Bloque 12 | 'Santander Perú S.A.'
+  Clasificación = BANCO_INCLUIDO_EN_LA_SUMA
+  Columnas MN/ME/TOTAL = 34/35/36
+  Encabezado MN raw = 'MN \n(S/. Miles)'
+  Nombre raw en las 3 columnas = 'Santander Perú S.A.' | '' | ''
+  MN raw = 1526384.257
+  MN convertido = 1526384.257
+  MN ctype = 2
+  MN formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  MN decimales mostrados = 0
+
+Bloque 13 | 'Banco Ripley'
+  Clasificación = BANCO_INCLUIDO_EN_LA_SUMA
+  Columnas MN/ME/TOTAL = 37/38/39
+  Encabezado MN raw = 'MN \n(S/. Miles)'
+  Nombre raw en las 3 columnas = 'Banco Ripley' | '' | ''
+  MN raw = 1791896.876
+  MN convertido = 1791896.876
+  MN ctype = 2
+  MN formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  MN decimales mostrados = 0
+
+Bloque 14 | 'Banco Azteca'
+  Clasificación = BANCO_INCLUIDO_EN_LA_SUMA
+  Columnas MN/ME/TOTAL = 40/41/42
+  Encabezado MN raw = 'MN \n(S/. Miles)'
+  Nombre raw en las 3 columnas = 'Banco Azteca' | '' | ''
+  MN raw = 376504.787
+  MN convertido = 376504.787
+  MN ctype = 2
+  MN formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  MN decimales mostrados = 0
+
+Bloque 15 | 'B. Cencosud'
+  Clasificación = BANCO_INCLUIDO_EN_LA_SUMA
+  Columnas MN/ME/TOTAL = 43/44/45
+  Encabezado MN raw = 'MN \n(S/. Miles)'
+  Nombre raw en las 3 columnas = 'B. Cencosud' | '' | ''
+  MN raw = 506899.695
+  MN convertido = 506899.695
+  MN ctype = 2
+  MN formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  MN decimales mostrados = 0
+
+Bloque 16 | 'B. ICBC'
+  Clasificación = BANCO_INCLUIDO_EN_LA_SUMA
+  Columnas MN/ME/TOTAL = 46/47/48
+  Encabezado MN raw = 'MN \n(S/. Miles)'
+  Nombre raw en las 3 columnas = 'B. ICBC' | '' | ''
+  MN raw = 80446.0
+  MN convertido = 80446.0
+  MN ctype = 2
+  MN formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  MN decimales mostrados = 0
+
+Bloque 17 | 'Total Banca Múltiple'
+  Clasificación = AGREGADO_EXCLUIDO_DE_LA_SUMA
+  Columnas MN/ME/TOTAL = 49/50/51
+  Encabezado MN raw = 'MN \n(S/. Miles)'
+  Nombre raw en las 3 columnas = 'Total Banca Múltiple' | '' | ''
+  MN raw = 158671871.52
+  MN convertido = 158671871.52
+  MN ctype = 2
+  MN formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+  MN decimales mostrados = 0
+
+==========================================================================================================================
+AUDITORÍA ESTRUCTURAL B-2359 / 2017-07
+==========================================================================================================================
+Hoja seleccionada = '15'
+Fila bancos = 4
+Fila encabezados = 5
+Fila Total Créditos = 65
+Bloques detectados = 17
+Registros producidos por parser = 17
+
+Bancos incluidos en las sumas:
+  + 'Banco Continental'
+  + 'Banco de Comercio'
+  + 'Banco de Crédito del Perú'
+  + 'Banco Financiero'
+  + 'Banco Interamericano de Finanzas'
+  + 'Scotiabank Perú'
+  + 'Citibank'
+  + 'Interbank'
+  + 'Mibanco'
+  + 'Banco GNB'
+  + 'Banco Falabella Perú'
+  + 'Santander Perú S.A.'
+  + 'Banco Ripley'
+  + 'Banco Azteca'
+  + 'B. Cencosud'
+  + 'B. ICBC'
+
+Bloques excluidos por ser agregado:
+  - 'Total Banca Múltiple'
+
+Duplicados exactos = []
+Duplicados normalizados (solo diagnóstico) = []
+
+Tripletas detectadas:
+  01 | 'Banco Continental' | cols 1,2,3 | headers 'MN \n(S/. Miles)' / 'ME \n(US$ miles)' / 'Total \n(S/. Miles)' | raw MN=31788848.725 | ME=5027730.81610614 | TOTAL=48083724.304
+  02 | 'Banco de Comercio' | cols 4,5,6 | headers 'MN \n(S/. Miles)' / 'ME \n(US$ miles)' / 'Total \n(S/. Miles)' | raw MN=1258127.396 | ME=35632.08022215366 | TOTAL=1373610.971
+  03 | 'Banco de Crédito del Perú' | cols 7,8,9 | headers 'MN \n(S/. Miles)' / 'ME \n(US$ miles)' / 'Total \n(S/. Miles)' | raw MN=47226831.319 | ME=9544486.189447701 | TOTAL=78160511.061
+  04 | 'Banco Financiero' | cols 10,11,12 | headers 'MN \n(S/. Miles)' / 'ME \n(US$ miles)' / 'Total \n(S/. Miles)' | raw MN=4697525.868000001 | ME=494804.0759024992 | TOTAL=6301185.883
+  05 | 'Banco Interamericano de Finanzas' | cols 13,14,15 | headers 'MN \n(S/. Miles)' / 'ME \n(US$ miles)' / 'Total \n(S/. Miles)' | raw MN=6101246.886 | ME=914868.14501697 | TOTAL=9066334.549
+  06 | 'Scotiabank Perú' | cols 16,17,18 | headers 'MN \n(S/. Miles)' / 'ME \n(US$ miles)' / 'Total \n(S/. Miles)' | raw MN=26766280.182 | ME=4679120.10614008 | TOTAL=41931308.449
+  07 | 'Citibank' | cols 19,20,21 | headers 'MN \n(S/. Miles)' / 'ME \n(US$ miles)' / 'Total \n(S/. Miles)' | raw MN=1389685.234 | ME=135927.41468682504 | TOTAL=1830225.987
+  08 | 'Interbank' | cols 22,23,24 | headers 'MN \n(S/. Miles)' / 'ME \n(US$ miles)' / 'Total \n(S/. Miles)' | raw MN=19877358.734 | ME=2132132.6531934584 | TOTAL=26787600.667
+  09 | 'Mibanco' | cols 25,26,27 | headers 'MN \n(S/. Miles)' / 'ME \n(US$ miles)' / 'Total \n(S/. Miles)' | raw MN=8752240.725 | ME=41835.6207960506 | TOTAL=8887829.975
+  10 | 'Banco GNB' | cols 28,29,30 | headers 'MN \n(S/. Miles)' / 'ME \n(US$ miles)' / 'Total \n(S/. Miles)' | raw MN=2898296.872 | ME=291685.30546127737 | TOTAL=3843648.95
+  11 | 'Banco Falabella Perú' | cols 31,32,33 | headers 'MN \n(S/. Miles)' / 'ME \n(US$ miles)' / 'Total \n(S/. Miles)' | raw MN=3633297.9260000004 | ME=9393.663684048133 | TOTAL=3663742.792
+  12 | 'Santander Perú S.A.' | cols 34,35,36 | headers 'MN \n(S/. Miles)' / 'ME \n(US$ miles)' / 'Total \n(S/. Miles)' | raw MN=1526384.257 | ME=423364.19222462206 | TOTAL=2898507.608
+  13 | 'Banco Ripley' | cols 37,38,39 | headers 'MN \n(S/. Miles)' / 'ME \n(US$ miles)' / 'Total \n(S/. Miles)' | raw MN=1791896.876 | ME=0.0 | TOTAL=1791896.876
+  14 | 'Banco Azteca' | cols 40,41,42 | headers 'MN \n(S/. Miles)' / 'ME \n(US$ miles)' / 'Total \n(S/. Miles)' | raw MN=376504.787 | ME=0.0 | TOTAL=376504.787
+  15 | 'B. Cencosud' | cols 43,44,45 | headers 'MN \n(S/. Miles)' / 'ME \n(US$ miles)' / 'Total \n(S/. Miles)' | raw MN=506899.695 | ME=0.0 | TOTAL=506899.695
+  16 | 'B. ICBC' | cols 46,47,48 | headers 'MN \n(S/. Miles)' / 'ME \n(US$ miles)' / 'Total \n(S/. Miles)' | raw MN=80446.0 | ME=44602.058315334776 | TOTAL=225001.271
+  17 | 'Total Banca Múltiple' | cols 49,50,51 | headers 'MN \n(S/. Miles)' / 'ME \n(US$ miles)' / 'Total \n(S/. Miles)' | raw MN=158671871.52 | ME=23775582.32335699 | TOTAL=235728533.834
+
+Celdas numéricas fuera de las columnas MN/ME/TOTAL detectadas en la fila Total Créditos = []
+
+ALERTAS ESTRUCTURALES/DIAGNÓSTICAS: ninguna
+
+==========================================================================================================================
+CONTROL DE CORRESPONDENCIA PARSER VS CELDAS RAW
+==========================================================================================================================
+Cantidad de registros parser y bloques raw coincide: 17
+Discrepancias parser/raw: ninguna
+
+==========================================================================================================================
+TOTAL BANCA MÚLTIPLE - VALORES RAW
+==========================================================================================================================
+Nombre = 'Total Banca Múltiple'
+MN raw = 158671871.52
+ME raw = 23775582.32335699
+TOTAL raw = 235728533.834
+MN formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+ME formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+TOTAL formato = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+
+==========================================================================================================================
+CLASIFICACIÓN DEL DIAGNÓSTICO
+==========================================================================================================================
+ESTADO = DIAGNOSTICO_Y_B2359_2017_07_COMPLETADO
+
+Este estado NO significa que Y / 2017-07 esté validada.
+No se modificó producción ni ninguna tolerancia.

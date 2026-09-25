@@ -1,0 +1,455 @@
+
+======================================================================================================================
+DIAGNÓSTICO X3 - TASA PASIVA DEPÓSITOS DE AHORRO MN
+======================================================================================================================
+Fecha única consultada: 30/11/2015
+Fuente: SBS - Tasas Pasivas por Tipo de Depósito y Empresa Bancaria
+
+Este script:
+  - NO extrae tasas;
+  - NO consulta otros meses;
+  - NO interpola;
+  - NO homologa nombres;
+  - NO selecciona bancos;
+  - NO presupone IDs de moneda, entidad, bancos o DataZone.
+
+======================================================================================================================
+ESTABLECER FECHA OBJETIVO
+======================================================================================================================
+
+======================================================================================================================
+VALIDACIÓN DEL FORMULARIO - DESPUÉS DE ESTABLECER FECHA / ANTES DE CONSULTAR
+======================================================================================================================
+FECHA VISIBLE
+  id = 'ctl00_cphContent_rdpDate_dateInput'
+  name = 'ctl00$cphContent$rdpDate$dateInput'
+  value = '30/11/2015'
+  fecha parseada = 2015-11-30
+  [OK] fecha visible = 30/11/2015
+
+FECHA INTERNA
+  método de localización = HERMANO_DATEPICKER
+  id = 'ctl00_cphContent_rdpDate'
+  name = 'ctl00$cphContent$rdpDate'
+  type = 'text'
+  value = '2015-11-30'
+  fecha parseada = 2015-11-30
+  [OK] fecha interna equivale a 30/11/2015
+
+CONTROL DE MONEDA
+  resultado de búsqueda = EVIDENCIA_SEMANTICA_UNIVOCA
+  candidatos con value='MN':
+    1. id='ctl00_cphContent_hdTipoMoneda' | name='ctl00$cphContent$hdTipoMoneda' | type='hidden' | value='MN' | visible=False | puntaje=208 | evidencia=['moneda', 'tipomoneda']
+  CONTROL DE MONEDA SELECCIONADO:
+    id = 'ctl00_cphContent_hdTipoMoneda'
+    name = 'ctl00$cphContent$hdTipoMoneda'
+    type = 'hidden'
+    value = 'MN'
+  [OK] moneda = MN
+
+CONTROL DE ENTIDAD
+  resultado de búsqueda = EVIDENCIA_SEMANTICA_UNIVOCA
+  candidatos con value='B':
+    1. id='ctl00_cphContent_hdTipoEntidad' | name='ctl00$cphContent$hdTipoEntidad' | type='hidden' | value='B' | visible=False | puntaje=208 | evidencia=['entidad', 'tipoentidad']
+  CONTROL DE ENTIDAD SELECCIONADO:
+    id = 'ctl00_cphContent_hdTipoEntidad'
+    name = 'ctl00$cphContent$hdTipoEntidad'
+    type = 'hidden'
+    value = 'B'
+  [OK] entidad = B
+
+[OK] Contexto pre-consulta validado:
+  fecha visible = 30/11/2015
+  fecha interna = equivalente a 30/11/2015
+  moneda = MN
+  entidad = B
+
+======================================================================================================================
+CONSULTA SBS
+======================================================================================================================
+Botón Consultar detectado dinámicamente:
+  id = 'ctl00_cphContent_btnConsultar'
+  name = 'ctl00$cphContent$btnConsultar'
+respuesta = PERIODO_CONFIRMADO
+periodo_confirmado = True
+cantidad_confirmaciones = 1
+  id='ctl00_cphContent_lblMensajeFecha' | text='Tasas Pasivas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Depósito al 30/11/2015'
+
+======================================================================================================================
+VALIDACIÓN DEL FORMULARIO - DESPUÉS DE CONSULTAR
+======================================================================================================================
+FECHA VISIBLE
+  id = 'ctl00_cphContent_rdpDate_dateInput'
+  name = 'ctl00$cphContent$rdpDate$dateInput'
+  value = '30/11/2015'
+  fecha parseada = 2015-11-30
+  [OK] fecha visible = 30/11/2015
+
+FECHA INTERNA
+  método de localización = HERMANO_DATEPICKER
+  id = 'ctl00_cphContent_rdpDate'
+  name = 'ctl00$cphContent$rdpDate'
+  type = 'text'
+  value = '2015-11-30'
+  fecha parseada = 2015-11-30
+  [OK] fecha interna equivale a 30/11/2015
+
+CONTROL DE MONEDA
+  resultado de búsqueda = EVIDENCIA_SEMANTICA_UNIVOCA
+  candidatos con value='MN':
+    1. id='ctl00_cphContent_hdTipoMoneda' | name='ctl00$cphContent$hdTipoMoneda' | type='hidden' | value='MN' | visible=False | puntaje=208 | evidencia=['moneda', 'tipomoneda']
+  CONTROL DE MONEDA SELECCIONADO:
+    id = 'ctl00_cphContent_hdTipoMoneda'
+    name = 'ctl00$cphContent$hdTipoMoneda'
+    type = 'hidden'
+    value = 'MN'
+  [OK] moneda = MN
+
+CONTROL DE ENTIDAD
+  resultado de búsqueda = EVIDENCIA_SEMANTICA_UNIVOCA
+  candidatos con value='B':
+    1. id='ctl00_cphContent_hdTipoEntidad' | name='ctl00$cphContent$hdTipoEntidad' | type='hidden' | value='B' | visible=False | puntaje=208 | evidencia=['entidad', 'tipoentidad']
+  CONTROL DE ENTIDAD SELECCIONADO:
+    id = 'ctl00_cphContent_hdTipoEntidad'
+    name = 'ctl00$cphContent$hdTipoEntidad'
+    type = 'hidden'
+    value = 'B'
+  [OK] entidad = B
+
+[OK] Contexto post-consulta validado:
+  fecha visible = 30/11/2015
+  fecha interna = equivalente a 30/11/2015
+  moneda = MN
+  entidad = B
+
+[OK] SBS confirmó explícitamente 'al 30/11/2015'.
+
+======================================================================================================================
+ETIQUETAS VISIBLES EXACTAS 'DEPÓSITOS DE AHORRO'
+======================================================================================================================
+Total visible exacto = 1
+Clasificadas MN = 1
+Clasificadas ME = 0
+No clasificadas = 0
+
+ETIQUETA #1
+  texto = 'Depósitos de Ahorro'
+  tag = 'TH'
+  id propio = ''
+  tabla inmediata = 'ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT'
+  fila = 0
+  celda = 0
+  tablas ancestro = ['ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT', 'ctl00_cphContent_rpgActualPrimTablaMn_OT']
+  moneda clasificada = MN
+  evidencia moneda = ['ANCLA_MN_MAS_CERCANA:Tasas Pasivas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Depósito al 30/11/2015']
+  geometría = {'bottom': 422.78125, 'centerX': 476.09375, 'centerY': 383.78125, 'height': 78, 'left': 438.5, 'right': 513.6875, 'top': 344.78125, 'width': 75.1875}
+
+======================================================================================================================
+ANCLAS VISIBLES DE MONEDA
+======================================================================================================================
+1. moneda=MN | tag=SPAN | id='ctl00_cphContent_lblMensajeFecha' | tabla='' | text='Tasas Pasivas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Depósito al 30/11/2015'
+
+======================================================================================================================
+UBICACIONES VISIBLES EXACTAS DE PROMEDIO
+======================================================================================================================
+Total Promedio visible exacto = 2
+
+PROMEDIO #1
+  tag = 'TD'
+  id = ''
+  tabla inmediata = 'ctl00_cphContent_rpgActualPrimTablaMn_OT'
+  fila = 19
+  tablas ancestro = ['ctl00_cphContent_rpgActualPrimTablaMn_OT']
+  moneda por evidencia de IDs = NO_CLASIFICADA
+  evidencia = []
+
+PROMEDIO #2
+  tag = 'TD'
+  id = ''
+  tabla inmediata = 'ctl00_cphContent_rpgActualMn_OT'
+  fila = 19
+  tablas ancestro = ['ctl00_cphContent_rpgActualMn_OT']
+  moneda por evidencia de IDs = MN
+  evidencia = ['ID_ANCESTRO:ctl00_cphContent_rpgActualMn_OT']
+
+======================================================================================================================
+DATAZONES / TABLAS NUMÉRICAS CANDIDATAS ASOCIADAS A AHORRO MN
+======================================================================================================================
+
+CANDIDATO NUMÉRICO #1
+  id = 'ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT'
+  key = 'ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT'
+  parentTableId = 'ctl00_cphContent_rpgActualPrimTablaMn_OT'
+  filas = 20
+  máximo columnas = 8
+  celdas numéricas = 118
+  faltantes = 26
+  ID parece DataZone = True
+  score asociación = 232.3
+  evidencia = ['MISMA_TABLA_DE_ETIQUETA', 'TABLA_CONTIENE_ETIQUETA', 'ID_PARECE_DATAZONE', 'SOLAPAMIENTO_HORIZONTAL=1.0000', 'PROXIMIDAD_VERTICAL=162.00']
+
+CANDIDATO NUMÉRICO #2
+  id = 'ctl00_cphContent_rpgActualMn_ctl00_DataZone_DT'
+  key = 'ctl00_cphContent_rpgActualMn_ctl00_DataZone_DT'
+  parentTableId = 'ctl00_cphContent_rpgActualMn_OT'
+  filas = 20
+  máximo columnas = 10
+  celdas numéricas = 127
+  faltantes = 53
+  ID parece DataZone = True
+  score asociación = 45.1
+  evidencia = ['ID_PARECE_DATAZONE', 'SOLAPAMIENTO_HORIZONTAL=1.0000', 'PROXIMIDAD_VERTICAL=594.00']
+
+======================================================================================================================
+TABLAS CANDIDATAS DONDE APARECEN LOS NOMBRES BANCARIOS
+======================================================================================================================
+
+CANDIDATO BANCOS #1
+  id = 'ctl00_cphContent_rpgActualPrimTablaMn_OT'
+  key = 'ctl00_cphContent_rpgActualPrimTablaMn_OT'
+  parentTableId = ''
+  filas = 21
+  máximo columnas = 2
+  Promedio exacto en tabla = 1
+  score = 130
+  evidencia = ['CONTIENE_PROMEDIO', 'VARIOS_TEXTOS_CORTOS_CANDIDATOS', 'MISMO_CONTENEDOR_DE_AHORRO_MN', 'PROXIMO_A_AHORRO_MN']
+  textos candidatos a nombres:
+    - Tasa Anual (%)
+    - Continental
+    - Comercio
+    - Crédito
+    - Financiero
+    - BIF
+    - Scotiabank
+    - Citibank
+    - Interbank
+    - Mibanco
+    - GNB
+    - Falabella
+    - Santander
+    - Ripley
+    - Azteca
+    - Deutsche
+    - CAT
+    - ICBC
+
+CANDIDATO BANCOS #2
+  id = 'ctl00_cphContent_rpgActualMn_OT'
+  key = 'ctl00_cphContent_rpgActualMn_OT'
+  parentTableId = ''
+  filas = 21
+  máximo columnas = 2
+  Promedio exacto en tabla = 1
+  score = 100
+  evidencia = ['CONTIENE_PROMEDIO', 'VARIOS_TEXTOS_CORTOS_CANDIDATOS', 'PROXIMO_A_AHORRO_MN']
+  textos candidatos a nombres:
+    - Tasa Anual (%)
+    - Continental
+    - Comercio
+    - Crédito
+    - Financiero
+    - BIF
+    - Scotiabank
+    - Citibank
+    - Interbank
+    - Mibanco
+    - GNB
+    - Falabella
+    - Santander
+    - Ripley
+    - Azteca
+    - Deutsche
+    - CAT
+    - ICBC
+
+CANDIDATO BANCOS #3
+  id = 'ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT'
+  key = 'ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT'
+  parentTableId = 'ctl00_cphContent_rpgActualPrimTablaMn_OT'
+  filas = 20
+  máximo columnas = 8
+  Promedio exacto en tabla = 0
+  score = 90
+  evidencia = ['ID_PARECE_DATAZONE', 'DESCENDIENTE_DE_SECCION_AHORRO_MN', 'MISMO_CONTENEDOR_DE_AHORRO_MN', 'PROXIMO_A_AHORRO_MN']
+  textos candidatos a nombres:
+
+CANDIDATO BANCOS #4
+  id = 'ctl00_cphContent_rpgActualMn_ctl00_DataZone_DT'
+  key = 'ctl00_cphContent_rpgActualMn_ctl00_DataZone_DT'
+  parentTableId = 'ctl00_cphContent_rpgActualMn_OT'
+  filas = 20
+  máximo columnas = 10
+  Promedio exacto en tabla = 0
+  score = 20
+  evidencia = ['ID_PARECE_DATAZONE', 'PROXIMO_A_AHORRO_MN']
+  textos candidatos a nombres:
+
+CANDIDATO BANCOS #5
+  id = ''
+  key = '__TABLE_0'
+  parentTableId = ''
+  filas = 2
+  máximo columnas = 1
+  Promedio exacto en tabla = 0
+  score = 10
+  evidencia = ['PROXIMO_A_AHORRO_MN']
+  textos candidatos a nombres:
+
+CANDIDATO BANCOS #6
+  id = ''
+  key = '__TABLE_1'
+  parentTableId = ''
+  filas = 1
+  máximo columnas = 1
+  Promedio exacto en tabla = 0
+  score = 10
+  evidencia = ['PROXIMO_A_AHORRO_MN']
+  textos candidatos a nombres:
+    - TASA DE INTERÉS PROMEDIO DEL SISTEMA BANCARIO
+
+CANDIDATO BANCOS #7
+  id = ''
+  key = '__TABLE_2'
+  parentTableId = ''
+  filas = 1
+  máximo columnas = 1
+  Promedio exacto en tabla = 0
+  score = 10
+  evidencia = ['PROXIMO_A_AHORRO_MN']
+  textos candidatos a nombres:
+
+CANDIDATO BANCOS #8
+  id = ''
+  key = '__TABLE_3'
+  parentTableId = ''
+  filas = 1
+  máximo columnas = 1
+  Promedio exacto en tabla = 0
+  score = 10
+  evidencia = ['PROXIMO_A_AHORRO_MN']
+  textos candidatos a nombres:
+
+CANDIDATO BANCOS #9
+  id = ''
+  key = '__TABLE_4'
+  parentTableId = ''
+  filas = 1
+  máximo columnas = 4
+  Promedio exacto en tabla = 0
+  score = 10
+  evidencia = ['PROXIMO_A_AHORRO_MN']
+  textos candidatos a nombres:
+    - Ingrese fecha:
+    - (dd/mm/aaaa)
+
+CANDIDATO BANCOS #10
+  id = ''
+  key = '__TABLE_5'
+  parentTableId = ''
+  filas = 2
+  máximo columnas = 2
+  Promedio exacto en tabla = 0
+  score = 10
+  evidencia = ['PROXIMO_A_AHORRO_MN']
+  textos candidatos a nombres:
+
+======================================================================================================================
+INVENTARIO DE TABLAS VISIBLES RELEVANTES
+======================================================================================================================
+
+TABLA #1
+  id = 'ctl00_cphContent_rpgActualPrimTablaMn_OT'
+  key = 'ctl00_cphContent_rpgActualPrimTablaMn_OT'
+  parentTableId = ''
+  filas = 21
+  maxCols = 2
+  ahorroExacto = 0
+  promedioExacto = 1
+  numericCount = 0
+  missingCount = 0
+  idPareceDataZone = False
+
+TABLA #2
+  id = 'ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT'
+  key = 'ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT'
+  parentTableId = 'ctl00_cphContent_rpgActualPrimTablaMn_OT'
+  filas = 20
+  maxCols = 8
+  ahorroExacto = 1
+  promedioExacto = 0
+  numericCount = 118
+  missingCount = 26
+  idPareceDataZone = True
+
+TABLA #3
+  id = 'ctl00_cphContent_rpgActualMn_OT'
+  key = 'ctl00_cphContent_rpgActualMn_OT'
+  parentTableId = ''
+  filas = 21
+  maxCols = 2
+  ahorroExacto = 0
+  promedioExacto = 1
+  numericCount = 0
+  missingCount = 0
+  idPareceDataZone = False
+
+TABLA #4
+  id = 'ctl00_cphContent_rpgActualMn_ctl00_DataZone_DT'
+  key = 'ctl00_cphContent_rpgActualMn_ctl00_DataZone_DT'
+  parentTableId = 'ctl00_cphContent_rpgActualMn_OT'
+  filas = 20
+  maxCols = 10
+  ahorroExacto = 0
+  promedioExacto = 0
+  numericCount = 127
+  missingCount = 53
+  idPareceDataZone = True
+
+[OK] HTML histórico guardado.
+[OK] Captura del diagnóstico guardada.
+
+======================================================================================================================
+CLASIFICACIÓN FINAL DEL DIAGNÓSTICO X3
+======================================================================================================================
+Etiquetas visibles exactas 'Depósitos de Ahorro' = 1
+Etiquetas identificadas como MN = 1
+Promedio asociado a MN/tabla de bancos = True
+
+TABLA NUMÉRICA / DATAZONE MÁS ASOCIADA:
+  id = 'ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT'
+  key = 'ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT'
+  filas = 20
+  maxCols = 8
+  ID parece DataZone = True
+  evidencia = ['MISMA_TABLA_DE_ETIQUETA', 'TABLA_CONTIENE_ETIQUETA', 'ID_PARECE_DATAZONE', 'SOLAPAMIENTO_HORIZONTAL=1.0000', 'PROXIMIDAD_VERTICAL=162.00']
+
+TABLA MÁS PROBABLE DE NOMBRES BANCARIOS:
+  id = 'ctl00_cphContent_rpgActualPrimTablaMn_OT'
+  key = 'ctl00_cphContent_rpgActualPrimTablaMn_OT'
+  Promedio exacto = 1
+  evidencia = ['CONTIENE_PROMEDIO', 'VARIOS_TEXTOS_CORTOS_CANDIDATOS', 'MISMO_CONTENEDOR_DE_AHORRO_MN', 'PROXIMO_A_AHORRO_MN']
+  textos candidatos:
+    - Tasa Anual (%)
+    - Continental
+    - Comercio
+    - Crédito
+    - Financiero
+    - BIF
+    - Scotiabank
+    - Citibank
+    - Interbank
+    - Mibanco
+    - GNB
+    - Falabella
+    - Santander
+    - Ripley
+    - Azteca
+    - Deutsche
+    - CAT
+    - ICBC
+
+ESTADO = ESTRUCTURA_X3_MN_DIAGNOSTICADA
+
+La sección de Depósitos de Ahorro en Moneda Nacional quedó identificada estructuralmente.
+Esto TODAVÍA NO valida la extracción de valores.
+El siguiente paso será una prueba de extracción para 30/11/2015 utilizando exclusivamente los IDs y relaciones realmente observados.

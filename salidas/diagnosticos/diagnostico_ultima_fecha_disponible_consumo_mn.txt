@@ -1,0 +1,1167 @@
+
+==========================================================================================================================
+DIAGNÓSTICO DE ÚLTIMA FECHA DISPONIBLE MENSUAL - CONSUMO MN
+==========================================================================================================================
+Meses incluidos:
+  2015-06
+  2016-06
+  2017-06
+  2018-06
+  2019-06
+
+Cada intento diario volverá a cargar la URL base SBS.
+Los errores técnicos NO serán tratados como ausencia de datos.
+Cada fecha admite como máximo un reintento técnico controlado.
+
+NO se extraerán tasas.
+NO se seleccionarán bancos.
+NO se interpolarán datos.
+NO se consultarán otros meses.
+
+==========================================================================================================================
+MES: 2015-06
+==========================================================================================================================
+Último día calendario: 30/06/2015
+
+Regla:
+1. empezar en el último día calendario;
+2. si no hay fecha válida, retroceder un día;
+3. no salir del mismo mes;
+4. si hay fallo técnico, permitir como máximo un reintento;
+5. si el reintento técnico falla, detener el mes como ERROR_TECNICO.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 1: 30/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 30/06/2015
+Días retrocedidos: 0
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 30/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 2: 29/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 29/06/2015
+Días retrocedidos: 1
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: RESPUESTA_NO_CONFIRMADA
+Período 'al 29/06/2015' confirmado: False
+'No existe información...': False
+Tabla MN existe: True
+Tabla MN visible: True
+DataZone existe: True
+DataZone visible: True
+Consumo exacto: 1
+Bancos detectados: 20
+Promedio detectado: True
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 3: 28/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 28/06/2015
+Días retrocedidos: 2
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: RESPUESTA_NO_CONFIRMADA
+Período 'al 28/06/2015' confirmado: False
+'No existe información...': False
+Tabla MN existe: True
+Tabla MN visible: True
+DataZone existe: True
+DataZone visible: True
+Consumo exacto: 1
+Bancos detectados: 20
+Promedio detectado: True
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 4: 27/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 27/06/2015
+Días retrocedidos: 3
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: RESPUESTA_NO_CONFIRMADA
+Período 'al 27/06/2015' confirmado: False
+'No existe información...': False
+Tabla MN existe: True
+Tabla MN visible: True
+DataZone existe: True
+DataZone visible: True
+Consumo exacto: 1
+Bancos detectados: 20
+Promedio detectado: True
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 5: 26/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 26/06/2015
+Días retrocedidos: 4
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 26/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 6: 25/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 25/06/2015
+Días retrocedidos: 5
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 25/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 7: 24/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 24/06/2015
+Días retrocedidos: 6
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 24/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 8: 23/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 23/06/2015
+Días retrocedidos: 7
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 23/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 9: 22/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 22/06/2015
+Días retrocedidos: 8
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 22/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 10: 21/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 21/06/2015
+Días retrocedidos: 9
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 21/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 11: 20/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 20/06/2015
+Días retrocedidos: 10
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 20/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 12: 19/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 19/06/2015
+Días retrocedidos: 11
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 19/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 13: 18/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 18/06/2015
+Días retrocedidos: 12
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 18/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 14: 17/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 17/06/2015
+Días retrocedidos: 13
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 17/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 15: 16/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 16/06/2015
+Días retrocedidos: 14
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 16/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 16: 15/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 15/06/2015
+Días retrocedidos: 15
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 15/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 17: 14/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 14/06/2015
+Días retrocedidos: 16
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 14/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 18: 13/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 13/06/2015
+Días retrocedidos: 17
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 13/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 19: 12/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 12/06/2015
+Días retrocedidos: 18
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 12/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 20: 11/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 11/06/2015
+Días retrocedidos: 19
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 11/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 21: 10/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 10/06/2015
+Días retrocedidos: 20
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 10/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 22: 09/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 09/06/2015
+Días retrocedidos: 21
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 09/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 23: 08/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 08/06/2015
+Días retrocedidos: 22
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 08/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 24: 07/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 07/06/2015
+Días retrocedidos: 23
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 07/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 25: 06/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 06/06/2015
+Días retrocedidos: 24
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 06/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 26: 05/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 05/06/2015
+Días retrocedidos: 25
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 05/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 27: 04/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 04/06/2015
+Días retrocedidos: 26
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 04/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 28: 03/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 03/06/2015
+Días retrocedidos: 27
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 03/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 29: 02/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 02/06/2015
+Días retrocedidos: 28
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 02/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 30: 01/06/2015
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 01/06/2015
+Días retrocedidos: 29
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 01/06/2015' confirmado: True
+'No existe información...': False
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+CLASIFICACIÓN DEL MES = MES_SIN_DATO
+
+Se llegó al día 1.
+Todas las fechas probadas pudieron ser evaluadas técnicamente.
+Ninguna cumplió simultáneamente:
+  1. fecha del resultado confirmada;
+  2. ausencia de mensaje 'No existe información';
+  3. tabla MN visible;
+  4. DataZone visible;
+  5. exactamente un Consumo.
+
+==========================================================================================================================
+MES: 2016-06
+==========================================================================================================================
+Último día calendario: 30/06/2016
+
+Regla:
+1. empezar en el último día calendario;
+2. si no hay fecha válida, retroceder un día;
+3. no salir del mismo mes;
+4. si hay fallo técnico, permitir como máximo un reintento;
+5. si el reintento técnico falla, detener el mes como ERROR_TECNICO.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 1: 30/06/2016
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 30/06/2016
+Días retrocedidos: 0
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 30/06/2016' confirmado: True
+'No existe información...': False
+Tabla MN existe: True
+Tabla MN visible: True
+DataZone existe: True
+DataZone visible: True
+Consumo exacto: 1
+Bancos detectados: 17
+Promedio detectado: True
+FECHA VÁLIDA: True
+
+[OK] ÚLTIMA FECHA DISPONIBLE ENCONTRADA.
+Fecha SBS utilizada: 30/06/2016
+Días retrocedidos: 0
+Cantidad de bancos: 17
+
+Encabezados bancarios:
+  Continental | Comercio | Crédito | Financiero | BIF | Scotiabank | Citibank | Interbank | Mibanco | GNB | Falabella | Santander | Ripley | Azteca | Deutsche | CAT | ICBC
+
+==========================================================================================================================
+MES: 2017-06
+==========================================================================================================================
+Último día calendario: 30/06/2017
+
+Regla:
+1. empezar en el último día calendario;
+2. si no hay fecha válida, retroceder un día;
+3. no salir del mismo mes;
+4. si hay fallo técnico, permitir como máximo un reintento;
+5. si el reintento técnico falla, detener el mes como ERROR_TECNICO.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 1: 30/06/2017
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 30/06/2017
+Días retrocedidos: 0
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: SIN_INFORMACION
+Período 'al 30/06/2017' confirmado: True
+'No existe información...': True
+  [IMPORTANTE] SBS confirmó la fecha del resultado, pero simultáneamente indicó que no existe información.
+  Se conserva periodo_confirmado=True, pero la respuesta principal es SIN_INFORMACION.
+Mensaje SBS: '. (dd/mm/aaaa) Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2017 No existe información para la fecha elegida Nota: Cuadro elaborado sobre la base de la información remitida diariamente por las Empresas Bancarias a través del Reporte N°6. Las tasas de interés tienen carácter referencial. Las definiciones de los tipos de crédito se encuentran en el Reglamento para la Evaluación y Clasificación del Deudor y la Exig'
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 2: 29/06/2017
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 29/06/2017
+Días retrocedidos: 1
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: SIN_INFORMACION
+Período 'al 29/06/2017' confirmado: True
+'No existe información...': True
+  [IMPORTANTE] SBS confirmó la fecha del resultado, pero simultáneamente indicó que no existe información.
+  Se conserva periodo_confirmado=True, pero la respuesta principal es SIN_INFORMACION.
+Mensaje SBS: '. (dd/mm/aaaa) Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 29/06/2017 No existe información para la fecha elegida Nota: Cuadro elaborado sobre la base de la información remitida diariamente por las Empresas Bancarias a través del Reporte N°6. Las tasas de interés tienen carácter referencial. Las definiciones de los tipos de crédito se encuentran en el Reglamento para la Evaluación y Clasificación del Deudor y la Exig'
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 3: 28/06/2017
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 28/06/2017
+Días retrocedidos: 2
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 28/06/2017' confirmado: True
+'No existe información...': False
+Tabla MN existe: True
+Tabla MN visible: True
+DataZone existe: True
+DataZone visible: True
+Consumo exacto: 1
+Bancos detectados: 16
+Promedio detectado: True
+FECHA VÁLIDA: True
+
+[OK] ÚLTIMA FECHA DISPONIBLE ENCONTRADA.
+Fecha SBS utilizada: 28/06/2017
+Días retrocedidos: 2
+Cantidad de bancos: 16
+
+Encabezados bancarios:
+  Continental | Comercio | Crédito | Financiero | BIF | Scotiabank | Citibank | Interbank | Mibanco | GNB | Falabella | Santander | Ripley | Azteca | CAT | ICBC
+
+==========================================================================================================================
+MES: 2018-06
+==========================================================================================================================
+Último día calendario: 30/06/2018
+
+Regla:
+1. empezar en el último día calendario;
+2. si no hay fecha válida, retroceder un día;
+3. no salir del mismo mes;
+4. si hay fallo técnico, permitir como máximo un reintento;
+5. si el reintento técnico falla, detener el mes como ERROR_TECNICO.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 1: 30/06/2018
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 30/06/2018
+Días retrocedidos: 0
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: SIN_INFORMACION
+Período 'al 30/06/2018' confirmado: True
+'No existe información...': True
+  [IMPORTANTE] SBS confirmó la fecha del resultado, pero simultáneamente indicó que no existe información.
+  Se conserva periodo_confirmado=True, pero la respuesta principal es SIN_INFORMACION.
+Mensaje SBS: '. (dd/mm/aaaa) Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2018 No existe información para la fecha elegida Nota: Cuadro elaborado sobre la base de la información remitida diariamente por las Empresas Bancarias a través del Reporte N°6. Las tasas de interés tienen carácter referencial. Las definiciones de los tipos de crédito se encuentran en el Reglamento para la Evaluación y Clasificación del Deudor y la Exig'
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 2: 29/06/2018
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 29/06/2018
+Días retrocedidos: 1
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: SIN_INFORMACION
+Período 'al 29/06/2018' confirmado: True
+'No existe información...': True
+  [IMPORTANTE] SBS confirmó la fecha del resultado, pero simultáneamente indicó que no existe información.
+  Se conserva periodo_confirmado=True, pero la respuesta principal es SIN_INFORMACION.
+Mensaje SBS: '. (dd/mm/aaaa) Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 29/06/2018 No existe información para la fecha elegida Nota: Cuadro elaborado sobre la base de la información remitida diariamente por las Empresas Bancarias a través del Reporte N°6. Las tasas de interés tienen carácter referencial. Las definiciones de los tipos de crédito se encuentran en el Reglamento para la Evaluación y Clasificación del Deudor y la Exig'
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 3: 28/06/2018
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 28/06/2018
+Días retrocedidos: 2
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 28/06/2018' confirmado: True
+'No existe información...': False
+Tabla MN existe: True
+Tabla MN visible: True
+DataZone existe: True
+DataZone visible: True
+Consumo exacto: 1
+Bancos detectados: 16
+Promedio detectado: True
+FECHA VÁLIDA: True
+
+[OK] ÚLTIMA FECHA DISPONIBLE ENCONTRADA.
+Fecha SBS utilizada: 28/06/2018
+Días retrocedidos: 2
+Cantidad de bancos: 16
+
+Encabezados bancarios:
+  Continental | Comercio | Crédito | Financiero | BIF | Scotiabank | Citibank | Interbank | Mibanco | GNB | Falabella | Santander | Ripley | Azteca | CAT | ICBC
+
+==========================================================================================================================
+MES: 2019-06
+==========================================================================================================================
+Último día calendario: 30/06/2019
+
+Regla:
+1. empezar en el último día calendario;
+2. si no hay fecha válida, retroceder un día;
+3. no salir del mismo mes;
+4. si hay fallo técnico, permitir como máximo un reintento;
+5. si el reintento técnico falla, detener el mes como ERROR_TECNICO.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 1: 30/06/2019
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 30/06/2019
+Días retrocedidos: 0
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: SIN_INFORMACION
+Período 'al 30/06/2019' confirmado: True
+'No existe información...': True
+  [IMPORTANTE] SBS confirmó la fecha del resultado, pero simultáneamente indicó que no existe información.
+  Se conserva periodo_confirmado=True, pero la respuesta principal es SIN_INFORMACION.
+Mensaje SBS: '. (dd/mm/aaaa) Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2019 No existe información para la fecha elegida Nota: Cuadro elaborado sobre la base de la información remitida diariamente por las Empresas Bancarias a través del Reporte N°6. Las tasas de interés tienen carácter referencial. Las definiciones de los tipos de crédito se encuentran en el Reglamento para la Evaluación y Clasificación del Deudor y la Exig'
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 2: 29/06/2019
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 29/06/2019
+Días retrocedidos: 1
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: SIN_INFORMACION
+Período 'al 29/06/2019' confirmado: True
+'No existe información...': True
+  [IMPORTANTE] SBS confirmó la fecha del resultado, pero simultáneamente indicó que no existe información.
+  Se conserva periodo_confirmado=True, pero la respuesta principal es SIN_INFORMACION.
+Mensaje SBS: '. (dd/mm/aaaa) Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 29/06/2019 No existe información para la fecha elegida Nota: Cuadro elaborado sobre la base de la información remitida diariamente por las Empresas Bancarias a través del Reporte N°6. Las tasas de interés tienen carácter referencial. Las definiciones de los tipos de crédito se encuentran en el Reglamento para la Evaluación y Clasificación del Deudor y la Exig'
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto: 0
+Bancos detectados: 0
+Promedio detectado: False
+FECHA VÁLIDA: False
+
+[FECHA NO VÁLIDA]
+La prueba técnica terminó correctamente, pero esta fecha no cumple todos los criterios.
+Se puede retroceder un día.
+
+--------------------------------------------------------------------------------------------------------------------------
+DÍA EVALUADO 3: 28/06/2019
+--------------------------------------------------------------------------------------------------------------------------
+
+Fecha probada: 28/06/2019
+Días retrocedidos: 2
+Reintento técnico: 0
+DatePicker correcto: True
+Respuesta SBS: PERIODO_CONFIRMADO
+Período 'al 28/06/2019' confirmado: True
+'No existe información...': False
+Tabla MN existe: True
+Tabla MN visible: True
+DataZone existe: True
+DataZone visible: True
+Consumo exacto: 1
+Bancos detectados: 15
+Promedio detectado: True
+FECHA VÁLIDA: True
+
+[OK] ÚLTIMA FECHA DISPONIBLE ENCONTRADA.
+Fecha SBS utilizada: 28/06/2019
+Días retrocedidos: 2
+Cantidad de bancos: 15
+
+Encabezados bancarios:
+  BBVA | Comercio | Crédito | Pichincha | BIF | Scotiabank | Citibank | Interbank | Mibanco | GNB | Falabella | Santander | Ripley | Azteca | ICBC
+
+==========================================================================================================================
+RESUMEN - ÚLTIMA FECHA DISPONIBLE DE CONSUMO MN POR MES
+==========================================================================================================================
+mes | fecha_calendario_final | fecha_sbs_utilizada | dias_retrocedidos | disponible | cantidad_bancos
+2015-06 | 30/06/2015 | <NINGUNA> | 29 | MES_SIN_DATO | 0
+2016-06 | 30/06/2016 | 30/06/2016 | 0 | DISPONIBLE | 17
+2017-06 | 30/06/2017 | 28/06/2017 | 2 | DISPONIBLE | 16
+2018-06 | 30/06/2018 | 28/06/2018 | 2 | DISPONIBLE | 16
+2019-06 | 30/06/2019 | 28/06/2019 | 2 | DISPONIBLE | 15
+
+--------------------------------------------------------------------------------------------------------------------------
+DETALLE FINAL POR MES
+--------------------------------------------------------------------------------------------------------------------------
+
+MES: 2015-06
+  Estado: MES_SIN_DATO
+  Días evaluados: 30
+
+MES: 2016-06
+  Estado: DISPONIBLE
+  Días evaluados: 1
+  Fecha SBS utilizada: 30/06/2016
+  Bancos: 17
+
+MES: 2017-06
+  Estado: DISPONIBLE
+  Días evaluados: 3
+  Fecha SBS utilizada: 28/06/2017
+  Bancos: 16
+
+MES: 2018-06
+  Estado: DISPONIBLE
+  Días evaluados: 3
+  Fecha SBS utilizada: 28/06/2018
+  Bancos: 16
+
+MES: 2019-06
+  Estado: DISPONIBLE
+  Días evaluados: 3
+  Fecha SBS utilizada: 28/06/2019
+  Bancos: 15
+
+--------------------------------------------------------------------------------------------------------------------------
+ENCABEZADOS DE LA FECHA VÁLIDA DE CADA MES
+--------------------------------------------------------------------------------------------------------------------------
+
+2015-06:
+  <SIN ENCABEZADOS VÁLIDOS>
+
+2016-06:
+  Continental | Comercio | Crédito | Financiero | BIF | Scotiabank | Citibank | Interbank | Mibanco | GNB | Falabella | Santander | Ripley | Azteca | Deutsche | CAT | ICBC
+
+2017-06:
+  Continental | Comercio | Crédito | Financiero | BIF | Scotiabank | Citibank | Interbank | Mibanco | GNB | Falabella | Santander | Ripley | Azteca | CAT | ICBC
+
+2018-06:
+  Continental | Comercio | Crédito | Financiero | BIF | Scotiabank | Citibank | Interbank | Mibanco | GNB | Falabella | Santander | Ripley | Azteca | CAT | ICBC
+
+2019-06:
+  BBVA | Comercio | Crédito | Pichincha | BIF | Scotiabank | Citibank | Interbank | Mibanco | GNB | Falabella | Santander | Ripley | Azteca | ICBC
+
+--------------------------------------------------------------------------------------------------------------------------
+REGLA MENSUAL APLICADA
+--------------------------------------------------------------------------------------------------------------------------
+Para cada mes:
+1. iniciar en el último día calendario;
+2. recargar la URL base antes de cada intento;
+3. establecer y validar la fecha visible e interna;
+4. consultar SBS;
+5. registrar por separado si SBS confirma 'al DD/MM/YYYY';
+6. registrar por separado si SBS dice 'No existe información para la fecha elegida';
+7. si ambas señales aparecen, la respuesta es SIN_INFORMACION, aunque periodo_confirmado=True;
+8. aceptar una fecha solo si no existe el mensaje SIN_INFORMACION y además hay tabla MN visible, DataZone visible y exactamente un Consumo;
+9. ante fecha no válida sin fallo técnico, retroceder un día;
+10. ante fallo técnico, realizar como máximo un reintento;
+11. si también falla el reintento, detener ese mes como ERROR_TECNICO;
+12. MES_SIN_DATO solo puede declararse si se llegó al día 1 sin ningún fallo técnico no resuelto.
+
+No se extrajeron tasas.
+No se seleccionaron bancos finales.
+No se interpolaron datos.
+No se consultaron meses distintos de junio de 2015, 2016, 2017, 2018 y 2019.

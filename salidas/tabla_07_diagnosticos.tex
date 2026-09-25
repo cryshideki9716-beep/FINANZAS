@@ -1,0 +1,19 @@
+\begin{table}
+\caption{Pruebas diagnósticas}
+\label{tab:diagnosticos}
+\begin{tabular}{llrrlll}
+\toprule
+Diagnóstico & Variable & Estadístico & p\_valor & Hipótesis\_nula & Decisión\_5pct & Detalle \\
+\midrule
+VIF & X1 & 1.4868 &  &  &  & Factor de inflación de la varianza \\
+VIF & X2 & 1.5221 &  &  &  & Factor de inflación de la varianza \\
+VIF & X3 & 1.0763 &  &  &  & Factor de inflación de la varianza \\
+VIF & X4 & 1.0123 &  &  &  & Factor de inflación de la varianza \\
+Breusch-Pagan/Koenker LM &  & 90.7145 & 0.0000 & Homocedasticidad & Rechazar H0 al 5\% & Versión studentizada; robust=True \\
+Breusch-Pagan/Koenker F &  & 24.1003 & 0.0000 & Homocedasticidad & Rechazar H0 al 5\% & Versión studentizada; robust=True \\
+Wooldridge-Drukker & rho & 186.0370 & 0.0000 & No autocorrelación AR(1) en el error original & Rechazar H0 al 5\% & H0: rho=-0.5; rho estimado=0.078339 \\
+Pesaran CD &  & 11.4071 & 0.0000 & Independencia transversal & Rechazar H0 al 5\% & 66 pares de bancos \\
+F de poolability &  & 291.4686 & 0.0000 & Efectos bancarios conjuntamente iguales a cero & Rechazar H0 al 5\% & Prueba complementaria; la F convencional supone homocedasticidad \\
+\bottomrule
+\end{tabular}
+\end{table}

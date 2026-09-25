@@ -1,0 +1,159 @@
+
+========================================================================================================================
+PRUEBA DE EXTRACCIÓN X3 - DEPÓSITOS DE AHORRO MN
+========================================================================================================================
+Fecha única consultada: 30/11/2015
+
+IDs provenientes del diagnóstico real:
+  Tabla MN = ctl00_cphContent_rpgActualPrimTablaMn_OT
+  DataZone MN = ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT
+
+NO se consultarán otros meses.
+NO se interpolarán faltantes.
+NO se homologarán nombres.
+NO se seleccionarán bancos.
+
+========================================================================================================================
+ESTABLECER FECHA
+========================================================================================================================
+
+------------------------------------------------------------------------------------------------------------------------
+VALIDACIÓN DE CONTEXTO - ANTES DE CONSULTAR
+------------------------------------------------------------------------------------------------------------------------
+Fecha visible ID = 'ctl00_cphContent_rdpDate_dateInput'
+Fecha visible valor = '30/11/2015'
+Fecha interna ID = 'ctl00_cphContent_rdpDate'
+Fecha interna valor = '2015-11-30'
+Moneda ID = 'ctl00_cphContent_hdTipoMoneda'
+Moneda name = 'ctl00$cphContent$hdTipoMoneda'
+Moneda value = 'MN'
+Entidad ID = 'ctl00_cphContent_hdTipoEntidad'
+Entidad name = 'ctl00$cphContent$hdTipoEntidad'
+Entidad value = 'B'
+[OK] fecha visible = 30/11/2015
+[OK] fecha interna = 30/11/2015 equivalente
+[OK] moneda = MN
+[OK] entidad = B
+
+========================================================================================================================
+CONSULTA SBS
+========================================================================================================================
+Respuesta = PERIODO_CONFIRMADO
+[OK] SBS confirmó explícitamente 'al 30/11/2015'.
+  id='ctl00_cphContent_lblMensajeFecha' | text='Tasas Pasivas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Depósito al 30/11/2015'
+
+------------------------------------------------------------------------------------------------------------------------
+VALIDACIÓN DE CONTEXTO - DESPUÉS DE CONSULTAR
+------------------------------------------------------------------------------------------------------------------------
+Fecha visible ID = 'ctl00_cphContent_rdpDate_dateInput'
+Fecha visible valor = '30/11/2015'
+Fecha interna ID = 'ctl00_cphContent_rdpDate'
+Fecha interna valor = '2015-11-30'
+Moneda ID = 'ctl00_cphContent_hdTipoMoneda'
+Moneda name = 'ctl00$cphContent$hdTipoMoneda'
+Moneda value = 'MN'
+Entidad ID = 'ctl00_cphContent_hdTipoEntidad'
+Entidad name = 'ctl00$cphContent$hdTipoEntidad'
+Entidad value = 'B'
+[OK] fecha visible = 30/11/2015
+[OK] fecha interna = 30/11/2015 equivalente
+[OK] moneda = MN
+[OK] entidad = B
+
+========================================================================================================================
+VERIFICACIÓN DE LAS TABLAS X3
+========================================================================================================================
+Tabla contenedora encontrada = 1
+DataZone encontrada = 1
+[OK] Se utilizará únicamente la estructura MN observada.
+
+========================================================================================================================
+MAPEO GEOMÉTRICO DEPÓSITOS DE AHORRO
+========================================================================================================================
+
+========================================================================================================================
+VALIDACIÓN ESTRUCTURAL DE LA EXTRACCIÓN X3
+========================================================================================================================
+Tabla MN utilizada = ctl00_cphContent_rpgActualPrimTablaMn_OT
+DataZone MN utilizada = ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT
+
+Etiquetas exactas 'Depósitos de Ahorro' = 1
+Texto etiqueta = 'Depósitos de Ahorro'
+Tabla inmediata de etiqueta = 'ctl00_cphContent_rpgActualPrimTablaMn_ctl00_DataZone_DT'
+
+Columna localizada dinámicamente:
+  índice interno detectado = 0
+  IMPORTANTE: este índice fue inferido por geometría; no está fijado en el código.
+
+Filas numéricas detectadas = 18
+Valores de Ahorro detectados = 18
+Filas mapeadas a nombres = 18
+Bancos = 17
+Faltantes entre bancos = 3
+
+========================================================================================================================
+TASA PASIVA DEPÓSITOS DE AHORRO MN - 30/11/2015
+========================================================================================================================
+banco_original | tasa_pasiva_ahorro_mn
+----------------------------------------------------------------------------------------------------
+Continental | 0.45
+Comercio | 1.47
+Crédito | 0.21
+Financiero | 0.82
+BIF | 0.84
+Scotiabank | 0.53
+Citibank | 0.63
+Interbank | 0.47
+Mibanco | 0.41
+GNB | 2.34
+Falabella | 2.50
+Santander | 0.50
+Ripley | 0.75
+Azteca | 1.00
+Deutsche | -
+CAT | -
+ICBC | -
+
+------------------------------------------------------------------------------------------------------------------------
+PROMEDIO - SEPARADO DE LOS BANCOS
+------------------------------------------------------------------------------------------------------------------------
+Promedio | 0.39
+
+------------------------------------------------------------------------------------------------------------------------
+CONTROL DE FALTANTES
+------------------------------------------------------------------------------------------------------------------------
+Cantidad de faltantes = 3
+  Deutsche → -
+  CAT → -
+  ICBC → -
+
+------------------------------------------------------------------------------------------------------------------------
+VALIDACIONES DE CANTIDAD
+------------------------------------------------------------------------------------------------------------------------
+Nombres totales mapeados = 18
+Valores totales encontrados = 18
+Bancos + Promedio = 18
+[OK] un nombre por cada valor.
+[OK] bancos + Promedio = total de valores.
+
+========================================================================================================================
+CLASIFICACIÓN FINAL
+========================================================================================================================
+ESTADO = EXTRACCION_X3_AHORRO_MN_2015_VALIDADA
+
+Validaciones cumplidas:
+1. fecha única 30/11/2015;
+2. período SBS confirmado explícitamente;
+3. moneda = MN;
+4. entidad = B;
+5. tabla MN real utilizada;
+6. DataZone MN real utilizada;
+7. exactamente una etiqueta 'Depósitos de Ahorro';
+8. columna localizada geométricamente sin offset fijo;
+9. cada fila numérica fue mapeada a su nombre sin offset fijo;
+10. número de nombres = número de valores;
+11. Promedio quedó separado;
+12. faltantes preservados;
+13. nombres originales preservados;
+14. no hubo interpolación;
+15. no hubo selección de bancos.

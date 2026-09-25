@@ -1,0 +1,512 @@
+
+==========================================================================================================================
+DIAGNÓSTICO LOCAL DE REDONDEO Y / B-2359 - 6 PILOTOS
+==========================================================================================================================
+No se realizará ninguna descarga.
+Carpeta de búsqueda local: C:\Users\Crystell\Desktop\FINANZAS\datos_crudos
+Parser B-2359: sin cambios.
+DOLCRED: sin cambios.
+X1: no se ejecuta.
+
+Pilotos:
+  - 2008-06
+  - 2010-12
+  - 2011-12
+  - 2015-06
+  - 2020-06
+  - 2025-12
+
+==========================================================================================================================
+PILOTO 2008-06
+==========================================================================================================================
+Archivo local = C:\Users\Crystell\Desktop\FINANZAS\datos_crudos\sbs_piloto\creditos_2008_06.xls
+SHA-256 = 82e9da0b8be1f8dff70979b5446dbfdc7c0cadc59d0b304d447d6cc68615a5fd
+Formato real = XLS_OLE
+Hoja = 'Créditos x Mda Act'
+Fila Total Créditos = 38
+Bloques detectados = 16
+Cantidad de bancos individuales = 15
+
+--------------------------------------------------------------------------------------------------------------------------
+2008-06 / MN
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad bancos = 15
+sum() = 31089131.565
+math.fsum() = 31089131.565
+Total Banca Múltiple SBS = 31089131.565
+Diferencia absoluta sum = 0.0
+Diferencia relativa sum = 0.0
+Diferencia absoluta fsum = 0.0
+Diferencia relativa fsum = 0.0
+sum() - math.fsum() = 0.0
+Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales mostrados = 0
+Valor raw agregado = 31089131.565
+round(sum, decimales) = 31089132.0
+round(fsum, decimales) = 31089132.0
+round(total SBS, decimales) = 31089132.0
+Coincide a precisión mostrada (sum) = True
+Coincide a precisión mostrada (fsum) = True
+
+--------------------------------------------------------------------------------------------------------------------------
+2008-06 / ME
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad bancos = 15
+sum() = 15287455.582939986
+math.fsum() = 15287455.582939986
+Total Banca Múltiple SBS = 15287455.582939984
+Diferencia absoluta sum = 1.862645149230957e-09
+Diferencia relativa sum = 1.2184141037240843e-16
+Diferencia absoluta fsum = 1.862645149230957e-09
+Diferencia relativa fsum = 1.2184141037240843e-16
+sum() - math.fsum() = 0.0
+Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales mostrados = 0
+Valor raw agregado = 15287455.582939984
+round(sum, decimales) = 15287456.0
+round(fsum, decimales) = 15287456.0
+round(total SBS, decimales) = 15287456.0
+Coincide a precisión mostrada (sum) = True
+Coincide a precisión mostrada (fsum) = True
+
+--------------------------------------------------------------------------------------------------------------------------
+2008-06 / TOTAL
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad bancos = 15
+sum() = 76431724.968
+math.fsum() = 76431724.968
+Total Banca Múltiple SBS = 76431724.96800001
+Diferencia absoluta sum = 1.4901161193847656e-08
+Diferencia relativa sum = 1.9496041990529963e-16
+Diferencia absoluta fsum = 1.4901161193847656e-08
+Diferencia relativa fsum = 1.9496041990529963e-16
+sum() - math.fsum() = 0.0
+Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales mostrados = 0
+Valor raw agregado = 76431724.96800001
+round(sum, decimales) = 76431725.0
+round(fsum, decimales) = 76431725.0
+round(total SBS, decimales) = 76431725.0
+Coincide a precisión mostrada (sum) = True
+Coincide a precisión mostrada (fsum) = True
+
+==========================================================================================================================
+PILOTO 2010-12
+==========================================================================================================================
+Archivo local = C:\Users\Crystell\Desktop\FINANZAS\datos_crudos\sbs_piloto\creditos_2010_12.xls
+SHA-256 = 316e19a4617cef3223027a0f409745e3d07445c3b44033ab69651da7e61ca5d5
+Formato real = XLS_OLE
+Hoja = 'Créditos x Mda Act (2)'
+Fila Total Créditos = 65
+Bloques detectados = 16
+Cantidad de bancos individuales = 15
+
+--------------------------------------------------------------------------------------------------------------------------
+2010-12 / MN
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad bancos = 15
+sum() = 52285817.633
+math.fsum() = 52285817.633
+Total Banca Múltiple SBS = 52285817.66399999
+Diferencia absoluta sum = 0.030999988317489624
+Diferencia relativa sum = 5.928947791675034e-10
+Diferencia absoluta fsum = 0.030999988317489624
+Diferencia relativa fsum = 5.928947791675034e-10
+sum() - math.fsum() = 0.0
+Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales mostrados = 0
+Valor raw agregado = 52285817.66399999
+round(sum, decimales) = 52285818.0
+round(fsum, decimales) = 52285818.0
+round(total SBS, decimales) = 52285818.0
+Coincide a precisión mostrada (sum) = True
+Coincide a precisión mostrada (fsum) = True
+
+--------------------------------------------------------------------------------------------------------------------------
+2010-12 / ME
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad bancos = 15
+sum() = 20447046.87967248
+math.fsum() = 20447046.87967248
+Total Banca Múltiple SBS = 20447046.88180847
+Diferencia absoluta sum = 0.0021359920501708984
+Diferencia relativa sum = 1.0446457439637744e-10
+Diferencia absoluta fsum = 0.0021359920501708984
+Diferencia relativa fsum = 1.0446457439637744e-10
+sum() - math.fsum() = 0.0
+Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales mostrados = 0
+Valor raw agregado = 20447046.88180847
+round(sum, decimales) = 20447047.0
+round(fsum, decimales) = 20447047.0
+round(total SBS, decimales) = 20447047.0
+Coincide a precisión mostrada (sum) = True
+Coincide a precisión mostrada (fsum) = True
+
+--------------------------------------------------------------------------------------------------------------------------
+2010-12 / TOTAL
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad bancos = 15
+sum() = 109721572.352
+math.fsum() = 109721572.352
+Total Banca Múltiple SBS = 109721572.352
+Diferencia absoluta sum = 0.0
+Diferencia relativa sum = 0.0
+Diferencia absoluta fsum = 0.0
+Diferencia relativa fsum = 0.0
+sum() - math.fsum() = 0.0
+Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales mostrados = 0
+Valor raw agregado = 109721572.352
+round(sum, decimales) = 109721572.0
+round(fsum, decimales) = 109721572.0
+round(total SBS, decimales) = 109721572.0
+Coincide a precisión mostrada (sum) = True
+Coincide a precisión mostrada (fsum) = True
+
+==========================================================================================================================
+PILOTO 2011-12
+==========================================================================================================================
+Archivo local = C:\Users\Crystell\Desktop\FINANZAS\datos_crudos\sbs_piloto\creditos_2011_12.xls
+SHA-256 = 8335aa5fc50465930a7b8bbc19a3dc9a2511c26e2d573acd5d41c14501c6ad0c
+Formato real = XLS_OLE
+Hoja = 'Créditos x Mda Act (P)'
+Fila Total Créditos = 65
+Bloques detectados = 16
+Cantidad de bancos individuales = 15
+
+--------------------------------------------------------------------------------------------------------------------------
+2011-12 / MN
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad bancos = 15
+sum() = 62896313.835
+math.fsum() = 62896313.835
+Total Banca Múltiple SBS = 62896313.869
+Diferencia absoluta sum = 0.03400000184774399
+Diferencia relativa sum = 5.405722490917187e-10
+Diferencia absoluta fsum = 0.03400000184774399
+Diferencia relativa fsum = 5.405722490917187e-10
+sum() - math.fsum() = 0.0
+Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales mostrados = 0
+Valor raw agregado = 62896313.869
+round(sum, decimales) = 62896314.0
+round(fsum, decimales) = 62896314.0
+round(total SBS, decimales) = 62896314.0
+Coincide a precisión mostrada (sum) = True
+Coincide a precisión mostrada (fsum) = True
+
+--------------------------------------------------------------------------------------------------------------------------
+2011-12 / ME
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad bancos = 15
+sum() = 24288422.789317507
+math.fsum() = 24288422.789317507
+Total Banca Múltiple SBS = 24288422.791172106
+Diferencia absoluta sum = 0.0018545985221862793
+Diferencia relativa sum = 7.635730562382805e-11
+Diferencia absoluta fsum = 0.0018545985221862793
+Diferencia relativa fsum = 7.635730562382805e-11
+sum() - math.fsum() = 0.0
+Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales mostrados = 0
+Valor raw agregado = 24288422.791172106
+round(sum, decimales) = 24288423.0
+round(fsum, decimales) = 24288423.0
+round(total SBS, decimales) = 24288423.0
+Coincide a precisión mostrada (sum) = True
+Coincide a precisión mostrada (fsum) = True
+
+--------------------------------------------------------------------------------------------------------------------------
+2011-12 / TOTAL
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad bancos = 15
+sum() = 128377901.711
+math.fsum() = 128377901.711
+Total Banca Múltiple SBS = 128377901.718
+Diferencia absoluta sum = 0.006999999284744263
+Diferencia relativa sum = 5.452651267132205e-11
+Diferencia absoluta fsum = 0.006999999284744263
+Diferencia relativa fsum = 5.452651267132205e-11
+sum() - math.fsum() = 0.0
+Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales mostrados = 0
+Valor raw agregado = 128377901.718
+round(sum, decimales) = 128377902.0
+round(fsum, decimales) = 128377902.0
+round(total SBS, decimales) = 128377902.0
+Coincide a precisión mostrada (sum) = True
+Coincide a precisión mostrada (fsum) = True
+
+==========================================================================================================================
+PILOTO 2015-06
+==========================================================================================================================
+Archivo local = C:\Users\Crystell\Desktop\FINANZAS\datos_crudos\sbs_piloto\creditos_2015_06.xls
+SHA-256 = 69541c31ee76b6250b27f44e4848b6e6769929daf8b0cfddf56a0cedf84f2fd3
+Formato real = XLS_OLE
+Hoja = '15'
+Fila Total Créditos = 65
+Bloques detectados = 18
+Cantidad de bancos individuales = 17
+
+--------------------------------------------------------------------------------------------------------------------------
+2015-06 / MN
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad bancos = 17
+sum() = 133463000.147
+math.fsum() = 133463000.147
+Total Banca Múltiple SBS = 133463000.179
+Diferencia absoluta sum = 0.03200000524520874
+Diferencia relativa sum = 2.3976686574024614e-10
+Diferencia absoluta fsum = 0.03200000524520874
+Diferencia relativa fsum = 2.3976686574024614e-10
+sum() - math.fsum() = 0.0
+Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales mostrados = 0
+Valor raw agregado = 133463000.179
+round(sum, decimales) = 133463000.0
+round(fsum, decimales) = 133463000.0
+round(total SBS, decimales) = 133463000.0
+Coincide a precisión mostrada (sum) = True
+Coincide a precisión mostrada (fsum) = True
+
+--------------------------------------------------------------------------------------------------------------------------
+2015-06 / ME
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad bancos = 17
+sum() = 24426520.839785963
+math.fsum() = 24426520.839785963
+Total Banca Múltiple SBS = 24426520.841674536
+Diferencia absoluta sum = 0.001888573169708252
+Diferencia relativa sum = 7.731650290884334e-11
+Diferencia absoluta fsum = 0.001888573169708252
+Diferencia relativa fsum = 7.731650290884334e-11
+sum() - math.fsum() = 0.0
+Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales mostrados = 0
+Valor raw agregado = 24426520.841674536
+round(sum, decimales) = 24426521.0
+round(fsum, decimales) = 24426521.0
+round(total SBS, decimales) = 24426521.0
+Coincide a precisión mostrada (sum) = True
+Coincide a precisión mostrada (fsum) = True
+
+--------------------------------------------------------------------------------------------------------------------------
+2015-06 / TOTAL
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad bancos = 17
+sum() = 211066056.891
+math.fsum() = 211066056.891
+Total Banca Múltiple SBS = 211066056.896
+Diferencia absoluta sum = 0.004999995231628418
+Diferencia relativa sum = 2.3689243572177496e-11
+Diferencia absoluta fsum = 0.004999995231628418
+Diferencia relativa fsum = 2.3689243572177496e-11
+sum() - math.fsum() = 0.0
+Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales mostrados = 0
+Valor raw agregado = 211066056.896
+round(sum, decimales) = 211066057.0
+round(fsum, decimales) = 211066057.0
+round(total SBS, decimales) = 211066057.0
+Coincide a precisión mostrada (sum) = True
+Coincide a precisión mostrada (fsum) = True
+
+==========================================================================================================================
+PILOTO 2020-06
+==========================================================================================================================
+Archivo local = C:\Users\Crystell\Desktop\FINANZAS\datos_crudos\sbs_piloto\creditos_2020_06.xls
+SHA-256 = 2c2a3d020c505e17ba74653983183eeef20dde9c7fa93bb3f22e3a28eb16aa7e
+Formato real = XLS_OLE
+Hoja = '15'
+Fila Total Créditos = 65
+Bloques detectados = 16
+Cantidad de bancos individuales = 15
+
+--------------------------------------------------------------------------------------------------------------------------
+2020-06 / MN
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad bancos = 15
+sum() = 232615905.658
+math.fsum() = 232615905.658
+Total Banca Múltiple SBS = 232615905.69700003
+Diferencia absoluta sum = 0.03900003433227539
+Diferencia relativa sum = 1.6765850217945075e-10
+Diferencia absoluta fsum = 0.03900003433227539
+Diferencia relativa fsum = 1.6765850217945075e-10
+sum() - math.fsum() = 0.0
+Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales mostrados = 0
+Valor raw agregado = 232615905.69700003
+round(sum, decimales) = 232615906.0
+round(fsum, decimales) = 232615906.0
+round(total SBS, decimales) = 232615906.0
+Coincide a precisión mostrada (sum) = True
+Coincide a precisión mostrada (fsum) = True
+
+--------------------------------------------------------------------------------------------------------------------------
+2020-06 / ME
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad bancos = 15
+sum() = 24907958.024024874
+math.fsum() = 24907958.024024874
+Total Banca Múltiple SBS = 24907958.026003394
+Diferencia absoluta sum = 0.001978520303964615
+Diferencia relativa sum = 7.943325992034676e-11
+Diferencia absoluta fsum = 0.001978520303964615
+Diferencia relativa fsum = 7.943325992034676e-11
+sum() - math.fsum() = 0.0
+Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales mostrados = 0
+Valor raw agregado = 24907958.026003394
+round(sum, decimales) = 24907958.0
+round(fsum, decimales) = 24907958.0
+round(total SBS, decimales) = 24907958.0
+Coincide a precisión mostrada (sum) = True
+Coincide a precisión mostrada (fsum) = True
+
+--------------------------------------------------------------------------------------------------------------------------
+2020-06 / TOTAL
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad bancos = 15
+sum() = 320740261.189
+math.fsum() = 320740261.189
+Total Banca Múltiple SBS = 320740261.197
+Diferencia absoluta sum = 0.008000016212463379
+Diferencia relativa sum = 2.4942351118027355e-11
+Diferencia absoluta fsum = 0.008000016212463379
+Diferencia relativa fsum = 2.4942351118027355e-11
+sum() - math.fsum() = 0.0
+Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales mostrados = 0
+Valor raw agregado = 320740261.197
+round(sum, decimales) = 320740261.0
+round(fsum, decimales) = 320740261.0
+round(total SBS, decimales) = 320740261.0
+Coincide a precisión mostrada (sum) = True
+Coincide a precisión mostrada (fsum) = True
+
+==========================================================================================================================
+PILOTO 2025-12
+==========================================================================================================================
+Archivo local = C:\Users\Crystell\Desktop\FINANZAS\datos_crudos\sbs_piloto\creditos_2025_12.xls
+SHA-256 = 761baf525277356abebac65fd7e93c71936dc8a2e5da161dc8904b147a4f2fe4
+Formato real = XLS_OLE
+Hoja = '15'
+Fila Total Créditos = 65
+Bloques detectados = 20
+Cantidad de bancos individuales = 19
+
+--------------------------------------------------------------------------------------------------------------------------
+2025-12 / MN
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad bancos = 19
+sum() = 273831233.418
+math.fsum() = 273831233.418
+Total Banca Múltiple SBS = 273831233.425
+Diferencia absoluta sum = 0.00700002908706665
+Diferencia relativa sum = 2.5563296777772054e-11
+Diferencia absoluta fsum = 0.00700002908706665
+Diferencia relativa fsum = 2.5563296777772054e-11
+sum() - math.fsum() = 0.0
+Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales mostrados = 0
+Valor raw agregado = 273831233.425
+round(sum, decimales) = 273831233.0
+round(fsum, decimales) = 273831233.0
+round(total SBS, decimales) = 273831233.0
+Coincide a precisión mostrada (sum) = True
+Coincide a precisión mostrada (fsum) = True
+
+--------------------------------------------------------------------------------------------------------------------------
+2025-12 / ME
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad bancos = 19
+sum() = 28726557.30359798
+math.fsum() = 28726557.30359798
+Total Banca Múltiple SBS = 28726557.30627416
+Diferencia absoluta sum = 0.0026761814951896667
+Diferencia relativa sum = 9.316053666497525e-11
+Diferencia absoluta fsum = 0.0026761814951896667
+Diferencia relativa fsum = 9.316053666497525e-11
+sum() - math.fsum() = 0.0
+Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales mostrados = 0
+Valor raw agregado = 28726557.30627416
+round(sum, decimales) = 28726557.0
+round(fsum, decimales) = 28726557.0
+round(total SBS, decimales) = 28726557.0
+Coincide a precisión mostrada (sum) = True
+Coincide a precisión mostrada (fsum) = True
+
+--------------------------------------------------------------------------------------------------------------------------
+2025-12 / TOTAL
+--------------------------------------------------------------------------------------------------------------------------
+Cantidad bancos = 19
+sum() = 370438645.639
+math.fsum() = 370438645.639
+Total Banca Múltiple SBS = 370438645.646
+Diferencia absoluta sum = 0.00700002908706665
+Diferencia relativa sum = 1.8896595075439414e-11
+Diferencia absoluta fsum = 0.00700002908706665
+Diferencia relativa fsum = 1.8896595075439414e-11
+sum() - math.fsum() = 0.0
+Formato Excel agregado = '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)'
+Decimales mostrados = 0
+Valor raw agregado = 370438645.646
+round(sum, decimales) = 370438646.0
+round(fsum, decimales) = 370438646.0
+round(total SBS, decimales) = 370438646.0
+Coincide a precisión mostrada (sum) = True
+Coincide a precisión mostrada (fsum) = True
+
+==========================================================================================================================
+RESUMEN DE LOS 6 PILOTOS
+==========================================================================================================================
+mes | variable | bancos | abs_diff_fsum | rel_diff_fsum | formato | decimales | round coincide
+--------------------------------------------------------------------------------------------------------------------------
+2008-06 | MN | 15 | 0.0 | 0.0 | '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)' | 0 | True
+2008-06 | ME | 15 | 1.862645149230957e-09 | 1.2184141037240843e-16 | '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)' | 0 | True
+2008-06 | TOTAL | 15 | 1.4901161193847656e-08 | 1.9496041990529963e-16 | '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)' | 0 | True
+2010-12 | MN | 15 | 0.030999988317489624 | 5.928947791675034e-10 | '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)' | 0 | True
+2010-12 | ME | 15 | 0.0021359920501708984 | 1.0446457439637744e-10 | '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)' | 0 | True
+2010-12 | TOTAL | 15 | 0.0 | 0.0 | '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)' | 0 | True
+2011-12 | MN | 15 | 0.03400000184774399 | 5.405722490917187e-10 | '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)' | 0 | True
+2011-12 | ME | 15 | 0.0018545985221862793 | 7.635730562382805e-11 | '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)' | 0 | True
+2011-12 | TOTAL | 15 | 0.006999999284744263 | 5.452651267132205e-11 | '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)' | 0 | True
+2015-06 | MN | 17 | 0.03200000524520874 | 2.3976686574024614e-10 | '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)' | 0 | True
+2015-06 | ME | 17 | 0.001888573169708252 | 7.731650290884334e-11 | '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)' | 0 | True
+2015-06 | TOTAL | 17 | 0.004999995231628418 | 2.3689243572177496e-11 | '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)' | 0 | True
+2020-06 | MN | 15 | 0.03900003433227539 | 1.6765850217945075e-10 | '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)' | 0 | True
+2020-06 | ME | 15 | 0.001978520303964615 | 7.943325992034676e-11 | '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)' | 0 | True
+2020-06 | TOTAL | 15 | 0.008000016212463379 | 2.4942351118027355e-11 | '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)' | 0 | True
+2025-12 | MN | 19 | 0.00700002908706665 | 2.5563296777772054e-11 | '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)' | 0 | True
+2025-12 | ME | 19 | 0.0026761814951896667 | 9.316053666497525e-11 | '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)' | 0 | True
+2025-12 | TOTAL | 19 | 0.00700002908706665 | 1.8896595075439414e-11 | '_(* #,##0_);_(* \\(#,##0\\);_(* "-"??_);_(@_)' | 0 | True
+
+Controles esperados = 18
+Controles obtenidos = 18
+Controles con precisión interpretable = 18
+Coinciden a precisión mostrada = 18
+No coinciden a precisión mostrada = 0
+
+RESULTADO POR MES:
+  2008-06: COINCIDE
+  2010-12: COINCIDE
+  2011-12: COINCIDE
+  2015-06: COINCIDE
+  2020-06: COINCIDE
+  2025-12: COINCIDE
+
+TODOS_LOS_6_MESES_COINCIDEN_A_PRECISION_MOSTRADA = True
+
+==========================================================================================================================
+CLASIFICACIÓN
+==========================================================================================================================
+ESTADO = DIAGNOSTICO_REDONDEO_Y_6_PILOTOS_COMPLETADO
+
+Este estado NO significa que Y esté validada.
+No se modificó ninguna tolerancia.
+No se modificó el parser.
+No se modificó DOLCRED.
+X1 no fue ejecutada ni modificada.

@@ -1,0 +1,399 @@
+
+========================================================================================================================
+DIAGNÓSTICO DEL INICIO DE DISPONIBILIDAD HISTÓRICA - CONSUMO MN
+========================================================================================================================
+Se consultarán únicamente:
+  30/06/2016
+  30/06/2017
+  30/06/2018
+  30/06/2019
+
+Antes de cada fecha se recargará la URL base SBS.
+No se exige un número fijo de bancos o columnas.
+Promedio se detectará y se separará del conteo bancario.
+
+NO se extraerán tasas.
+NO se consultarán otros meses.
+NO se descargarán 211 meses.
+NO se seleccionarán bancos.
+NO se interpolarán valores.
+
+========================================================================================================================
+FECHA DE CONTROL: 30/06/2016
+========================================================================================================================
+Recargando URL base...
+[OK] Página SBS base cargada.
+
+------------------------------------------------------------------------------------------------------------------------
+CONFIGURACIÓN PRE-CONSULTA
+------------------------------------------------------------------------------------------------------------------------
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+
+------------------------------------------------------------------------------------------------------------------------
+DATEPICKER
+------------------------------------------------------------------------------------------------------------------------
+Fecha visible: '30/06/2016'
+Fecha interna: '2016-06-30'
+Visible exacta: True
+Interna exacta: True
+[OK] DatePicker validado.
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+
+------------------------------------------------------------------------------------------------------------------------
+CONSULTAR
+------------------------------------------------------------------------------------------------------------------------
+Período confirmado mediante 'al 30/06/2016': True
+Fuentes de confirmación:
+  tag='SPAN' | id='ctl00_cphContent_lblMensajeFecha' | text='Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2016'
+
+------------------------------------------------------------------------------------------------------------------------
+ESTRUCTURA MN
+------------------------------------------------------------------------------------------------------------------------
+Tabla MN existe: True
+Tabla MN visible: True
+DataZone existe: True
+DataZone visible: True
+Consumo exacto en tabla MN externa: 1
+Ubicación de Consumo: [{'rowIndex': 39, 'text': 'Consumo'}]
+
+------------------------------------------------------------------------------------------------------------------------
+ENCABEZADOS HISTÓRICOS DETECTADOS
+------------------------------------------------------------------------------------------------------------------------
+Fila DataZone identificada como encabezado: 0
+Número físico de celdas en esa fila: 18
+
+Encabezados crudos detectados:
+  01. Continental
+  02. Comercio
+  03. Crédito
+  04. Financiero
+  05. BIF
+  06. Scotiabank
+  07. Citibank
+  08. Interbank
+  09. Mibanco
+  10. GNB
+  11. Falabella
+  12. Santander
+  13. Ripley
+  14. Azteca
+  15. Deutsche
+  16. CAT
+  17. ICBC
+  18. Promedio
+
+Encabezados bancarios (sin Promedio):
+  01. Continental
+  02. Comercio
+  03. Crédito
+  04. Financiero
+  05. BIF
+  06. Scotiabank
+  07. Citibank
+  08. Interbank
+  09. Mibanco
+  10. GNB
+  11. Falabella
+  12. Santander
+  13. Ripley
+  14. Azteca
+  15. Deutsche
+  16. CAT
+  17. ICBC
+
+Cantidad de bancos detectados: 17
+Promedio detectado: True
+
+CLASIFICACIÓN = DISPONIBLE
+
+Criterios:
+  Fecha confirmada: True
+  Tabla MN existe: True
+  Tabla MN visible: True
+  DataZone existe: True
+  DataZone visible: True
+  Consumo exactamente una vez: True
+
+========================================================================================================================
+FECHA DE CONTROL: 30/06/2017
+========================================================================================================================
+Recargando URL base...
+[OK] Página SBS base cargada.
+
+------------------------------------------------------------------------------------------------------------------------
+CONFIGURACIÓN PRE-CONSULTA
+------------------------------------------------------------------------------------------------------------------------
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+
+------------------------------------------------------------------------------------------------------------------------
+DATEPICKER
+------------------------------------------------------------------------------------------------------------------------
+Fecha visible: '30/06/2017'
+Fecha interna: '2017-06-30'
+Visible exacta: True
+Interna exacta: True
+[OK] DatePicker validado.
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+
+------------------------------------------------------------------------------------------------------------------------
+CONSULTAR
+------------------------------------------------------------------------------------------------------------------------
+Período confirmado mediante 'al 30/06/2017': True
+Fuentes de confirmación:
+  tag='DIV' | id='ctl00_cphContent_divSeccionContenidoActual' | text='Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2017 No existe información para la fecha elegida'
+  tag='DIV' | id='' | text='Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2017 No existe información para la fecha elegida'
+  tag='SPAN' | id='ctl00_cphContent_lblMensajeFecha' | text='Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2017'
+
+------------------------------------------------------------------------------------------------------------------------
+ESTRUCTURA MN
+------------------------------------------------------------------------------------------------------------------------
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto en tabla MN externa: 0
+Ubicación de Consumo: []
+
+------------------------------------------------------------------------------------------------------------------------
+ENCABEZADOS HISTÓRICOS DETECTADOS
+------------------------------------------------------------------------------------------------------------------------
+Fila DataZone identificada como encabezado: None
+Número físico de celdas en esa fila: None
+
+Encabezados crudos detectados:
+  <NINGUNO>
+
+Encabezados bancarios (sin Promedio):
+  <NINGUNO>
+
+Cantidad de bancos detectados: 0
+Promedio detectado: False
+
+CLASIFICACIÓN = NO_DISPONIBLE
+
+Criterios:
+  Fecha confirmada: True
+  Tabla MN existe: False
+  Tabla MN visible: False
+  DataZone existe: False
+  DataZone visible: False
+  Consumo exactamente una vez: False
+
+========================================================================================================================
+FECHA DE CONTROL: 30/06/2018
+========================================================================================================================
+Recargando URL base...
+[OK] Página SBS base cargada.
+
+------------------------------------------------------------------------------------------------------------------------
+CONFIGURACIÓN PRE-CONSULTA
+------------------------------------------------------------------------------------------------------------------------
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+
+------------------------------------------------------------------------------------------------------------------------
+DATEPICKER
+------------------------------------------------------------------------------------------------------------------------
+Fecha visible: '30/06/2018'
+Fecha interna: '2018-06-30'
+Visible exacta: True
+Interna exacta: True
+[OK] DatePicker validado.
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+
+------------------------------------------------------------------------------------------------------------------------
+CONSULTAR
+------------------------------------------------------------------------------------------------------------------------
+Período confirmado mediante 'al 30/06/2018': True
+Fuentes de confirmación:
+  tag='DIV' | id='ctl00_cphContent_divSeccionContenidoActual' | text='Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2018 No existe información para la fecha elegida'
+  tag='DIV' | id='' | text='Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2018 No existe información para la fecha elegida'
+  tag='SPAN' | id='ctl00_cphContent_lblMensajeFecha' | text='Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2018'
+
+------------------------------------------------------------------------------------------------------------------------
+ESTRUCTURA MN
+------------------------------------------------------------------------------------------------------------------------
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto en tabla MN externa: 0
+Ubicación de Consumo: []
+
+------------------------------------------------------------------------------------------------------------------------
+ENCABEZADOS HISTÓRICOS DETECTADOS
+------------------------------------------------------------------------------------------------------------------------
+Fila DataZone identificada como encabezado: None
+Número físico de celdas en esa fila: None
+
+Encabezados crudos detectados:
+  <NINGUNO>
+
+Encabezados bancarios (sin Promedio):
+  <NINGUNO>
+
+Cantidad de bancos detectados: 0
+Promedio detectado: False
+
+CLASIFICACIÓN = NO_DISPONIBLE
+
+Criterios:
+  Fecha confirmada: True
+  Tabla MN existe: False
+  Tabla MN visible: False
+  DataZone existe: False
+  DataZone visible: False
+  Consumo exactamente una vez: False
+
+========================================================================================================================
+FECHA DE CONTROL: 30/06/2019
+========================================================================================================================
+Recargando URL base...
+[OK] Página SBS base cargada.
+
+------------------------------------------------------------------------------------------------------------------------
+CONFIGURACIÓN PRE-CONSULTA
+------------------------------------------------------------------------------------------------------------------------
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+
+------------------------------------------------------------------------------------------------------------------------
+DATEPICKER
+------------------------------------------------------------------------------------------------------------------------
+Fecha visible: '30/06/2019'
+Fecha interna: '2019-06-30'
+Visible exacta: True
+Interna exacta: True
+[OK] DatePicker validado.
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+
+------------------------------------------------------------------------------------------------------------------------
+CONSULTAR
+------------------------------------------------------------------------------------------------------------------------
+Período confirmado mediante 'al 30/06/2019': True
+Fuentes de confirmación:
+  tag='DIV' | id='ctl00_cphContent_divSeccionContenidoActual' | text='Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2019 No existe información para la fecha elegida'
+  tag='DIV' | id='' | text='Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2019 No existe información para la fecha elegida'
+  tag='SPAN' | id='ctl00_cphContent_lblMensajeFecha' | text='Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 30/06/2019'
+
+------------------------------------------------------------------------------------------------------------------------
+ESTRUCTURA MN
+------------------------------------------------------------------------------------------------------------------------
+Tabla MN existe: False
+Tabla MN visible: False
+DataZone existe: False
+DataZone visible: False
+Consumo exacto en tabla MN externa: 0
+Ubicación de Consumo: []
+
+------------------------------------------------------------------------------------------------------------------------
+ENCABEZADOS HISTÓRICOS DETECTADOS
+------------------------------------------------------------------------------------------------------------------------
+Fila DataZone identificada como encabezado: None
+Número físico de celdas en esa fila: None
+
+Encabezados crudos detectados:
+  <NINGUNO>
+
+Encabezados bancarios (sin Promedio):
+  <NINGUNO>
+
+Cantidad de bancos detectados: 0
+Promedio detectado: False
+
+CLASIFICACIÓN = NO_DISPONIBLE
+
+Criterios:
+  Fecha confirmada: True
+  Tabla MN existe: False
+  Tabla MN visible: False
+  DataZone existe: False
+  DataZone visible: False
+  Consumo exactamente una vez: False
+
+========================================================================================================================
+RESUMEN - INICIO DE DISPONIBILIDAD HISTÓRICA CONSUMO MN
+========================================================================================================================
+
+FECHA: 30/06/2016
+  Clasificación: DISPONIBLE
+  Período confirmado: True
+  Tabla MN existe: True
+  Tabla MN visible: True
+  DataZone existe: True
+  DataZone visible: True
+  Consumo exacto: 1
+  Cantidad de bancos: 17
+  Promedio: True
+  Bancos:
+    Continental | Comercio | Crédito | Financiero | BIF | Scotiabank | Citibank | Interbank | Mibanco | GNB | Falabella | Santander | Ripley | Azteca | Deutsche | CAT | ICBC
+
+FECHA: 30/06/2017
+  Clasificación: NO_DISPONIBLE
+  Período confirmado: True
+  Tabla MN existe: False
+  Tabla MN visible: False
+  DataZone existe: False
+  DataZone visible: False
+  Consumo exacto: 0
+  Cantidad de bancos: 0
+  Promedio: False
+  Bancos:
+    <NO DETECTADOS>
+
+FECHA: 30/06/2018
+  Clasificación: NO_DISPONIBLE
+  Período confirmado: True
+  Tabla MN existe: False
+  Tabla MN visible: False
+  DataZone existe: False
+  DataZone visible: False
+  Consumo exacto: 0
+  Cantidad de bancos: 0
+  Promedio: False
+  Bancos:
+    <NO DETECTADOS>
+
+FECHA: 30/06/2019
+  Clasificación: NO_DISPONIBLE
+  Período confirmado: True
+  Tabla MN existe: False
+  Tabla MN visible: False
+  DataZone existe: False
+  DataZone visible: False
+  Consumo exacto: 0
+  Cantidad de bancos: 0
+  Promedio: False
+  Bancos:
+    <NO DETECTADOS>
+
+------------------------------------------------------------------------------------------------------------------------
+TABLA COMPACTA
+------------------------------------------------------------------------------------------------------------------------
+fecha | clasificacion | fecha_confirmada | tabla_mn_visible | datazone_visible | consumo_exacto | bancos | promedio
+30/06/2016 | DISPONIBLE | True | True | True | 1 | 17 | True
+30/06/2017 | NO_DISPONIBLE | True | False | False | 0 | 0 | False
+30/06/2018 | NO_DISPONIBLE | True | False | False | 0 | 0 | False
+30/06/2019 | NO_DISPONIBLE | True | False | False | 0 | 0 | False
+
+------------------------------------------------------------------------------------------------------------------------
+CONCLUSIÓN DEL DIAGNÓSTICO
+------------------------------------------------------------------------------------------------------------------------
+Primera fecha DISPONIBLE entre las cuatro fechas probadas:
+30/06/2016
+
+IMPORTANTE:
+Esto identifica únicamente la primera fecha disponible ENTRE 2016, 2017, 2018 y 2019.
+Todavía NO demuestra que ese sea el primer mes histórico disponible de toda la serie.
+
+No se extrajeron tasas.
+No se consultaron otros meses.
+No se descargaron 211 meses.
+No se seleccionaron bancos finales.
+No se realizó interpolación.

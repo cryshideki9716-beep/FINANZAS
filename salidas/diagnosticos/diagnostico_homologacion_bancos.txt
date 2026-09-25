@@ -1,0 +1,135 @@
+
+=== Y ===
+                                       min      max  count
+banco_original                                            
+Alfin Banco                        2022-07  2025-12     42
+Alfin Banco1/                      2021-11  2022-06      8
+B. Cencosud                        2015-11  2019-02     40
+B. ICBC                            2015-11  2025-12    122
+BANCOM                             2023-10  2025-12     27
+Banco Azteca                       2015-11  2021-10     72
+Banco BBVA Perú                    2019-07  2025-12     78
+Banco BBVA Perú*                   2019-06  2019-06      1
+Banco BCI Perú                     2022-11  2025-12     38
+Banco BCI Perú**                   2022-07  2022-10      4
+Banco Continental                  2015-11  2019-05     43
+Banco Falabella Perú               2015-11  2025-12    122
+Banco Financiero                   2015-11  2018-07     33
+Banco GNB                          2015-11  2025-12    122
+Banco Interamericano de Finanzas   2015-11  2025-12    119
+Banco Interamericano de Finanzas*  2017-12  2018-02      3
+Banco Pichincha                    2018-08  2025-12     87
+Banco Pichincha *                  2024-04  2024-04      1
+Banco Pichincha*                   2018-09  2018-09      1
+Banco Ripley                       2015-11  2025-12    122
+Banco de Comercio                  2015-11  2023-09     95
+Banco de Crédito del Perú          2015-11  2025-12    122
+Bank of China                      2020-08  2025-12     65
+Bank of China*                     2020-07  2020-07      1
+Citibank                           2015-11  2025-12    122
+Compartamos Banco                  2025-04  2025-12      9
+Compartamos Banco*                 2025-01  2025-03      3
+Deutsche Bank                      2015-11  2016-06      8
+Interbank                          2015-11  2025-12    121
+Interbank **                       2024-04  2024-04      1
+Mibanco                            2015-11  2025-12    122
+Santander Consumer Bank            2025-09  2025-12      4
+Santander Consumer Bank*           2025-06  2025-08      3
+Santander Perú S.A.                2015-11  2025-12    122
+Scotiabank Perú                    2015-11  2025-12    122
+
+=== X1 ===
+                                                            min      max  count
+banco_original                                                                 
+Alfin Banco                                             2022-01  2025-12     48
+Alfin Banco 1/                                          2021-11  2021-12      2
+B. Azteca Perú                                          2015-11  2021-10     72
+B. BBVA Perú                                            2019-07  2025-12     78
+B. BBVA Perú*                                           2019-06  2019-06      1
+B. Cencosud                                             2015-11  2019-02     40
+B. Continental                                          2015-11  2019-05     43
+B. Falabella Perú .                                     2015-11  2025-12    122
+B. Financiero                                           2015-11  2018-07     33
+B. GNB                                                  2015-11  2025-12    122
+B. ICBC                                                 2015-11  2025-12    122
+B. Interamericano de Finanzas                           2015-11  2025-12    122
+B. Pichincha                                            2018-10  2025-12     87
+B. Pichincha*                                           2018-08  2018-09      2
+B. Ripley                                               2015-11  2025-12    122
+B. Santander Perú                                       2015-11  2025-12    122
+B. de Comercio                                          2015-11  2023-08     94
+B. de Crédito del Perú (con sucursales en el exterior)  2015-11  2025-12    122
+BANCOM                                                  2023-09  2025-12     28
+Banco BCI Perú                                          2022-11  2025-12     38
+Banco BCI Perú*                                         2022-07  2022-10      4
+Bank of China                                           2020-08  2025-12     65
+Bank of China*                                          2020-07  2020-07      1
+Citibank                                                2015-11  2025-12    122
+Compartamos Banco                                       2025-01  2025-12     12
+Deutsche Bank Perú                                      2015-11  2016-06      8
+Interbank                                               2015-11  2019-12     50
+Interbank (con sucursales en el exterior)               2020-01  2025-12     72
+Mibanco                                                 2015-11  2025-12    122
+Santander Consumer Bank                                 2025-09  2025-12      4
+Santander Consumer Bank*                                2025-06  2025-08      3
+Scotiabank Perú                                         2017-02  2025-12    107
+Scotiabank Perú (con sucursales en el exterior)         2015-11  2016-12     14
+Scotiabank Perú¨*                                       2017-01  2017-01      1
+
+=== X2 ===
+                          min      max  count
+banco_original                               
+Alfin                 2021-11  2025-12     50
+Azteca                2015-11  2021-10     72
+BBVA                  2019-06  2025-12     79
+BCI                   2022-08  2025-12     41
+BIF                   2015-11  2025-12    122
+Bancom                2023-10  2025-12     27
+Bank of China         2020-07  2025-12     66
+CAT                   2015-11  2019-02     40
+Citibank              2015-11  2025-12    122
+Comercio              2015-11  2023-09     95
+Compartamos           2025-01  2025-12     12
+Continental           2015-11  2019-05     43
+Crédito               2015-11  2025-12    122
+Deutsche              2015-11  2016-06      8
+Falabella             2015-11  2025-12    122
+Financiero            2015-11  2018-07     33
+GNB                   2015-11  2025-12    122
+ICBC                  2015-11  2025-12    122
+Interbank             2015-11  2025-12    122
+Mibanco               2015-11  2025-12    122
+Pichincha             2018-08  2025-12     89
+Ripley                2015-11  2025-12    122
+Santander             2015-11  2025-12    122
+Santander Cons. Bank  2025-06  2025-12      7
+Scotiabank            2015-11  2025-12    122
+
+=== X3 ===
+                          min      max  count
+banco_original                               
+Alfin                 2021-11  2025-12     50
+Azteca                2015-11  2021-10     72
+BBVA                  2019-06  2025-12     79
+BCI                   2022-08  2025-12     41
+BIF                   2015-11  2025-12    122
+Bancom                2023-10  2025-12     27
+Bank of China         2020-07  2025-12     66
+CAT                   2015-11  2019-02     40
+Citibank              2015-11  2025-12    122
+Comercio              2015-11  2023-09     95
+Compartamos           2025-01  2025-12     12
+Continental           2015-11  2019-05     43
+Crédito               2015-11  2025-12    122
+Deutsche              2015-11  2016-06      8
+Falabella             2015-11  2025-12    122
+Financiero            2015-11  2018-07     33
+GNB                   2015-11  2025-12    122
+ICBC                  2015-11  2025-12    122
+Interbank             2015-11  2025-12    122
+Mibanco               2015-11  2025-12    122
+Pichincha             2018-08  2025-12     89
+Ripley                2015-11  2025-12    122
+Santander             2015-11  2025-12    122
+Santander Cons. Bank  2025-06  2025-12      7
+Scotiabank            2015-11  2025-12    122

@@ -1,0 +1,98 @@
+
+======================================================================================================================
+PRUEBA HISTÓRICA CONTROLADA SBS - TASA ACTIVA CONSUMO MN
+======================================================================================================================
+Únicamente se consultarán:
+  30/06/2008
+  31/12/2025
+
+NO se descargarán 211 meses.
+NO se seleccionarán cinco bancos.
+NO se interpolarán valores.
+NO se cambiará a Moneda Extranjera.
+
+Abriendo página oficial SBS...
+
+Esperando que cargue la aplicación SBS...
+[OK] La aplicación SBS cargó sin intervención manual.
+
+======================================================================================================================
+CONFIGURACIÓN INICIAL
+======================================================================================================================
+URL final: https://www.sbs.gob.pe/app/pp/EstadisticasSAEEPortal/Paginas/TIActivaTipoCreditoEmpresa.aspx?tip=B
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+Fecha visible inicial: '23/09/2026'
+Fecha interna inicial: '2026-09-23'
+Tabla MN presente: True
+
+======================================================================================================================
+CONSULTA CONTROLADA: 30/06/2008
+======================================================================================================================
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+
+Estado antes de modificar la fecha:
+  Visible: '23/09/2026'
+  Interna: '2026-09-23'
+Fecha objetivo: 30/06/2008
+
+Validación después del teclado:
+  Fecha visible texto: '30/06/2008'
+  Fecha visible interpretada: 2008-06-30
+  Fecha interna texto: '2008-06-30'
+  Fecha interna interpretada: 2008-06-30
+  Visible = objetivo: True
+  Interna = objetivo: True
+[OK] Fecha visible e interna coinciden exactamente con la fecha objetivo.
+hdTipoMoneda = 'MN'
+hdTipoEntidad = 'B'
+
+Fecha PRE-CONSULTA validada.
+Ahora sí se pulsará Consultar.
+
+Snapshot antes de Consultar:
+  Hash tabla: 2ea29b1400f847a2183745bf4f72f85762bed663f86bbb6978ebcb3e4094c6ff
+  timeOrigin: 1790207696953.9
+  Fechas visibles de resultado antes:
+    2026-09-23 | 'Tasas Activas Anuales de las Operaciones en Moneda Nacional Realizadas en los Últimos 30 Días Útiles Por Tipo de Crédito al 23/09/2026'
+
+[OK] Evidencia de actualización:
+  Tipo: FECHA_RESULTADO_NUEVA
+  Detalle: Apareció como texto de resultado la fecha objetivo.
+
+======================================================================================================================
+PROBLEMA EN FECHA 30/06/2008
+======================================================================================================================
+Tipo: TimeoutException
+Detalle: TimeoutException()
+
+La fecha fue detenida.
+No se extrajeron tasas para esa fecha.
+
+======================================================================================================================
+CONSULTA CONTROLADA: 31/12/2025
+======================================================================================================================
+hdTipoMoneda = None
+hdTipoEntidad = None
+
+======================================================================================================================
+PROBLEMA EN FECHA 31/12/2025
+======================================================================================================================
+Tipo: RuntimeError
+Detalle: RuntimeError('La consulta no está configurada en Moneda Nacional.')
+
+La fecha fue detenida.
+No se extrajeron tasas para esa fecha.
+
+======================================================================================================================
+RESUMEN FINAL DE LAS DOS FECHAS
+======================================================================================================================
+
+Fecha solicitada: 30/06/2008
+Estado: ERROR
+Problema: TimeoutException()
+
+Fecha solicitada: 31/12/2025
+Estado: ERROR
+Problema: RuntimeError('La consulta no está configurada en Moneda Nacional.')

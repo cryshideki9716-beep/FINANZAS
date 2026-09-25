@@ -1,0 +1,10 @@
+﻿Indicador,Valor
+Periodo inicial,2015-11
+Periodo final,2025-12
+Meses calendario,122
+Bancos,12
+Observaciones efectivas,1458
+Mínimo de observaciones por banco,120
+Máximo de observaciones por banco,122
+Duplicados mes + banco_id,0
+Faltantes en Y-X4,0
