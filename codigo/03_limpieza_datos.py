@@ -1635,6 +1635,27 @@ def main():
         )
     )
 
+    # Identificador correlativo de cada observación efectiva.
+    # No reemplaza la llave del panel (mes + banco_id).
+    # Se asigna después del ordenamiento definitivo.
+    muestra.insert(
+        0,
+        "id_obs",
+        range(1, len(muestra) + 1),
+    )
+
+    exigir(
+        muestra["id_obs"].tolist()
+        ==
+        list(range(1, FILAS_MUESTRA_FINAL_ESPERADAS + 1)),
+        "id_obs no es una secuencia exacta de 1 a 1458.",
+    )
+
+    exigir(
+        muestra["id_obs"].is_unique,
+        "id_obs contiene valores duplicados.",
+    )
+
     exigir(
         len(muestra)
         ==

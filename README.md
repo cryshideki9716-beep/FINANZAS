@@ -50,6 +50,7 @@ La muestra econométrica final presenta las siguientes características:
 - **Meses calendario:** 122.
 - **Bancos:** 12.
 - **Observaciones efectivas:** 1,458.
+- **`id_obs`:** identificador correlativo único de 1 a 1,458.
 - **Duplicados en `mes + banco_id`:** 0.
 - **Valores faltantes en la muestra econométrica:** 0.
 - **Interpolación:** no utilizada.
@@ -73,6 +74,7 @@ datos_procesados/datos_procesados_2024200485D.csv
 | `X2` | Tasa activa de consumo en moneda nacional | Porcentaje (%) | Banco-mes |
 | `X3` | Tasa pasiva de ahorro en moneda nacional | Porcentaje (%) | Banco-mes |
 | `X4` | Inflación mensual | Variación porcentual mensual (%) | Mes |
+| `id_obs` | Identificador correlativo de la observación final | Entero (1–1458) | Observación |
 | `mes` | Periodo de observación | AAAA-MM | Tiempo |
 | `banco_id` | Identificador bancario homologado | Texto | Banco |
 
@@ -283,6 +285,8 @@ Las variables bancarias se integran mediante:
 ```text
 mes + banco_id
 ```
+
+`id_obs` es un identificador auxiliar de cada fila final y no sustituye la llave `mes + banco_id`.
 
 La inflación se incorpora mediante:
 
@@ -655,7 +659,7 @@ datos_procesados/datos_procesados_2024200485D.csv
 SHA-256:
 
 ```text
-342DE406A771419D1353FDBDEC456070611CDB22E38B041BD44EFCA2319E4BC4
+6C378E1D5CA7F2CE02DB14767939B3F52458A41BAAC3E2783F2EA91DF1B5DC23
 ```
 
 Este hash corresponde al archivo procesado entregado.
@@ -739,4 +743,4 @@ Los coeficientes obtenidos se describen como **asociaciones** y no deben interpr
 
 ---
 
-**Revisi�n final de reproducibilidad realizada el 26/09/2026.**
+**Revisión final de reproducibilidad realizada el 26/09/2026.**

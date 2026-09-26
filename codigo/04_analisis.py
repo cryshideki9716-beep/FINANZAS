@@ -326,6 +326,7 @@ def leer_y_validar_base():
     )
 
     columnas_esperadas = [
+        "id_obs",
         "mes",
         "banco_id",
         "Y",
@@ -343,6 +344,25 @@ def leer_y_validar_base():
         "no coinciden exactamente con las esperadas.\n"
         f"Esperadas: {columnas_esperadas}\n"
         f"Observadas: {df.columns.tolist()}",
+    )
+
+    # --------------------------------------------------------
+    # Identificador correlativo de observación
+    # --------------------------------------------------------
+
+    exigir(
+        df["id_obs"].notna().all(),
+        "id_obs contiene valores faltantes.",
+    )
+
+    exigir(
+        df["id_obs"].is_unique,
+        "id_obs contiene valores duplicados.",
+    )
+
+    exigir(
+        df["id_obs"].tolist() == list(range(1, N_ESPERADO + 1)),
+        "id_obs debe ser la secuencia exacta 1, 2, ..., 1458.",
     )
 
     # --------------------------------------------------------
