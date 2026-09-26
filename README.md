@@ -736,3 +736,7 @@ La estimación mediante efectos fijos controla la heterogeneidad no observada de
 Los errores estándar Driscoll–Kraay se utilizan en el modelo principal para realizar inferencia robusta frente a heterocedasticidad, autocorrelación temporal y dependencia transversal.
 
 Los coeficientes obtenidos se describen como **asociaciones** y no deben interpretarse como efectos causales.
+
+---
+
+**Revisi�n final de reproducibilidad realizada el 26/09/2026.**
